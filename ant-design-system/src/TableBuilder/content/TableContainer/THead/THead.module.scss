@@ -1,0 +1,41 @@
+.header {
+    border-top-left-radius: var(--table-builder-theader-header-border-top-left-radius);
+    border-top-right-radius: var(--table-builder-theader-header-border-top-right-radius);
+
+    &__tr {
+        background-color: var(--table-builder-theader-tr-background-color);
+        border-top-left-radius: var(--table-builder-theader-tr-border-top-left-radius);
+        border-top-right-radius: var(--table-builder-theader-tr-border-top-right-radius);
+    }
+
+    &__th {
+        position: var(--table-builder-theader-th-position);
+        padding: var(--table-builder-theader-th-padding);
+        text-align: var(--table-builder-theader-th-text-align);
+        vertical-align: var(--table-builder-theader-th-vertical-align);
+
+        font-family: var(--table-builder-theader-th-font-family);
+        font-size: var(--table-builder-theader-th-font-size);
+        font-style: var(--table-builder-theader-th-font-style);
+        font-weight: var(--table-builder-theader-th-font-weight);
+        line-height: var(--table-builder-theader-th-line-height);
+
+        &:first-child {
+            border-top-left-radius: var(
+                --table-builder-theader-th-first-child-border-top-left-radius
+            );
+        }
+
+        &:last-child {
+            border-top-right-radius: var(
+                --table-builder-theader-th-last-child-border-top-right-radius
+            );
+        }
+    }
+}
+
+.customBlock {
+    &__wrapper {
+        padding: var(--table-builder-theader-customBlock-wrapper-padding);
+    }
+}

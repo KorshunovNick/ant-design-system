@@ -1,0 +1,33 @@
+.control {
+    display: flex;
+    align-items: center;
+    gap: var(--table-builder-control-gap);
+
+    .childContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    &__rows {
+        gap: var(--table-builder-control-rows-gap);
+    }
+
+    .text {
+        text-align: var(--table-builder-text-text-align);
+        font-family: var(--table-builder-text-font-family);
+        font-size: var(--table-builder-text-font-size);
+        font-style: var(--table-builder-text-font-style);
+        font-weight: var(--table-builder-text-font-weight);
+        line-height: var(--table-builder-text-line-height);
+    }
+
+    .pagination {
+        display: flex;
+        gap: var(--table-builder-pagination-gap);
+
+        .buttons {
+            display: flex;
+            gap: var(--table-builder-pagination-buttons-gap);
+        }
+    }
+}

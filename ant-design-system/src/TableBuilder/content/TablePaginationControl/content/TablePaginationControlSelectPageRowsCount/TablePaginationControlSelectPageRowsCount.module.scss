@@ -1,0 +1,61 @@
+.select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--table-builder-select-bg-color);
+    max-height: var(--table-builder-select-max-height);
+    width: var(--table-builder-select-width);
+    padding: var(--table-builder-select-padding);
+
+    border: var(--table-builder-select-border) var(--table-builder-select-border-color);
+    border-radius: var(--table-builder-select-border-radius);
+
+    cursor: pointer;
+
+    .rowsInPage {
+        display: flex;
+        align-items: center;
+        gap: var(--table-builder-rows-in-page-gap);
+
+        text-align: center;
+        font-family: var(--table-builder-rows-in-page-font-family);
+        font-size: var(--table-builder-rows-in-page-font-size);
+        font-style: var(--table-builder-rows-in-page-font-style);
+        font-weight: var(--table-builder-rows-in-page-font-weight);
+        line-height: var(--table-builder-rows-in-page-line-height);
+
+        .icon {
+            width: var(--table-builder-icon-width);
+            height: var(--table-builder-icon-height);
+            padding: var(--table-builder-icon-padding);
+            transform: rotate(90deg);
+        }
+    }
+}
+
+.dropdown {
+    background-color: var(--table-builder-dropdown-bg-color);
+    width: var(--table-builder-dropdown-width);
+    padding: var(--table-builder-dropdown-padding);
+
+    border-radius: var(--table-builder-dropdown-border-radius);
+    border: var(--table-builder-dropdown-border)
+        var(--table-builder-dropdown-border-color);
+    cursor: pointer;
+
+    .dd_btn {
+        color: var(--table-builder-dd-btn-color);
+        border-radius: var(--table-builder-dd-btn-border-radius);
+        padding: var(--table-builder-dd-btn-padding);
+        font-family: var(--table-builder-dd-btn-font-family);
+        font-size: var(--table-builder-dd-btn-font-size);
+        font-style: var(--table-builder-dd-btn-font-style);
+        font-weight: var(--table-builder-dd-btn-font-weight);
+        line-height: var(--table-builder-dd-btn-line-height);
+
+        &:hover {
+            background-color: var(--table-builder-dd-btn-hover-background-color);
+        }
+    }
+}

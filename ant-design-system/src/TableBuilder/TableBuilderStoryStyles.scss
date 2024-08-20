@@ -1,0 +1,30 @@
+.topTableComponent-test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.thead-test {
+    &__topComponent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+    }
+}
+
+.tfooter-test {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rowSelector-text-test {
+    text-wrap: nowrap;
+}
+
+.btn-test {
+    max-width: fit-content;
+}

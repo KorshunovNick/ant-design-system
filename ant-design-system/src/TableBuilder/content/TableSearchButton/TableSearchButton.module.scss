@@ -1,0 +1,11 @@
+.button {
+    max-width: fit-content;
+    --atmr-button-l-min-width: 125px; // переопредено css-свойство для кнопки поиска
+
+    svg {
+        display: flex;
+
+        height: 16px;
+        width: 16px;
+    }
+}

@@ -1,0 +1,158 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --table-builder-control-gap: 0 10px;
+  --table-builder-control-rows-gap: 0 5px;
+  --table-builder-pagination-gap: 0 16px;
+  --table-builder-pagination-buttons-gap: 0 12px;
+  --table-builder-text-text-align: center;
+  --table-builder-text-font-family: "Inter";
+  --table-builder-text-font-size: 16px;
+  --table-builder-text-font-style: normal;
+  --table-builder-text-font-weight: 500;
+  --table-builder-text-line-height: 24px;
+  --table-builder-select-bg-color: #fff;
+  --table-builder-dropdown-bg-color: #fff;
+  --table-builder-dropdown-border-color: #cbd6e2;
+  --table-builder-select-border-color: #cbd6e2;
+  --table-builder-dd-btn-color: #001837;
+  --table-builder-dd-btn-hover-background-color: #27315e0d;
+  --table-builder-select-max-height: 36px;
+  --table-builder-select-width: 74px;
+  --table-builder-select-padding: 8px 8px 8px 12px;
+  --table-builder-select-border: 2px solid;
+  --table-builder-select-border-radius: 8px;
+  --table-builder-rows-in-page-gap: 2px;
+  --table-builder-icon-width: 20px;
+  --table-builder-icon-height: 20px;
+  --table-builder-icon-padding: 4px;
+  --table-builder-dropdown-width: 74px;
+  --table-builder-dropdown-padding: 4px 8px 0 8px;
+  --table-builder-dropdown-border-radius: 8px;
+  --table-builder-dropdown-border: 2px solid;
+  --table-builder-dd-btn-border-radius: 8px;
+  --table-builder-dd-btn-padding: 4px 8px;
+  --table-builder-rows-in-page-font-family: "Inter";
+  --table-builder-rows-in-page-font-size: 16px;
+  --table-builder-rows-in-page-font-style: normal;
+  --table-builder-rows-in-page-font-weight: 500;
+  --table-builder-rows-in-page-line-height: 24px;
+  --table-builder-dd-btn-font-family: "Inter";
+  --table-builder-dd-btn-font-size: 14px;
+  --table-builder-dd-btn-font-style: normal;
+  --table-builder-dd-btn-font-weight: 500;
+  --table-builder-dd-btn-line-height: 20px;
+  --table-builder-pagination-button-hover-background-color: #ffffffc3;
+  --table-builder-pagination-button-disabled-hover-background-color: transparent;
+  --table-builder-pagination-button-height: 12px;
+  --table-builder-pagination-button-width: 12px;
+  --table-builder-pagination-button-border-radius: 500px;
+  --table-builder-pagination-button-cursor: pointer;
+  --table-builder-pagination-button-icon-height: 100%;
+  --table-builder-pagination-button-icon-width: 8px;
+  --table-builder-pagination-button-icon-rotated-transform: rotate(180deg);
+  --table-builder-container-border-color: #CBD6E2;
+  --table-builder-tbody-tr-background-color: transparent;
+  --table-builder-tbody-tr-color: #44566e;
+  --table-builder-tbody-tr-hover-background-color: transparent;
+  --table-builder-tbody-tr-hover-color: #44566e;
+  --table-builder-tbody-tr-border-bottom-color: #CBD6E2;
+  --table-builder-container-border: 1px solid;
+  --table-builder-container-border-radius: 8px;
+  --table-builder-table-border-top-left-radius: 8px;
+  --table-builder-table-border-top-right-radius: 8px;
+  --table-builder-tbody-tr-position: relative;
+  --table-builder-tbody-td-padding: 16px 20px;
+  --table-builder-tbody-td-text-align: start;
+  --table-builder-tbody-td-vertical-align: middle;
+  --table-builder-tbody-tr-border-bottom: 1px solid;
+  --table-builder-tbody-td-font-family: "Inter";
+  --table-builder-tbody-td-font-size: 15px;
+  --table-builder-tbody-td-font-style: normal;
+  --table-builder-tbody-td-font-weight: 500;
+  --table-builder-tbody-td-line-height: 24px;
+  --table-builder-tfooter-border-top-color: #CBD6E2;
+  --table-builder-tfooter-padding: 16px 24px;
+  --table-builder-tfooter-border-top: 1px solid;
+  --table-builder-theader-tr-background-color: #27315e0d;
+  --table-builder-theader-header-border-top-left-radius: inherit;
+  --table-builder-theader-header-border-top-right-radius: inherit;
+  --table-builder-theader-tr-border-top-left-radius: inherit;
+  --table-builder-theader-tr-border-top-right-radius: inherit;
+  --table-builder-theader-th-position: relative;
+  --table-builder-theader-th-padding: 16px 20px;
+  --table-builder-theader-th-text-align: start;
+  --table-builder-theader-th-vertical-align: middle;
+  --table-builder-theader-th-first-child-border-top-left-radius: inherit;
+  --table-builder-theader-th-last-child-border-top-right-radius: inherit;
+  --table-builder-theader-customBlock-wrapper-padding: 18px 14px;
+  --table-builder-theader-th-font-family: "Inter";
+  --table-builder-theader-th-font-size: 14px;
+  --table-builder-theader-th-font-style: normal;
+  --table-builder-theader-th-font-weight: 500;
+  --table-builder-theader-th-line-height: 20px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,40 @@
+.paginationButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    height: var(--table-builder-pagination-button-height);
+    width: var(--table-builder-pagination-button-width);
+
+    border-radius: var(--table-builder-pagination-button-border-radius);
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--table-builder-pagination-button-hover-background-color);
+    }
+
+    &_icon {
+        height: var(--table-builder-pagination-button-icon-height);
+        width: var(--table-builder-pagination-button-icon-width);
+
+        path {
+            stroke: var(--table-builder-pagination-button-icon-stroke);
+        }
+    }
+
+    &_icon-rotated {
+        transform: rotate(180deg);
+    }
+}
+
+.paginationButton-disabled {
+    opacity: 0.6;
+    cursor: default;
+
+    &:hover {
+        background-color: var(
+            --table-builder-pagination-button-disabled-hover-background-color
+        );
+    }
+}
