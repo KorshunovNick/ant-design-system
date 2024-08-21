@@ -1,4 +1,5 @@
-import { Tokens } from './tokens';
+import { Tokens } from "./Tokens.types";
+
 
 function capitalizeFirstLetter(str: string) {
     return str.charAt(0).toUpperCase() + str.slice(1);

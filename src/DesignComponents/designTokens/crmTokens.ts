@@ -1,16 +1,6 @@
-interface TokenProperty {
-    $type: 'number' | 'color' | string;
-    $value: number | string;
-    $description?: string;
-}
+import { Tokens } from "./Tokens.types";
 
-export interface Tokens {
-    [componentName: string]: {
-        [propertyName: string]: TokenProperty;
-    };
-}
-
-export const tokens: Tokens = {
+export const crmTokens: Tokens = {
     button: {
         fontWeight: {
             $type: 'string',

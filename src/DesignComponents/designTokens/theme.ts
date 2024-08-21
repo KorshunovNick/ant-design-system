@@ -1,4 +1,4 @@
 import { parseDesignTokens } from './parseDesignTokens';
-import { tokens } from './tokens';
+import { crmTokens } from './crmTokens';
 
-export const theme = parseDesignTokens(tokens);
+export const theme = parseDesignTokens(crmTokens);

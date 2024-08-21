@@ -18,17 +18,39 @@ import {
     Flex,
     ConfigProvider,
     Modal,
-    Row,
 } from 'antd';
 import { WrapperComponent } from './content/WrapperComponent.js';
-import { theme } from './designTokens/theme.js';
 import TextArea from 'antd/es/input/TextArea.js';
+import { crmTokens } from './designTokens/crmTokens.js';
+import { legalKZTokens } from './designTokens/legalKZTokens.js';
+import { parseDesignTokens } from './designTokens/parseDesignTokens.js';
+import { Tokens } from './designTokens/Tokens.types.js';
+
+const themeObject: Record<string,Tokens> = {
+    crmTokens,
+    legalKZTokens
+}
 
 const DesignComponents = () => {
     const [isOpenDrawer, setOpenDrawer] = useState(false);
     const [isOpenModal, setOpenModal] = useState(false);
+
+    const [selectTheme,setSelectTheme] = useState('crmTokens')
+    const [theme, setTheme] = useState<any>({})
+
+    const handleChange = (value: string) => {
+        setSelectTheme(value)
+        setTheme(parseDesignTokens(themeObject[value]))
+        
+}
+
     return (
-        <ConfigProvider theme={{ components: { ...theme } }}>
+        <ConfigProvider theme={{ components: {  ...theme } }}>
+            <WrapperComponent title='SELECT THEME'>
+            <h3>Выбранная тема: {selectTheme}</h3>
+                <Select options={[{ label: 'CRM Tokens', value: 'crmTokens' }, { label: 'Legal KZ Tokens', value: 'legalKZTokens' }]} style={{width: 220}} onChange={handleChange} value={selectTheme}/>
+            </WrapperComponent>
+
             <Flex vertical gap={20} style={{ padding: 100, border: '1px solid black' }}>
                 <WrapperComponent title={'Button'}>
                     <Flex gap={13}>
