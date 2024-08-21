@@ -90,11 +90,11 @@ export const crmTokens: Tokens = {
       },
       "defaultActiveBg": {
         "$type": "color",
-        "$value": "#c9cdea"
+        "$value": "#909ACA"
       },
       "defaultActiveBorderColor": {
         "$type": "color",
-        "$value": "#c9cdea"
+        "$value": "#909ACA"
       },
       "defaultActiveColor": {
         "$type": "color",
@@ -168,31 +168,27 @@ export const crmTokens: Tokens = {
         "$type": "dimension",
         "$value": "16px"
       },
-      "lineType": {
+     "lineType": {
         "$type": "string",
-        "$value": "solid"
+       "$value": "solid"
       },
       "lineWidth": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "lineWidthFocus": {
         "$type": "dimension",
-        "$value": "2px"
+        "$value": "0px"
       },
       "marginXS": {
         "$type": "dimension",
         "$value": "8px"
       },
-      "hoverBorderColor": {
-        "$type": "color",
-        "$value": "#ffffff00"
-      },
       "fontFamily": {
         "$type": "string",
         "$value": "Nunito"
       },
-      "textLightSolid": {
+      "colorTextLightSolid": {
         "$type": "color",
         "$value": "#131535"
       },
@@ -216,7 +212,7 @@ export const crmTokens: Tokens = {
       },
       "lineWidth": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "colorBorder": {
         "$type": "color",
@@ -650,15 +646,15 @@ export const crmTokens: Tokens = {
       },
       "lineWidth": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "lineWidthBold": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "lineWidthFocus": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "colorBgContainer": {
         "$type": "color",
