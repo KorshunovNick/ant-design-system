@@ -1,6 +1,6 @@
 import { Tokens } from "./Tokens.types" 
 
-export const legalKZTokens: Tokens = {
+  export const legalKZTokens: Tokens = {
     "button": {
       "fontWeight": {
         "$type": "string",
@@ -86,7 +86,7 @@ export const legalKZTokens: Tokens = {
       },
       "defaultHoverColor": {
         "$type": "color",
-        "$value": "{base.azure.azure-9}"
+        "$value": "#0d3f6c"
       },
       "defaultActiveBg": {
         "$type": "color",
@@ -184,25 +184,25 @@ export const legalKZTokens: Tokens = {
         "$type": "dimension",
         "$value": "8px"
       },
-      "hoverBorderColor": {
-        "$type": "color",
-        "$value": "#ffffff00"
-      },
       "fontFamily": {
         "$type": "string",
         "$value": "Inter"
       },
-      "textLightSolid": {
+      "colorTextLightSolid": {
         "$type": "color",
         "$value": "#ffffff"
       },
       "defaultShadow": {
         "$type": "string",
-        "$value": "0 2px 0 rgba(0, 0, 0, 0.02)"
+        "$value": "0 0 0 rgba(0, 0, 0, 0)"
       },
       "primaryShadow": {
         "$type": "string",
-        "$value": "0 2px 0 rgba(0, 0, 0, 0.02)"
+        "$value": "0 0 0 rgba(0, 0, 0, 0)"
+      },
+      "colorBorder": {
+        "$type": "color",
+        "$value": "#ffffff03"
       }
     },
     "input": {
@@ -650,15 +650,15 @@ export const legalKZTokens: Tokens = {
       },
       "lineWidth": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "lineWidthBold": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "lineWidthFocus": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "colorBgContainer": {
         "$type": "color",
@@ -682,7 +682,7 @@ export const legalKZTokens: Tokens = {
       },
       "colorPrimaryHover": {
         "$type": "color",
-        "$value": "#5b6491"
+        "$value": "#2f355a"
       },
       "fontFamily": {
         "$type": "string",
@@ -768,7 +768,7 @@ export const legalKZTokens: Tokens = {
       },
       "lineWidth": {
         "$type": "dimension",
-        "$value": "1px"
+        "$value": "2px"
       },
       "lineWidthFocus": {
         "$type": "dimension",
@@ -814,11 +814,15 @@ export const legalKZTokens: Tokens = {
       },
       "colorPrimaryHover": {
         "$type": "color",
-        "$value": "#5b6491"
+        "$value": "#2f355a"
       },
       "innerMaxMargin": {
         "$type": "dimension",
         "$value": "24px"
+      },
+      "borderRadius": {
+        "$type": "dimension",
+        "$value": "16px"
       }
     },
     "tags": {
