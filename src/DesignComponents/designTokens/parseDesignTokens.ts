@@ -1,30 +1,60 @@
-import { Tokens } from "./Tokens.types";
-
+import { colorTokens } from './colorTokens';
+import { Tokens } from './Tokens.types';
 
 function capitalizeFirstLetter(str: string) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+function getColorToken(token: string): string {
+  let resultValue = token;
+
+  const colorTokenString = String(token);
+  resultValue = colorTokenString
+    .slice(1, colorTokenString.length - 1)
+    .split('.')
+    .reduce((acc, current) => acc[current], colorTokens).$value;
+
+  return resultValue.includes('{') ? getColorToken(resultValue) : resultValue;
 }
 
 export function parseDesignTokens(tokens: Tokens) {
-    const theme: Record<string, any> = {};
+  const theme: Record<string, any> = {};
 
-    Object.keys(tokens).forEach(component => {
-        const componentTokens = tokens[component];
-        const themeKey = capitalizeFirstLetter(component);
+  Object.keys(tokens).forEach(component => {
+    const componentTokens = tokens[component];
+    const themeKey = capitalizeFirstLetter(component);
 
-        theme[themeKey] = theme[themeKey] || {};
+    theme[themeKey] = theme[themeKey] || {};
 
-        Object.keys(componentTokens).forEach(token => {
-            const objectToken = componentTokens[token];
+    Object.keys(componentTokens).forEach(token => {
+      const objectToken = componentTokens[token];
 
-            const tokenType = objectToken['$type'];
-            const tokenValue = objectToken['$value'];
-            const resultValue =
-                tokenType === 'number' ? Number(tokenValue) : String(tokenValue);
+      const tokenType = objectToken['$type'];
+      const tokenValue = objectToken['$value'];
+      let resultValue = tokenValue;
 
-            Object.assign(theme[themeKey], { [token]: resultValue });
-        });
+      switch (tokenType) {
+        case 'number':
+          resultValue = Number(tokenValue);
+          break;
+        case 'string':
+          resultValue = String(tokenValue);
+          break;
+        case 'color':
+          const isColorToken = String(tokenValue).includes('{');
+          if (isColorToken) {
+            resultValue = getColorToken(String(tokenValue));
+          } else {
+            resultValue = tokenValue;
+          }
+          break;
+        default:
+          resultValue = tokenValue;
+      }
+
+      Object.assign(theme[themeKey], { [token]: resultValue });
     });
+  });
 
-    return theme;
+  return theme;
 }
