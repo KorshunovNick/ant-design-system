@@ -212,7 +212,7 @@ export const joyDeckTokens: Tokens = {
     },
     lineWidth: {
       $type: 'dimension',
-      $value: '1px',
+      $value: '2px',
     },
     colorBorder: {
       $type: 'color',
