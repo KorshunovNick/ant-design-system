@@ -21,14 +21,16 @@ import {
 } from 'antd';
 import { WrapperComponent } from './content/WrapperComponent.js';
 import TextArea from 'antd/es/input/TextArea.js';
-import { crmTokens } from './designTokens/crmTokens.js';
-import { legalKZTokens } from './designTokens/legalKZTokens.js';
+import { crmTokens } from './designTokens/tokens/crmTokens.js';
+import { legalKZTokens } from './designTokens/tokens/legalKZTokens.js';
 import { parseDesignTokens } from './designTokens/parseDesignTokens.js';
 import { Tokens } from './designTokens/Tokens.types.js';
+import { joyDeckTokens } from './designTokens/tokens/joyDeckTokens.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
   legalKZTokens,
+  joyDeckTokens,
 };
 
 const DesignComponents = () => {
@@ -50,9 +52,12 @@ const DesignComponents = () => {
 
         <Select
           defaultValue="crmTokens"
+          // тут добавляем новую тему для селекта, называем как называется токены нашей темы
+          // { label: [Название], value: [имя токенов]}
           options={[
             { label: 'CRM Tokens', value: 'crmTokens' },
             { label: 'Legal KZ Tokens', value: 'legalKZTokens' },
+            { label: 'joy Desk Tokens', value: 'joyDeckTokens' },
           ]}
           style={{ width: 220 }}
           onChange={handleChange}

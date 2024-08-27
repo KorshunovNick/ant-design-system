@@ -1,6 +1,6 @@
-import { Tokens } from './Tokens.types';
+import { Tokens } from '../Tokens.types';
 
-export const legalKZTokens: Tokens = {
+export const joyDeckTokens: Tokens = {
   button: {
     fontWeight: {
       $type: 'string',
@@ -70,11 +70,11 @@ export const legalKZTokens: Tokens = {
     },
     defaultBorderColor: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{base.teal.teal-6}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{base.teal.teal-6}',
     },
     defaultHoverBg: {
       $type: 'color',
@@ -82,11 +82,11 @@ export const legalKZTokens: Tokens = {
     },
     defaultHoverBorderColor: {
       $type: 'color',
-      $value: '{base.gray.gray-4}',
+      $value: '{base.teal.teal-5}',
     },
     defaultHoverColor: {
       $type: 'color',
-      $value: '{base.azure.azure-9}',
+      $value: '{base.teal.teal-5}',
     },
     defaultActiveBg: {
       $type: 'color',
@@ -94,15 +94,15 @@ export const legalKZTokens: Tokens = {
     },
     defaultActiveBorderColor: {
       $type: 'color',
-      $value: '{base.gray.gray-4}',
+      $value: '{base.teal.teal-6}',
     },
     defaultActiveColor: {
       $type: 'color',
-      $value: '{base.azure.azure-9}',
+      $value: '{base.teal.teal-6}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{base.teal.teal-6}',
     },
     primaryColor: {
       $type: 'color',
@@ -110,23 +110,23 @@ export const legalKZTokens: Tokens = {
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{base.azure.azure-5}',
+      $value: '{base.teal.teal-5}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{base.azure.azure-7}',
+      $value: '{base.teal.teal-7}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{base.teal.teal-6}',
     },
     textHoverBG: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{base.teal.teal-1}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{base.teal.teal-6}',
     },
     colorTextDisabled: {
       $type: 'color',
@@ -138,15 +138,15 @@ export const legalKZTokens: Tokens = {
     },
     colorLink: {
       $type: 'color',
-      $value: '{base.azure.azure-7}',
+      $value: '{base.teal.teal-6}',
     },
     colorLinkActive: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{base.teal.teal-6}',
     },
     colorLinkHover: {
       $type: 'color',
-      $value: '{base.azure.azure-5}',
+      $value: '{base.teal.teal-5}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
@@ -204,11 +204,11 @@ export const legalKZTokens: Tokens = {
   input: {
     activeBg: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     colorBgContainer: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     lineWidth: {
       $type: 'dimension',
@@ -216,11 +216,11 @@ export const legalKZTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.gray.gray-2}',
     },
     colorErrorBgHover: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     inputFontSize: {
       $type: 'dimension',
@@ -252,51 +252,63 @@ export const legalKZTokens: Tokens = {
     },
     coloricon: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorTextPlaceholder: {
       $type: 'color',
-      $value: '#bababc',
+      $value: '{base.gray.gray-5}',
     },
     hoverBg: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.gray.gray-3}',
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.teal.teal-2}',
     },
     colorText: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorError: {
       $type: 'color',
-      $value: '#ff6441',
+      $value: '{base.red.red-5}',
     },
     colorErrorText: {
       $type: 'color',
-      $value: '#ff6441',
+      $value: '{base.red.red-5}',
     },
     colorErrorBorderHover: {
       $type: 'color',
-      $value: '#dd4827',
+      $value: '{base.red.red-6}',
     },
     colorErrorBg: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.gray.gray-2}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '#bababc',
+      $value: '{base.gray.gray-5}',
+    },
+    activeShadow: {
+      $type: 'string',
+      $value: '0 0 0 0 rgba(0, 0, 0, 0)',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '400',
     },
   },
   description: {
@@ -306,21 +318,33 @@ export const legalKZTokens: Tokens = {
     },
     colorTextDescription: {
       $type: 'color',
-      $value: '#7a7c8e',
+      $value: '{base.gray.gray-6}',
+    },
+    lineHeight: {
+      $type: 'dimension',
+      $value: '16px',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
     },
   },
-  lable: {
+  label: {
     labelFontSize: {
       $type: 'dimension',
       $value: '12px',
     },
     labelColor: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     labelRequiredMarkColor: {
       $type: 'color',
-      $value: '#ff6643',
+      $value: '{base.red.red-5}',
     },
     marginXXS: {
       $type: 'dimension',
@@ -330,6 +354,18 @@ export const legalKZTokens: Tokens = {
       $type: 'dimension',
       $value: '12px',
     },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
+    },
+    lineHeight: {
+      $type: 'dimension',
+      $value: '16px',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
   },
   select: {
     multipleItemHeight: {
@@ -338,31 +374,31 @@ export const legalKZTokens: Tokens = {
     },
     selectorBg: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     colorBorder: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.gray.gray-2}',
     },
     colorErrorBg: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     colorErrorBgHover: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     colorErrorHover: {
       $type: 'color',
-      $value: '#dd4827',
+      $value: '{base.red.red-6}',
     },
     lineWidth: {
       $type: 'dimension',
-      $value: '1px',
+      $value: '2px',
     },
     colorTextPlaceholder: {
       $type: 'color',
-      $value: '#bababc',
+      $value: '{base.gray.gray-5}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -370,7 +406,7 @@ export const legalKZTokens: Tokens = {
     },
     fontSize: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '14px',
     },
     lineHeight: {
       $type: 'dimension',
@@ -378,7 +414,7 @@ export const legalKZTokens: Tokens = {
     },
     colorIcon: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     controlHeight: {
       $type: 'dimension',
@@ -394,43 +430,43 @@ export const legalKZTokens: Tokens = {
     },
     fontSizeIcon: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '12px',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.gray.gray-3}',
     },
     colorText: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorErrorOutline: {
       $type: 'color',
-      $value: '#ff6441',
+      $value: '{base.red.red-5}',
     },
     colorError: {
       $type: 'color',
-      $value: '#ff6441',
+      $value: '{base.red.red-5}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.gray.gray-2}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '#bababc',
+      $value: '{base.gray.gray-5}',
     },
     optionFontSize: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '14px',
     },
     optionLineHeight: {
       $type: 'dimension',
-      $value: '24px',
+      $value: '20px',
     },
     optionPadding: {
       $type: 'dimension',
-      $value: '12px',
+      $value: '8px',
     },
     optionSelectedFontWeight: {
       $type: 'string',
@@ -438,35 +474,39 @@ export const legalKZTokens: Tokens = {
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     optionSelectedBg: {
       $type: 'color',
-      $value: '#2f355a',
+      $value: '{base.teal.teal-1}',
     },
     optionHeight: {
       $type: 'dimension',
-      $value: '48px',
+      $value: '36px',
     },
     optionSelectedColor: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.blue.blue-10}',
     },
     optionActiveBg: {
       $type: 'color',
-      $value: '#eaeef4',
+      $value: '{base.gray.gray-1}',
     },
     multipleltemBg: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.azure.azure-1}',
     },
     multipleltemColorDisabled: {
       $type: 'color',
-      $value: '#f0f0f2',
+      $value: '{base.gray.gray-2}',
     },
-    multipleltemHeight: {
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
+    fontWeight: {
       $type: 'dimension',
-      $value: '24px',
+      $value: '400',
     },
   },
   datepicker: {
@@ -618,15 +658,15 @@ export const legalKZTokens: Tokens = {
   checkbox: {
     colorText: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '#bababc',
+      $value: '{base.gray.gray-5}',
     },
     colorWhite: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -658,31 +698,31 @@ export const legalKZTokens: Tokens = {
     },
     colorBgContainer: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.gray.gray-3}',
     },
     colorBorder: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.gray.gray-3}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.teal.teal-6}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.gray.gray-5}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '#2f355a',
+      $value: '{base.teal.teal-5}',
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Nunito',
+      $value: 'Inter',
     },
     fontSize: {
       $type: 'dimension',
@@ -698,13 +738,17 @@ export const legalKZTokens: Tokens = {
     },
     colorError: {
       $type: 'color',
-      $value: '#ff6643',
+      $value: '{base.red.red-5}',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '400',
     },
   },
   radiobutton: {
     dotColorDisabled: {
       $type: 'color',
-      $value: '#d4d4d6',
+      $value: '{base.gray.gray-5}',
     },
     dotSize: {
       $type: 'dimension',
@@ -716,11 +760,11 @@ export const legalKZTokens: Tokens = {
     },
     colorBgContainer: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.gray.gray-2}',
     },
     wrapperMarginInlineEnd: {
       $type: 'dimension',
@@ -728,27 +772,27 @@ export const legalKZTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.teal.teal-6}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.gray.gray-4}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.teal.teal-6}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '#5b6491',
+      $value: '{base.teal.teal-5}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '#bababc',
+      $value: '{base.gray.gray-5}',
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Nunito',
+      $value: 'Inter',
     },
     fontSize: {
       $type: 'dimension',
@@ -776,17 +820,21 @@ export const legalKZTokens: Tokens = {
     },
     colorText: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorError: {
       $type: 'color',
-      $value: '#ff6643',
+      $value: '{base.red.red-5}',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '400',
     },
   },
   switch: {
     handleBg: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     handleSize: {
       $type: 'dimension',
@@ -806,11 +854,11 @@ export const legalKZTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.teal.teal-6}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '#2f355a',
+      $value: '{base.teal.teal-5}',
     },
     innerMaxMargin: {
       $type: 'dimension',
@@ -1110,6 +1158,10 @@ export const legalKZTokens: Tokens = {
     },
   },
   table: {
+    'theader-th-font-size': {
+      $type: 'dimension',
+      $value: '14px',
+    },
     cellFontSize: {
       $type: 'dimension',
       $value: '14px',
@@ -1332,31 +1384,31 @@ export const legalKZTokens: Tokens = {
   tabs: {
     inkBarColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.azure.azure-6}',
     },
     itemActiveColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.azure.azure-10}',
     },
     itemColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.azure.azure-10}',
     },
     cardBg: {
       $type: 'color',
-      $value: '{base.blue.blue-1}',
+      $value: '{base.gray.gray-2}',
     },
     cardGutter: {
       $type: 'dimension',
-      $value: '12px',
+      $value: '8px',
     },
     cardHeight: {
       $type: 'dimension',
-      $value: '38px',
+      $value: '32px',
     },
     cardPadding: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '12px',
     },
     horizontalItemGutter: {
       $type: 'dimension',
@@ -1372,11 +1424,11 @@ export const legalKZTokens: Tokens = {
     },
     itemHoverColor: {
       $type: 'color',
-      $value: '{brand.brandHover}',
+      $value: '{base.static.white}',
     },
     itemSelectedColor: {
       $type: 'color',
-      $value: '{elements.textPrimary}',
+      $value: '{base.static.white}',
     },
     titleFontSize: {
       $type: 'dimension',
@@ -1388,7 +1440,7 @@ export const legalKZTokens: Tokens = {
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{elements.textTertiary}',
+      $value: '{base.gray.gray-5}',
     },
     lineHeight: {
       $type: 'dimension',
@@ -1396,19 +1448,27 @@ export const legalKZTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Nunito',
+      $value: 'Inter',
     },
     controlItemBgHover: {
       $type: 'color',
-      $value: '{base.blue.blue-2}',
+      $value: '{base.azure.azure-5}',
     },
     paddingXS: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '4px',
     },
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
+    },
+    lineWidthFocus: {
+      $type: 'dimension',
+      $value: '2px',
     },
   },
 };

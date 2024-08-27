@@ -1,4 +1,4 @@
-import { colorTokens } from './colorTokens';
+import { colorTokens } from './colorTokens/colorTokens';
 import { Tokens } from './Tokens.types';
 
 function capitalizeFirstLetter(str: string) {

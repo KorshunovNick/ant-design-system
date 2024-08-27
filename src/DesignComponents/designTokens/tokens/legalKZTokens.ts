@@ -1,6 +1,6 @@
-import { Tokens } from './Tokens.types';
+import { Tokens } from '../Tokens.types';
 
-export const crmTokens: Tokens = {
+export const legalKZTokens: Tokens = {
   button: {
     fontWeight: {
       $type: 'string',
@@ -58,67 +58,67 @@ export const crmTokens: Tokens = {
     },
     borderRadiusLG: {
       $type: 'dimension',
-      $value: '4px',
+      $value: '8px',
     },
     borderRadiusSM: {
       $type: 'dimension',
-      $value: '4px',
+      $value: '8px',
     },
     defaultBg: {
       $type: 'color',
-      $value: '{base.blue.blue-2}',
+      $value: '{base.static.white}',
     },
     defaultBorderColor: {
       $type: 'color',
-      $value: '{base.blue.blue-2}',
+      $value: '{base.gray.gray-3}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.azure.azure-10}',
     },
     defaultHoverBg: {
       $type: 'color',
-      $value: '{base.blue.blue-3}',
+      $value: '#ffffff00',
     },
     defaultHoverBorderColor: {
       $type: 'color',
-      $value: '{base.blue.blue-3}',
+      $value: '{base.gray.gray-4}',
     },
     defaultHoverColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.azure.azure-9}',
     },
     defaultActiveBg: {
       $type: 'color',
-      $value: '{base.blue.blue-4}',
+      $value: '#ffffff00',
     },
     defaultActiveBorderColor: {
       $type: 'color',
-      $value: '{base.blue.blue-4}',
+      $value: '{base.gray.gray-4}',
     },
     defaultActiveColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.azure.azure-9}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.yellow.yellow-4}',
+      $value: '{base.azure.azure-6}',
     },
     primaryColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.static.white}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{base.yellow.yellow-5}',
+      $value: '{base.azure.azure-5}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{base.yellow.yellow-6}',
+      $value: '{base.azure.azure-7}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{base.yellow.yellow-4}',
+      $value: '{base.azure.azure-6}',
     },
     textHoverBG: {
       $type: 'color',
@@ -126,7 +126,7 @@ export const crmTokens: Tokens = {
     },
     colorText: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.azure.azure-10}',
     },
     colorTextDisabled: {
       $type: 'color',
@@ -138,15 +138,15 @@ export const crmTokens: Tokens = {
     },
     colorLink: {
       $type: 'color',
-      $value: '{base.blue.blue-8}',
+      $value: '{base.azure.azure-7}',
     },
     colorLinkActive: {
       $type: 'color',
-      $value: '{base.blue.blue-7}',
+      $value: '{base.azure.azure-6}',
     },
     colorLinkHover: {
       $type: 'color',
-      $value: '{base.blue.blue-6}',
+      $value: '{base.azure.azure-5}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
@@ -178,7 +178,7 @@ export const crmTokens: Tokens = {
     },
     lineWidthFocus: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '2px',
     },
     marginXS: {
       $type: 'dimension',
@@ -186,11 +186,11 @@ export const crmTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Nunito',
+      $value: 'Inter',
     },
     colorTextLightSolid: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.static.white}',
     },
     defaultShadow: {
       $type: 'string',
@@ -212,7 +212,7 @@ export const crmTokens: Tokens = {
     },
     lineWidth: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '1px',
     },
     colorBorder: {
       $type: 'color',
@@ -768,7 +768,7 @@ export const crmTokens: Tokens = {
     },
     lineWidthFocus: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '1px',
     },
     paddingXS: {
       $type: 'dimension',
