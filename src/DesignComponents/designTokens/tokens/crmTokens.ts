@@ -250,7 +250,7 @@ export const crmTokens: Tokens = {
       "$type": "dimension",
       "$value": "16px"
     },
-    "coloricon": {
+    "colorIcon": {
       "$type": "color",
       "$value": "{base.blue.blue-10}"
     },
@@ -264,7 +264,7 @@ export const crmTokens: Tokens = {
     },
     "hoverBorderColor": {
       "$type": "color",
-      "$value": "{base.gray.gray-2}"
+      "$value": "{base.static.white}"
     },
     "activeBorderColor": {
       "$type": "color",
@@ -478,7 +478,7 @@ export const crmTokens: Tokens = {
     },
     "optionSelectedBg": {
       "$type": "color",
-      "$value": "{base.blue.blue-1}"
+      "$value": "{base.blue.blue-8}"
     },
     "optionHeight": {
       "$type": "dimension",
@@ -486,7 +486,7 @@ export const crmTokens: Tokens = {
     },
     "optionSelectedColor": {
       "$type": "color",
-      "$value": "{base.blue.blue-10}"
+      "$value": "{base.static.white}"
     },
     "optionActiveBg": {
       "$type": "color",
@@ -520,35 +520,27 @@ export const crmTokens: Tokens = {
     },
     "cellActiveWithRangeBg": {
       "$type": "color",
-      "$value": "#eff1f8"
+      "$value": "{base.blue.blue-1}"
     },
     "cellHoverBg": {
       "$type": "color",
-      "$value": "#eff1f8"
+      "$value": "{base.blue.blue-1}"
     },
     "activeBorderColor": {
       "$type": "color",
-      "$value": "#2f355a"
+      "$value": "{base.blue.blue-10}"
     },
     "cellRangeBorderColor": {
       "$type": "color",
-      "$value": "#2f355a"
+      "$value": "{base.blue.blue-8}"
     },
     "activeBg": {
       "$type": "color",
-      "$value": "#ffffff"
-    },
-    "activeBorderColor_2": {
-      "$type": "color",
-      "$value": "#131535"
-    },
-    "hoverBg": {
-      "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "hoverBorderColor": {
       "$type": "color",
-      "$value": "#e3e3e5"
+      "$value": "{base.static.white}"
     },
     "inputFontSize": {
       "$type": "dimension",
@@ -556,7 +548,7 @@ export const crmTokens: Tokens = {
     },
     "colorBorder": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "borderRadius": {
       "$type": "dimension",
@@ -564,39 +556,39 @@ export const crmTokens: Tokens = {
     },
     "lineWidth": {
       "$type": "dimension",
-      "$value": "1px"
+      "$value": "2px"
     },
     "colorBgContainer": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorBgContainerDisabled": {
       "$type": "color",
-      "$value": "#e3e3e5"
+      "$value": "{base.gray.gray-3}"
     },
     "colorBgElevated": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorError": {
       "$type": "color",
-      "$value": "#ff6643"
+      "$value": "{base.red.red-5}"
     },
     "colorErrorBorderHover": {
       "$type": "color",
-      "$value": "#dd4827"
+      "$value": "{base.red.red-6}"
     },
     "colorErrorBg": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorErrorBgHover": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorTextDisabled": {
       "$type": "color",
-      "$value": "#bababc"
+      "$value": "{base.gray.gray-5}"
     },
     "lineHeight": {
       "$type": "dimension",
@@ -610,49 +602,69 @@ export const crmTokens: Tokens = {
       "$type": "dimension",
       "$value": "12px"
     },
-    "cellActiveWithRangeBg_2": {
-      "$type": "color",
-      "$value": "#eff1f8"
-    },
-    "cellRangeBorderColor_2": {
-      "$type": "color",
-      "$value": "#c9cdea"
-    },
     "cellHoverWithRangeBg": {
       "$type": "color",
-      "$value": "#c9cdea"
+      "$value": "{base.blue.blue-1}"
     },
     "cellBgDisabled": {
       "$type": "color",
-      "$value": "#ffffff"
-    },
-    "cellHoverBg_2": {
-      "$type": "color",
-      "$value": "#f7f7f9"
+      "$value": "{base.static.white}"
     },
     "colorPrimary": {
       "$type": "color",
-      "$value": "#2f355a"
+      "$value": "{base.blue.blue-8}"
     },
     "colorText": {
       "$type": "color",
-      "$value": "#131535"
+      "$value": "{base.blue.blue-10}"
     },
     "colorTextHeading": {
       "$type": "color",
-      "$value": "#131535"
+      "$value": "{base.blue.blue-10}"
     },
     "colorIcon": {
       "$type": "color",
-      "$value": "#131535"
+      "$value": "{base.blue.blue-10}"
     },
     "colorTextLightSolid": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorTextPlaceholder": {
       "$type": "color",
-      "$value": "#bababc"
+      "$value": "{base.gray.gray-5}"
+    },
+    "fontFamily": {
+      "$type": "string",
+      "$value": "Nunito"
+    },
+    "controlHeight": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "paddingXXS": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "fontWeight": {
+      "$type": "dimension",
+      "$value": "400"
+    },
+    "controlInteractiveSize": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "paddingXS": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "paddingSM": {
+      "$type": "dimension",
+      "$value": "12px"
     }
   },
   "checkbox": {
@@ -1424,11 +1436,11 @@ export const crmTokens: Tokens = {
     },
     "itemHoverColor": {
       "$type": "color",
-      "$value": "{brand.brandHover}"
+      "$value": "{base.blue.blue-8}"
     },
     "itemSelectedColor": {
       "$type": "color",
-      "$value": "{elements.textPrimary}"
+      "$value": "{base.blue.blue-10}"
     },
     "titleFontSize": {
       "$type": "dimension",
@@ -1464,7 +1476,7 @@ export const crmTokens: Tokens = {
     },
     "fontWeight": {
       "$type": "dimension",
-      "$value": "600"
+      "$value": "700"
     },
     "lineWidthFocus": {
       "$type": "dimension",

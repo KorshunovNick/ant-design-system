@@ -250,7 +250,7 @@ export const legalKZTokens: Tokens = {
       "$type": "dimension",
       "$value": "16px"
     },
-    "coloricon": {
+    "colorIcon": {
       "$type": "color",
       "$value": "{base.azure.azure-10}"
     },
@@ -520,35 +520,27 @@ export const legalKZTokens: Tokens = {
     },
     "cellActiveWithRangeBg": {
       "$type": "color",
-      "$value": "#eff1f8"
+      "$value": "{base.azure.azure-1}"
     },
     "cellHoverBg": {
       "$type": "color",
-      "$value": "#eff1f8"
+      "$value": "{base.azure.azure-1}"
     },
     "activeBorderColor": {
       "$type": "color",
-      "$value": "#2f355a"
+      "$value": "{base.azure.azure-2}"
     },
     "cellRangeBorderColor": {
       "$type": "color",
-      "$value": "#2f355a"
+      "$value": "{base.azure.azure-6}"
     },
     "activeBg": {
       "$type": "color",
-      "$value": "#ffffff"
-    },
-    "activeBorderColor_2": {
-      "$type": "color",
-      "$value": "#131535"
-    },
-    "hoverBg": {
-      "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "hoverBorderColor": {
       "$type": "color",
-      "$value": "#e3e3e5"
+      "$value": "{base.gray.gray-3}"
     },
     "inputFontSize": {
       "$type": "dimension",
@@ -556,7 +548,7 @@ export const legalKZTokens: Tokens = {
     },
     "colorBorder": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.gray.gray-2}"
     },
     "borderRadius": {
       "$type": "dimension",
@@ -568,35 +560,35 @@ export const legalKZTokens: Tokens = {
     },
     "colorBgContainer": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorBgContainerDisabled": {
       "$type": "color",
-      "$value": "#e3e3e5"
+      "$value": "{base.gray.gray-2}"
     },
     "colorBgElevated": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorError": {
       "$type": "color",
-      "$value": "#ff6643"
+      "$value": "{base.red.red-5}"
     },
     "colorErrorBorderHover": {
       "$type": "color",
-      "$value": "#dd4827"
+      "$value": "{base.red.red-6}"
     },
     "colorErrorBg": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorErrorBgHover": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorTextDisabled": {
       "$type": "color",
-      "$value": "#bababc"
+      "$value": "{base.gray.gray-5}"
     },
     "lineHeight": {
       "$type": "dimension",
@@ -610,49 +602,69 @@ export const legalKZTokens: Tokens = {
       "$type": "dimension",
       "$value": "12px"
     },
-    "cellActiveWithRangeBg_2": {
-      "$type": "color",
-      "$value": "#eff1f8"
-    },
-    "cellRangeBorderColor_2": {
-      "$type": "color",
-      "$value": "#c9cdea"
-    },
     "cellHoverWithRangeBg": {
       "$type": "color",
-      "$value": "#c9cdea"
+      "$value": "{base.azure.azure-1}"
     },
     "cellBgDisabled": {
       "$type": "color",
-      "$value": "#ffffff"
-    },
-    "cellHoverBg_2": {
-      "$type": "color",
-      "$value": "#f7f7f9"
+      "$value": "{base.static.white}"
     },
     "colorPrimary": {
       "$type": "color",
-      "$value": "#2f355a"
+      "$value": "{base.azure.azure-6}"
     },
     "colorText": {
       "$type": "color",
-      "$value": "#131535"
+      "$value": "{base.azure.azure-10}"
     },
     "colorTextHeading": {
       "$type": "color",
-      "$value": "#131535"
+      "$value": "{base.azure.azure-10}"
     },
     "colorIcon": {
       "$type": "color",
-      "$value": "#131535"
+      "$value": "{base.azure.azure-10}"
     },
     "colorTextLightSolid": {
       "$type": "color",
-      "$value": "#ffffff"
+      "$value": "{base.static.white}"
     },
     "colorTextPlaceholder": {
       "$type": "color",
-      "$value": "#bababc"
+      "$value": "{base.gray.gray-5}"
+    },
+    "fontFamily": {
+      "$type": "string",
+      "$value": "Inter"
+    },
+    "controlHeight": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "paddingXXS": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "fontWeight": {
+      "$type": "dimension",
+      "$value": "400"
+    },
+    "controlInteractiveSize": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "paddingXS": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "paddingSM": {
+      "$type": "dimension",
+      "$value": "12px"
     }
   },
   "checkbox": {
@@ -1424,11 +1436,11 @@ export const legalKZTokens: Tokens = {
     },
     "itemHoverColor": {
       "$type": "color",
-      "$value": "{base.static.white}"
+      "$value": "{base.azure.azure-8}"
     },
     "itemSelectedColor": {
       "$type": "color",
-      "$value": "{base.static.white}"
+      "$value": "{base.azure.azure-10}"
     },
     "titleFontSize": {
       "$type": "dimension",
@@ -1464,12 +1476,12 @@ export const legalKZTokens: Tokens = {
     },
     "fontWeight": {
       "$type": "dimension",
-      "$value": "500"
+      "$value": "600"
     },
     "lineWidthFocus": {
       "$type": "dimension",
       "$value": "2px"
     }
   }
-
+  
 };
