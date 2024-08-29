@@ -2,7 +2,7 @@ import './App.css';
 import { Tabs } from 'antd';
 import DesignComponents from './DesignComponents/DesignComponents';
 import TestTable from './TestTable/TestTable';
-import TestComponent from './MyTestingComponents/HoverCards/HoverCards';
+import TestComponent from './MyTestingComponents/HoverCards/TestComponent';
 
 function App() {
   return (
