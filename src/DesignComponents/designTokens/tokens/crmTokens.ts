@@ -1,1487 +1,1486 @@
 import { Tokens } from '../Tokens.types';
 
 export const crmTokens: Tokens = {
-  "button": {
-    "fontWeight": {
-      "$type": "string",
-      "$value": "600"
+  button: {
+    fontWeight: {
+      $type: 'string',
+      $value: '600',
     },
-    "onlyIconSizeLG": {
-      "$type": "dimension",
-      "$value": "24px",
-      "$description": "Размер иконки в кнопке"
+    onlyIconSizeLG: {
+      $type: 'dimension',
+      $value: '24px',
+      $description: 'Размер иконки в кнопке',
     },
-    "onlyIconSizeSM": {
-      "$type": "dimension",
-      "$value": "20px",
-      "$description": "Размер иконки в кнопке"
+    onlyIconSizeSM: {
+      $type: 'dimension',
+      $value: '20px',
+      $description: 'Размер иконки в кнопке',
     },
-    "contentFontSizeLG": {
-      "$type": "dimension",
-      "$value": "16px"
+    contentFontSizeLG: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "contentFontSizeSM": {
-      "$type": "dimension",
-      "$value": "14px"
+    contentFontSizeSM: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "contentLineHeightLG": {
-      "$type": "dimension",
-      "$value": "24px"
+    contentLineHeightLG: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "contentLineHeightSM": {
-      "$type": "dimension",
-      "$value": "20px"
+    contentLineHeightSM: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "paddingBlockLG": {
-      "$type": "dimension",
-      "$value": "12px",
-      "$description": "вертикальные паддинги"
+    paddingBlockLG: {
+      $type: 'dimension',
+      $value: '12px',
+      $description: 'вертикальные паддинги',
     },
-    "paddingBlockSM": {
-      "$type": "dimension",
-      "$value": "8px",
-      "$description": "вертикальные паддинги"
+    paddingBlockSM: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: 'вертикальные паддинги',
     },
-    "paddingInlineLG": {
-      "$type": "dimension",
-      "$value": "20px",
-      "$description": "Горизонтальные паддинги"
+    paddingInlineLG: {
+      $type: 'dimension',
+      $value: '20px',
+      $description: 'Горизонтальные паддинги',
     },
-    "paddingInlineSM": {
-      "$type": "dimension",
-      "$value": "20px",
-      "$description": "Горизонтальные паддинги"
+    paddingInlineSM: {
+      $type: 'dimension',
+      $value: '20px',
+      $description: 'Горизонтальные паддинги',
     },
-    "paddingXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "borderRadiusLG": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadiusLG: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "borderRadiusSM": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadiusSM: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "defaultBg": {
-      "$type": "color",
-      "$value": "{base.blue.blue-2}"
+    defaultBg: {
+      $type: 'color',
+      $value: '{base.blue.blue-2}',
     },
-    "defaultBorderColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-2}"
+    defaultBorderColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-2}',
     },
-    "defaultColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    defaultColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "defaultHoverBg": {
-      "$type": "color",
-      "$value": "{base.blue.blue-3}"
+    defaultHoverBg: {
+      $type: 'color',
+      $value: '{base.blue.blue-3}',
     },
-    "defaultHoverBorderColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-3}"
+    defaultHoverBorderColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-3}',
     },
-    "defaultHoverColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    defaultHoverColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "defaultActiveBg": {
-      "$type": "color",
-      "$value": "{base.blue.blue-4}"
+    defaultActiveBg: {
+      $type: 'color',
+      $value: '{base.blue.blue-4}',
     },
-    "defaultActiveBorderColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-4}"
+    defaultActiveBorderColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-4}',
     },
-    "defaultActiveColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    defaultActiveColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorPrimary": {
-      "$type": "color",
-      "$value": "{base.yellow.yellow-4}"
+    colorPrimary: {
+      $type: 'color',
+      $value: '{base.yellow.yellow-4}',
     },
-    "primaryColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    primaryColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorPrimaryHover": {
-      "$type": "color",
-      "$value": "{base.yellow.yellow-5}"
+    colorPrimaryHover: {
+      $type: 'color',
+      $value: '{base.yellow.yellow-5}',
     },
-    "colorPrimaryActive": {
-      "$type": "color",
-      "$value": "{base.yellow.yellow-6}"
+    colorPrimaryActive: {
+      $type: 'color',
+      $value: '{base.yellow.yellow-6}',
     },
-    "colorPrimaryBorder": {
-      "$type": "color",
-      "$value": "{base.yellow.yellow-4}"
+    colorPrimaryBorder: {
+      $type: 'color',
+      $value: '{base.yellow.yellow-4}',
     },
-    "textHoverBG": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    textHoverBG: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "colorText": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorTextDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "borderColorDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    borderColorDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "colorLink": {
-      "$type": "color",
-      "$value": "{base.blue.blue-8}"
+    colorLink: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
     },
-    "colorLinkActive": {
-      "$type": "color",
-      "$value": "{base.blue.blue-7}"
+    colorLinkActive: {
+      $type: 'color',
+      $value: '{base.blue.blue-7}',
     },
-    "colorLinkHover": {
-      "$type": "color",
-      "$value": "{base.blue.blue-6}"
+    colorLinkHover: {
+      $type: 'color',
+      $value: '{base.blue.blue-6}',
     },
-    "colorBgContainerDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    colorBgContainerDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "controlHeightLG": {
-      "$type": "dimension",
-      "$value": "48px"
+    controlHeightLG: {
+      $type: 'dimension',
+      $value: '48px',
     },
-    "controlHeightSM": {
-      "$type": "dimension",
-      "$value": "36px"
+    controlHeightSM: {
+      $type: 'dimension',
+      $value: '36px',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "fontSizeLG": {
-      "$type": "dimension",
-      "$value": "16px"
+    fontSizeLG: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "lineType": {
-      "$type": "string",
-      "$value": "solid"
+    lineType: {
+      $type: 'string',
+      $value: 'solid',
     },
-    "lineWidth": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "lineWidthFocus": {
-      "$type": "dimension",
-      "$value": "0px"
+    lineWidthFocus: {
+      $type: 'dimension',
+      $value: '0px',
     },
-    "marginXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    marginXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "colorTextLightSolid": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorTextLightSolid: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "defaultShadow": {
-      "$type": "string",
-      "$value": "0 0 0 rgba(0, 0, 0, 0)"
+    defaultShadow: {
+      $type: 'string',
+      $value: '0 0 0 rgba(0, 0, 0, 0)',
     },
-    "primaryShadow": {
-      "$type": "string",
-      "$value": "0 0 0 rgba(0, 0, 0, 0)"
-    }
+    primaryShadow: {
+      $type: 'string',
+      $value: '0 0 0 rgba(0, 0, 0, 0)',
+    },
   },
-  "input": {
-    "activeBg": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+  input: {
+    activeBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorBgContainer": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBgContainer: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "lineWidth": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "colorBorder": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBorder: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorErrorBgHover": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorErrorBgHover: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "inputFontSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    inputFontSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "24px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "paddingBlock": {
-      "$type": "dimension",
-      "$value": "12px"
+    paddingBlock: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "paddingInline": {
-      "$type": "dimension",
-      "$value": "12px"
+    paddingInline: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "borderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "paddingXXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    paddingXXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "colorIcon": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorIcon: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorTextPlaceholder": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextPlaceholder: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "hoverBg": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    hoverBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "hoverBorderColor": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    hoverBorderColor: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "activeBorderColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    activeBorderColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorText": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorError": {
-      "$type": "color",
-      "$value": "{base.red.red-5}"
+    colorError: {
+      $type: 'color',
+      $value: '{base.red.red-5}',
     },
-    "colorErrorText": {
-      "$type": "color",
-      "$value": "{base.red.red-5}"
+    colorErrorText: {
+      $type: 'color',
+      $value: '{base.red.red-5}',
     },
-    "colorErrorBorderHover": {
-      "$type": "color",
-      "$value": "{base.red.red-6}"
+    colorErrorBorderHover: {
+      $type: 'color',
+      $value: '{base.red.red-6}',
     },
-    "colorErrorBg": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorErrorBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorBgContainerDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    colorBgContainerDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "colorTextDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "activeShadow": {
-      "$type": "string",
-      "$value": "0 0 0 0 rgba(0, 0, 0, 0)"
+    activeShadow: {
+      $type: 'string',
+      $value: '0 0 0 0 rgba(0, 0, 0, 0)',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "fontWeight": {
-      "$type": "dimension",
-      "$value": "500"
-    }
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
+    },
   },
-  "description": {
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "12px"
+  description: {
+    fontSize: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "colorTextDescription": {
-      "$type": "color",
-      "$value": "{base.gray.gray-7}"
+    colorTextDescription: {
+      $type: 'color',
+      $value: '{base.gray.gray-7}',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "16px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "fontWeight": {
-      "$type": "dimension",
-      "$value": "500"
-    }
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
+    },
   },
-  "label": {
-    "labelFontSize": {
-      "$type": "dimension",
-      "$value": "12px"
+  label: {
+    labelFontSize: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "labelColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    labelColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "labelRequiredMarkColor": {
-      "$type": "color",
-      "$value": "{base.red.red-5}"
+    labelRequiredMarkColor: {
+      $type: 'color',
+      $value: '{base.red.red-5}',
     },
-    "marginXXS": {
-      "$type": "dimension",
-      "$value": "4px"
+    marginXXS: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "12px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "fontWeight": {
-      "$type": "dimension",
-      "$value": "500"
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "16px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
-    }
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
+    },
   },
-  "select": {
-    "multipleItemHeight": {
-      "$type": "dimension",
-      "$value": "24px"
+  select: {
+    multipleItemHeight: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "selectorBg": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    selectorBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorBorder": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBorder: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorErrorBg": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorErrorBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorErrorBgHover": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorErrorBgHover: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorErrorHover": {
-      "$type": "color",
-      "$value": "{base.red.red-6}"
+    colorErrorHover: {
+      $type: 'color',
+      $value: '{base.red.red-6}',
     },
-    "lineWidth": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "colorTextPlaceholder": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextPlaceholder: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "borderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "24px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "colorIcon": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorIcon: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "controlHeight": {
-      "$type": "dimension",
-      "$value": "48px"
+    controlHeight: {
+      $type: 'dimension',
+      $value: '48px',
     },
-    "controlPaddingHorizontal": {
-      "$type": "dimension",
-      "$value": "12px"
+    controlPaddingHorizontal: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "showArrowPaddingInlineEnd": {
-      "$type": "dimension",
-      "$value": "20px"
+    showArrowPaddingInlineEnd: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "fontSizeIcon": {
-      "$type": "dimension",
-      "$value": "16px"
+    fontSizeIcon: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "colorPrimaryHover": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    colorPrimaryHover: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "colorText": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorErrorOutline": {
-      "$type": "color",
-      "$value": "{base.red.red-5}"
+    colorErrorOutline: {
+      $type: 'color',
+      $value: '{base.red.red-5}',
     },
-    "colorError": {
-      "$type": "color",
-      "$value": "{base.red.red-5}"
+    colorError: {
+      $type: 'color',
+      $value: '{base.red.red-5}',
     },
-    "colorBgContainerDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    colorBgContainerDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "colorTextDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "optionFontSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    optionFontSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "optionLineHeight": {
-      "$type": "dimension",
-      "$value": "24px"
+    optionLineHeight: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "optionPadding": {
-      "$type": "dimension",
-      "$value": "12px"
+    optionPadding: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "optionSelectedFontWeight": {
-      "$type": "string",
-      "$value": "400"
+    optionSelectedFontWeight: {
+      $type: 'string',
+      $value: '400',
     },
-    "colorBgElevated": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBgElevated: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "optionSelectedBg": {
-      "$type": "color",
-      "$value": "{base.blue.blue-8}"
+    optionSelectedBg: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
     },
-    "optionHeight": {
-      "$type": "dimension",
-      "$value": "48px"
+    optionHeight: {
+      $type: 'dimension',
+      $value: '48px',
     },
-    "optionSelectedColor": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    optionSelectedColor: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "optionActiveBg": {
-      "$type": "color",
-      "$value": "{base.gray.gray-1}"
+    optionActiveBg: {
+      $type: 'color',
+      $value: '{base.gray.gray-1}',
     },
-    "multipleltemBg": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    multipleltemBg: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "multipleltemColorDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-3}"
+    multipleltemColorDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-3}',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "fontWeight": {
-      "$type": "dimension",
-      "$value": "500"
-    }
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
+    },
   },
-  "datepicker": {
-    "cellHeight": {
-      "$type": "dimension",
-      "$value": "40px"
+  datepicker: {
+    cellHeight: {
+      $type: 'dimension',
+      $value: '40px',
     },
-    "cellWidth": {
-      "$type": "dimension",
-      "$value": "40px"
+    cellWidth: {
+      $type: 'dimension',
+      $value: '40px',
     },
-    "cellActiveWithRangeBg": {
-      "$type": "color",
-      "$value": "{base.blue.blue-1}"
+    cellActiveWithRangeBg: {
+      $type: 'color',
+      $value: '{base.blue.blue-1}',
     },
-    "cellHoverBg": {
-      "$type": "color",
-      "$value": "{base.blue.blue-1}"
+    cellHoverBg: {
+      $type: 'color',
+      $value: '{base.blue.blue-1}',
     },
-    "activeBorderColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    activeBorderColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "cellRangeBorderColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-8}"
+    cellRangeBorderColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
     },
-    "activeBg": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    activeBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "hoverBorderColor": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    hoverBorderColor: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "inputFontSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    inputFontSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "colorBorder": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBorder: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "borderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "lineWidth": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "colorBgContainer": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBgContainer: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorBgContainerDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-3}"
+    colorBgContainerDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-3}',
     },
-    "colorBgElevated": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBgElevated: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorError": {
-      "$type": "color",
-      "$value": "{base.red.red-5}"
+    colorError: {
+      $type: 'color',
+      $value: '{base.red.red-5}',
     },
-    "colorErrorBorderHover": {
-      "$type": "color",
-      "$value": "{base.red.red-6}"
+    colorErrorBorderHover: {
+      $type: 'color',
+      $value: '{base.red.red-6}',
     },
-    "colorErrorBg": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorErrorBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorErrorBgHover": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorErrorBgHover: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorTextDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "24px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "paddingInline": {
-      "$type": "dimension",
-      "$value": "12px"
+    paddingInline: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "paddingBlock": {
-      "$type": "dimension",
-      "$value": "12px"
+    paddingBlock: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "cellHoverWithRangeBg": {
-      "$type": "color",
-      "$value": "{base.blue.blue-1}"
+    cellHoverWithRangeBg: {
+      $type: 'color',
+      $value: '{base.blue.blue-1}',
     },
-    "cellBgDisabled": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    cellBgDisabled: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorPrimary": {
-      "$type": "color",
-      "$value": "{base.blue.blue-8}"
+    colorPrimary: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
     },
-    "colorText": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorTextHeading": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorTextHeading: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorIcon": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorIcon: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorTextLightSolid": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorTextLightSolid: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorTextPlaceholder": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextPlaceholder: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "controlHeight": {
-      "$type": "dimension",
-      "$value": "48px"
+    controlHeight: {
+      $type: 'dimension',
+      $value: '48px',
     },
-    "paddingXXS": {
-      "$type": "dimension",
-      "$value": "4px"
+    paddingXXS: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "fontWeight": {
-      "$type": "dimension",
-      "$value": "400"
+    fontWeight: {
+      $type: 'dimension',
+      $value: '400',
     },
-    "controlInteractiveSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "paddingXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "paddingSM": {
-      "$type": "dimension",
-      "$value": "12px"
-    }
+    paddingSM: {
+      $type: 'dimension',
+      $value: '12px',
+    },
   },
-  "checkbox": {
-    "colorText": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+  checkbox: {
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorTextDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "colorWhite": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorWhite: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "borderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "controlInteractiveSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "24px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "lineType": {
-      "$type": "string",
-      "$value": "solid"
+    lineType: {
+      $type: 'string',
+      $value: 'solid',
     },
-    "lineWidth": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "lineWidthBold": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidthBold: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "lineWidthFocus": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidthFocus: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "colorBgContainer": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBgContainer: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorBgContainerDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    colorBgContainerDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "colorBorder": {
-      "$type": "color",
-      "$value": "{base.gray.gray-3}"
+    colorBorder: {
+      $type: 'color',
+      $value: '{base.gray.gray-3}',
     },
-    "colorPrimary": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorPrimary: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorPrimaryBorder": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorPrimaryBorder: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorPrimaryHover": {
-      "$type": "color",
-      "$value": "{base.blue.blue-8}"
+    colorPrimaryHover: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "marginXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    marginXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "paddingXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "colorError": {
-      "$type": "color",
-      "$value": "{base.red.red-5}"
+    colorError: {
+      $type: 'color',
+      $value: '{base.red.red-5}',
     },
-    "fontWeight": {
-      "$type": "dimension",
-      "$value": "600"
-    }
+    fontWeight: {
+      $type: 'dimension',
+      $value: '600',
+    },
   },
-  "radiobutton": {
-    "dotColorDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+  radiobutton: {
+    dotColorDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "dotSize": {
-      "$type": "dimension",
-      "$value": "8px"
+    dotSize: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "radioSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    radioSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "colorBgContainer": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+    colorBgContainer: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "colorBgContainerDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+    colorBgContainerDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "wrapperMarginInlineEnd": {
-      "$type": "dimension",
-      "$value": "16px"
+    wrapperMarginInlineEnd: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "colorPrimary": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorPrimary: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorPrimaryBorder": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorPrimaryBorder: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorPrimaryActive": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorPrimaryActive: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorPrimaryHover": {
-      "$type": "color",
-      "$value": "{base.blue.blue-8}"
+    colorPrimaryHover: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
     },
-    "colorTextDisabled": {
-      "$type": "color",
-      "$value": "{base.gray.gray-5}"
+    colorTextDisabled: {
+      $type: 'color',
+      $value: '{base.gray.gray-5}',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "16px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "24px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "lineType": {
-      "$type": "string",
-      "$value": "solid"
+    lineType: {
+      $type: 'string',
+      $value: 'solid',
     },
-    "lineWidth": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "lineWidthFocus": {
-      "$type": "dimension",
-      "$value": "2px"
+    lineWidthFocus: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "paddingXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "colorText": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorError": {
-      "$type": "color",
-      "$value": "{base.red.red-5}"
+    colorError: {
+      $type: 'color',
+      $value: '{base.red.red-5}',
     },
-    "fontWeight": {
-      "$type": "dimension",
-      "$value": "600"
-    }
+    fontWeight: {
+      $type: 'dimension',
+      $value: '600',
+    },
   },
-  "switch": {
-    "handleBg": {
-      "$type": "color",
-      "$value": "{base.static.white}"
+  switch: {
+    handleBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
-    "handleSize": {
-      "$type": "dimension",
-      "$value": "18px"
+    handleSize: {
+      $type: 'dimension',
+      $value: '18px',
     },
-    "trackHeight": {
-      "$type": "dimension",
-      "$value": "22px"
+    trackHeight: {
+      $type: 'dimension',
+      $value: '22px',
     },
-    "trackMinWidth": {
-      "$type": "dimension",
-      "$value": "44px"
+    trackMinWidth: {
+      $type: 'dimension',
+      $value: '44px',
     },
-    "trackPadding": {
-      "$type": "dimension",
-      "$value": "2px"
+    trackPadding: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "colorPrimary": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    colorPrimary: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "colorPrimaryHover": {
-      "$type": "color",
-      "$value": "{base.blue.blue-8}"
+    colorPrimaryHover: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
     },
-    "innerMaxMargin": {
-      "$type": "dimension",
-      "$value": "24px"
+    innerMaxMargin: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "borderRadius": {
-      "$type": "dimension",
-      "$value": "16px"
-    }
+    borderRadius: {
+      $type: 'dimension',
+      $value: '16px',
+    },
   },
-  "tags": {
-    "defaultBg": {
-      "$type": "color",
-      "$value": "{base.gray.gray-2}"
+  tags: {
+    defaultBg: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
     },
-    "defaultColor": {
-      "$type": "color",
-      "$value": "{elements.textPrimary}"
+    defaultColor: {
+      $type: 'color',
+      $value: '{elements.textPrimary}',
     },
-    "colorBorder": {
-      "$type": "color",
-      "$value": "{base.gray.gray-4}"
+    colorBorder: {
+      $type: 'color',
+      $value: '{base.gray.gray-4}',
     },
-    "borderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "borderRadiusSM": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadiusSM: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "fontSizeSM": {
-      "$type": "dimension",
-      "$value": "14px"
+    fontSizeSM: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "fontSizeIcon": {
-      "$type": "dimension",
-      "$value": "12px"
+    fontSizeIcon: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "14px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "lineHeightSM": {
-      "$type": "dimension",
-      "$value": "14px"
+    lineHeightSM: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "lineType": {
-      "$type": "string",
-      "$value": "solid"
+    lineType: {
+      $type: 'string',
+      $value: 'solid',
     },
-    "lineWidth": {
-      "$type": "dimension",
-      "$value": "1px"
+    lineWidth: {
+      $type: 'dimension',
+      $value: '1px',
     },
-    "marginXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    marginXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "paddingXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "paddingXXS": {
-      "$type": "dimension",
-      "$value": "4px"
+    paddingXXS: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "colorFillSecondary": {
-      "$type": "color",
-      "$value": "{elements.fillSecondary}"
-    }
+    colorFillSecondary: {
+      $type: 'color',
+      $value: '{elements.fillSecondary}',
+    },
   },
-  "popover": {
-    "titleMinWidth": {
-      "$type": "dimension",
-      "$value": "140px"
+  popover: {
+    titleMinWidth: {
+      $type: 'dimension',
+      $value: '140px',
     },
-    "colorBgElevated": {
-      "$type": "color",
-      "$value": "{surface.cardBg}"
+    colorBgElevated: {
+      $type: 'color',
+      $value: '{surface.cardBg}',
     },
-    "colorText": {
-      "$type": "color",
-      "$value": "{elements.textSecondary}"
+    colorText: {
+      $type: 'color',
+      $value: '{elements.textSecondary}',
     },
-    "colorTextHeading": {
-      "$type": "color",
-      "$value": "{elements.textPrimary}"
+    colorTextHeading: {
+      $type: 'color',
+      $value: '{elements.textPrimary}',
     },
-    "borderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "fontWeightStrong": {
-      "$type": "dimension",
-      "$value": "700"
+    fontWeightStrong: {
+      $type: 'dimension',
+      $value: '700',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "20px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "sizePopupArrow": {
-      "$type": "dimension",
-      "$value": "16px"
+    sizePopupArrow: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "paddingXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "marginSM": {
-      "$type": "dimension",
-      "$value": "12px"
+    marginSM: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "paddingXXS": {
-      "$type": "dimension",
-      "$value": "4px"
+    paddingXXS: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "borderRadiusXS": {
-      "$type": "dimension",
-      "$value": "2px"
-    }
+    borderRadiusXS: {
+      $type: 'dimension',
+      $value: '2px',
+    },
   },
-  "breadcrumbs": {
-    "itemColor": {
-      "$type": "color",
-      "$value": "{elements.textSecondary}"
+  breadcrumbs: {
+    itemColor: {
+      $type: 'color',
+      $value: '{elements.textSecondary}',
     },
-    "lastItemColor": {
-      "$type": "color",
-      "$value": "{elements.textPrimary}"
+    lastItemColor: {
+      $type: 'color',
+      $value: '{elements.textPrimary}',
     },
-    "separatorColor": {
-      "$type": "color",
-      "$value": "{elements.fillSecondary}"
+    separatorColor: {
+      $type: 'color',
+      $value: '{elements.fillSecondary}',
     },
-    "separatorMargin": {
-      "$type": "dimension",
-      "$value": "8px"
+    separatorMargin: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "colorBgTextHover": {
-      "$type": "color",
-      "$value": "{elements.fillTertiary}"
+    colorBgTextHover: {
+      $type: 'color',
+      $value: '{elements.fillTertiary}',
     },
-    "borderRadiusXS": {
-      "$type": "dimension",
-      "$value": "2px"
+    borderRadiusXS: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "22px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '22px',
     },
-    "marginXXS": {
-      "$type": "dimension",
-      "$value": "4px"
+    marginXXS: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "paddingXXS": {
-      "$type": "dimension",
-      "$value": "4px"
-    }
+    paddingXXS: {
+      $type: 'dimension',
+      $value: '4px',
+    },
   },
-  "timeline": {
-    "dotBg": {
-      "$type": "color",
-      "$value": "#ffffff"
+  timeline: {
+    dotBg: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "dotBorderWidth": {
-      "$type": "dimension",
-      "$value": "2px"
+    dotBorderWidth: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "tailColor": {
-      "$type": "color",
-      "$value": "#e3e3e5"
+    tailColor: {
+      $type: 'color',
+      $value: '#e3e3e5',
     },
-    "itemPaddingBottom": {
-      "$type": "dimension",
-      "$value": "0px"
+    itemPaddingBottom: {
+      $type: 'dimension',
+      $value: '0px',
     },
-    "tailWidth": {
-      "$type": "dimension",
-      "$value": "1px"
-    }
+    tailWidth: {
+      $type: 'dimension',
+      $value: '1px',
+    },
   },
-  "navigation": {
-    "groupTitleColor": {
-      "$type": "color",
-      "$value": "#ffffff"
+  navigation: {
+    groupTitleColor: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "groupTitleFontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    groupTitleFontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "horizontalItemBorderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    horizontalItemBorderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "horizontalItemHoverBg": {
-      "$type": "color",
-      "$value": "#5b6491"
+    horizontalItemHoverBg: {
+      $type: 'color',
+      $value: '#5b6491',
     },
-    "horizontalItemHoverColor": {
-      "$type": "color",
-      "$value": "#ffffff"
+    horizontalItemHoverColor: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "horizontalItemSelectedBg": {
-      "$type": "color",
-      "$value": "#434b75"
+    horizontalItemSelectedBg: {
+      $type: 'color',
+      $value: '#434b75',
     },
-    "iconSize": {
-      "$type": "dimension",
-      "$value": "32px"
+    iconSize: {
+      $type: 'dimension',
+      $value: '32px',
     },
-    "itemBorderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    itemBorderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "itemBg": {
-      "$type": "color",
-      "$value": "#2f355a"
+    itemBg: {
+      $type: 'color',
+      $value: '#2f355a',
     },
-    "itemColor": {
-      "$type": "color",
-      "$value": "#ffffff"
+    itemColor: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "iconMarginInlineEnd": {
-      "$type": "dimension",
-      "$value": "10px"
+    iconMarginInlineEnd: {
+      $type: 'dimension',
+      $value: '10px',
     },
-    "itemDisabledColor": {
-      "$type": "color",
-      "$value": "#bababc"
+    itemDisabledColor: {
+      $type: 'color',
+      $value: '#bababc',
     },
-    "itemHoverBg": {
-      "$type": "color",
-      "$value": "#5b6491"
+    itemHoverBg: {
+      $type: 'color',
+      $value: '#5b6491',
     },
-    "itemHoverColor": {
-      "$type": "color",
-      "$value": "#ffffff"
+    itemHoverColor: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "itemMarginBlock": {
-      "$type": "dimension",
-      "$value": "30px"
+    itemMarginBlock: {
+      $type: 'dimension',
+      $value: '30px',
     },
-    "itemMarginInline": {
-      "$type": "dimension",
-      "$value": "20px"
+    itemMarginInline: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "itemPaddingInline": {
-      "$type": "dimension",
-      "$value": "20px"
+    itemPaddingInline: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "itemActiveBg": {
-      "$type": "color",
-      "$value": "#434b75"
+    itemActiveBg: {
+      $type: 'color',
+      $value: '#434b75',
     },
-    "itemSelectedBg": {
-      "$type": "color",
-      "$value": "#434b75"
+    itemSelectedBg: {
+      $type: 'color',
+      $value: '#434b75',
     },
-    "itemSelectedColor": {
-      "$type": "color",
-      "$value": "#ffffff"
-    }
+    itemSelectedColor: {
+      $type: 'color',
+      $value: '#ffffff',
+    },
   },
-  "pagination": {
-    "itemSize": {
-      "$type": "dimension",
-      "$value": "24px"
+  pagination: {
+    itemSize: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "itemActiveColorDisabled": {
-      "$type": "color",
-      "$value": "#131535"
-    }
+    itemActiveColorDisabled: {
+      $type: 'color',
+      $value: '#131535',
+    },
   },
-  "table": {
-    "theader-th-font-size": {
-      "$type": "dimension",
-      "$value": "14px"
+  table: {
+    'theader-th-font-size': {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "cellFontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    cellFontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "cellPaddingBlock": {
-      "$type": "dimension",
-      "$value": "20px"
+    cellPaddingBlock: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "cellPaddingInline": {
-      "$type": "dimension",
-      "$value": "20px"
+    cellPaddingInline: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "selectionColumnWidth": {
-      "$type": "dimension",
-      "$value": "32px"
+    selectionColumnWidth: {
+      $type: 'dimension',
+      $value: '32px',
     },
-    "footerBg": {
-      "$type": "color",
-      "$value": "#ffffff"
+    footerBg: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "footerColor": {
-      "$type": "color",
-      "$value": "#ffffff"
+    footerColor: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "headerBg": {
-      "$type": "color",
-      "$value": "#e3e3e5"
+    headerBg: {
+      $type: 'color',
+      $value: '#e3e3e5',
     },
-    "headerColor": {
-      "$type": "color",
-      "$value": "#131535"
+    headerColor: {
+      $type: 'color',
+      $value: '#131535',
     },
-    "rowSelectedBg": {
-      "$type": "color",
-      "$value": "#eff1f8"
+    rowSelectedBg: {
+      $type: 'color',
+      $value: '#eff1f8',
     },
-    "borderColor": {
-      "$type": "color",
-      "$value": "#e3e3e5"
+    borderColor: {
+      $type: 'color',
+      $value: '#e3e3e5',
     },
-    "rowHoverBg": {
-      "$type": "color",
-      "$value": "#eff1f8"
-    }
+    rowHoverBg: {
+      $type: 'color',
+      $value: '#eff1f8',
+    },
   },
-  "notification": {
-    "width": {
-      "$type": "dimension",
-      "$value": "420px"
+  notification: {
+    width: {
+      $type: 'dimension',
+      $value: '420px',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "fontSizeLG": {
-      "$type": "dimension",
-      "$value": "16px"
+    fontSizeLG: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "20px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "lineHeightLG": {
-      "$type": "dimension",
-      "$value": "22px"
+    lineHeightLG: {
+      $type: 'dimension',
+      $value: '22px',
     },
-    "colorError": {
-      "$type": "color",
-      "$value": "#ff6643"
+    colorError: {
+      $type: 'color',
+      $value: '#ff6643',
     },
-    "colorinfo": {
-      "$type": "color",
-      "$value": "#166ebb"
+    colorinfo: {
+      $type: 'color',
+      $value: '#166ebb',
     },
-    "colorSuccess": {
-      "$type": "color",
-      "$value": "#4cbb43"
+    colorSuccess: {
+      $type: 'color',
+      $value: '#4cbb43',
     },
-    "colorWarning": {
-      "$type": "color",
-      "$value": "#ffb966"
+    colorWarning: {
+      $type: 'color',
+      $value: '#ffb966',
     },
-    "colorText": {
-      "$type": "color",
-      "$value": "#131535"
+    colorText: {
+      $type: 'color',
+      $value: '#131535',
     },
-    "colorTextHeading": {
-      "$type": "color",
-      "$value": "#131535"
+    colorTextHeading: {
+      $type: 'color',
+      $value: '#131535',
     },
-    "colorIcon": {
-      "$type": "color",
-      "$value": "#131535"
+    colorIcon: {
+      $type: 'color',
+      $value: '#131535',
     },
-    "colorIconHover": {
-      "$type": "color",
-      "$value": "#2f355a"
+    colorIconHover: {
+      $type: 'color',
+      $value: '#2f355a',
     },
-    "paddingMD": {
-      "$type": "dimension",
-      "$value": "15px"
+    paddingMD: {
+      $type: 'dimension',
+      $value: '15px',
     },
-    "paddingContentHorizontalLG": {
-      "$type": "dimension",
-      "$value": "15px"
+    paddingContentHorizontalLG: {
+      $type: 'dimension',
+      $value: '15px',
     },
-    "colorBgElevated": {
-      "$type": "color",
-      "$value": "#ffffff"
+    colorBgElevated: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "borderRadiusLG": {
-      "$type": "dimension",
-      "$value": "2px"
+    borderRadiusLG: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "marginXS": {
-      "$type": "dimension",
-      "$value": "2px"
+    marginXS: {
+      $type: 'dimension',
+      $value: '2px',
     },
-    "padding": {
-      "$type": "dimension",
-      "$value": "16px"
-    }
+    padding: {
+      $type: 'dimension',
+      $value: '16px',
+    },
   },
-  "upload": {
-    "colorFillAlter": {
-      "$type": "color",
-      "$value": "#ffffff"
+  upload: {
+    colorFillAlter: {
+      $type: 'color',
+      $value: '#ffffff',
     },
-    "lineWidth": {
-      "$type": "dimension",
-      "$value": "1px"
+    lineWidth: {
+      $type: 'dimension',
+      $value: '1px',
     },
-    "colorBorder": {
-      "$type": "color",
-      "$value": "#e3e3e5"
+    colorBorder: {
+      $type: 'color',
+      $value: '#e3e3e5',
     },
-    "borderRadiusLG": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadiusLG: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "padding": {
-      "$type": "dimension",
-      "$value": "16px"
+    padding: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "margin": {
-      "$type": "dimension",
-      "$value": "16px"
+    margin: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "marginXXS": {
-      "$type": "dimension",
-      "$value": "4px"
+    marginXXS: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "fontSizeLG": {
-      "$type": "dimension",
-      "$value": "16px"
+    fontSizeLG: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "colorTextHeading": {
-      "$type": "color",
-      "$value": "#131535"
+    colorTextHeading: {
+      $type: 'color',
+      $value: '#131535',
     },
-    "colorTextDescription": {
-      "$type": "color",
-      "$value": "#9c9c9e"
+    colorTextDescription: {
+      $type: 'color',
+      $value: '#9c9c9e',
     },
-    "fontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "colorPrimary_Hover": {
-      "$type": "color",
-      "$value": "#d4d4d6"
+    colorPrimary_Hover: {
+      $type: 'color',
+      $value: '#d4d4d6',
     },
-    "colorPrimary": {
-      "$type": "color",
-      "$value": "#131535"
+    colorPrimary: {
+      $type: 'color',
+      $value: '#131535',
     },
-    "fontSizeHeading3": {
-      "$type": "dimension",
-      "$value": "24px"
+    fontSizeHeading3: {
+      $type: 'dimension',
+      $value: '24px',
     },
-    "colorError": {
-      "$type": "color",
-      "$value": "#ff6643"
+    colorError: {
+      $type: 'color',
+      $value: '#ff6643',
     },
-    "paddingXS": {
-      "$type": "dimension",
-      "$value": "4px"
+    paddingXS: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "colorLink": {
-      "$type": "color",
-      "$value": "#131535"
+    colorLink: {
+      $type: 'color',
+      $value: '#131535',
     },
-    "marginXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    marginXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "22px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '22px',
     },
-    "controlltemBgHover": {
-      "$type": "color",
-      "$value": "#ffffff00"
+    controlltemBgHover: {
+      $type: 'color',
+      $value: '#ffffff00',
     },
-    "actionsColor": {
-      "$type": "color",
-      "$value": "#131535"
-    }
+    actionsColor: {
+      $type: 'color',
+      $value: '#131535',
+    },
   },
-  "progress": {
-    "remainingColor": {
-      "$type": "color",
-      "$value": "#e3e3e5"
+  progress: {
+    remainingColor: {
+      $type: 'color',
+      $value: '#e3e3e5',
     },
-    "defaultColor": {
-      "$type": "color",
-      "$value": "#131535"
-    }
+    defaultColor: {
+      $type: 'color',
+      $value: '#131535',
+    },
   },
-  "tabs": {
-    "inkBarColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+  tabs: {
+    inkBarColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "itemActiveColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    itemActiveColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "itemColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    itemColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "cardBg": {
-      "$type": "color",
-      "$value": "{base.blue.blue-1}"
+    cardBg: {
+      $type: 'color',
+      $value: '{base.blue.blue-1}',
     },
-    "cardGutter": {
-      "$type": "dimension",
-      "$value": "12px"
+    cardGutter: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "cardHeight": {
-      "$type": "dimension",
-      "$value": "38px"
+    cardHeight: {
+      $type: 'dimension',
+      $value: '38px',
     },
-    "cardPadding": {
-      "$type": "dimension",
-      "$value": "16px"
+    cardPadding: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "horizontalItemGutter": {
-      "$type": "dimension",
-      "$value": "20px"
+    horizontalItemGutter: {
+      $type: 'dimension',
+      $value: '20px',
     },
-    "horizontalItemPadding": {
-      "$type": "dimension",
-      "$value": "12px"
+    horizontalItemPadding: {
+      $type: 'dimension',
+      $value: '12px',
     },
-    "horizontalMargin": {
-      "$type": "dimension",
-      "$value": "16px"
+    horizontalMargin: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "itemHoverColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-8}"
+    itemHoverColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
     },
-    "itemSelectedColor": {
-      "$type": "color",
-      "$value": "{base.blue.blue-10}"
+    itemSelectedColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
     },
-    "titleFontSize": {
-      "$type": "dimension",
-      "$value": "14px"
+    titleFontSize: {
+      $type: 'dimension',
+      $value: '14px',
     },
-    "titleFontSizeLG": {
-      "$type": "dimension",
-      "$value": "16px"
+    titleFontSizeLG: {
+      $type: 'dimension',
+      $value: '16px',
     },
-    "colorTextDisabled": {
-      "$type": "color",
-      "$value": "{elements.textTertiary}"
+    colorTextDisabled: {
+      $type: 'color',
+      $value: '{elements.textTertiary}',
     },
-    "lineHeight": {
-      "$type": "dimension",
-      "$value": "22px"
+    lineHeight: {
+      $type: 'dimension',
+      $value: '22px',
     },
-    "fontFamily": {
-      "$type": "string",
-      "$value": "Nunito"
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
-    "controlItemBgHover": {
-      "$type": "color",
-      "$value": "{base.blue.blue-2}"
+    controlItemBgHover: {
+      $type: 'color',
+      $value: '{base.blue.blue-2}',
     },
-    "paddingXS": {
-      "$type": "dimension",
-      "$value": "8px"
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
     },
-    "borderRadius": {
-      "$type": "dimension",
-      "$value": "4px"
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
     },
-    "fontWeight": {
-      "$type": "dimension",
-      "$value": "700"
+    fontWeight: {
+      $type: 'dimension',
+      $value: '700',
     },
-    "lineWidthFocus": {
-      "$type": "dimension",
-      "$value": "2px"
-    }
-  }
-
+    lineWidthFocus: {
+      $type: 'dimension',
+      $value: '2px',
+    },
+  },
 };

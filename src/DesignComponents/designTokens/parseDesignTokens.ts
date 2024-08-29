@@ -1,6 +1,8 @@
 import { colorTokens } from './colorTokens/colorTokens';
 import { Tokens } from './Tokens.types';
 
+const currentTokens: Array<string> = [];
+
 function capitalizeFirstLetter(str: string) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
@@ -52,9 +54,15 @@ export function parseDesignTokens(tokens: Tokens) {
           resultValue = tokenValue;
       }
 
+      // Вот тут можно поменять имя, а после смотреть в консоли
+      if (themeKey === 'Datepicker') {
+        currentTokens.push(`${token}: '${resultValue}' `);
+      }
+
       Object.assign(theme[themeKey], { [token]: resultValue });
     });
   });
 
+  console.log(currentTokens.join(',\n'));
   return theme;
 }
