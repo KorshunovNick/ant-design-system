@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   --table-builder-control-gap: 0 10px;
   --table-builder-control-rows-gap: 0 5px;
   --table-builder-pagination-gap: 0 16px;

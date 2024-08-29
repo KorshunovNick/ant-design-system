@@ -1,4 +1,4 @@
-import { Tokens } from "../Tokens.types"; 
+import { Tokens } from '../Tokens.types';
 
 export const crmTokens: Tokens = {
   button: {
