@@ -788,7 +788,7 @@ export const crmTokens: Tokens = {
       $value: '600',
     },
   },
-  radio: {
+  radiobutton: {
     dotColorDisabled: {
       $type: 'color',
       $value: '{base.gray.gray-5}',
@@ -921,7 +921,7 @@ export const crmTokens: Tokens = {
       $description: 'number',
     },
   },
-  tag: {
+  tags: {
     defaultBg: {
       $type: 'color',
       $value: '{base.gray.gray-2}',
