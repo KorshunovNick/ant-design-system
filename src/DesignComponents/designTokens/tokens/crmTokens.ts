@@ -213,6 +213,7 @@ export const crmTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
+      $description: 'number',
     },
     colorBorder: {
       $type: 'color',
@@ -225,30 +226,37 @@ export const crmTokens: Tokens = {
     inputFontSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
+      $description: 'value in EM, string is better',
     },
     paddingBlock: {
       $type: 'dimension',
       $value: '12px',
+      $description: 'number',
     },
     paddingInline: {
       $type: 'dimension',
       $value: '12px',
+      $description: 'number',
     },
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+      $description: 'number',
     },
     paddingXXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: 'number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     colorIcon: {
       $type: 'color',
@@ -264,7 +272,7 @@ export const crmTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{base.gray.gray-2}',
     },
     activeBorderColor: {
       $type: 'color',
@@ -513,10 +521,12 @@ export const crmTokens: Tokens = {
     cellHeight: {
       $type: 'dimension',
       $value: '40px',
+      $description: 'number',
     },
     cellWidth: {
       $type: 'dimension',
       $value: '40px',
+      $description: 'number',
     },
     cellActiveWithRangeBg: {
       $type: 'color',
@@ -540,11 +550,12 @@ export const crmTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{base.gray.gray-2}',
     },
     inputFontSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     colorBorder: {
       $type: 'color',
@@ -553,10 +564,12 @@ export const crmTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+      $description: 'number',
     },
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
+      $description: 'number',
     },
     colorBgContainer: {
       $type: 'color',
@@ -593,14 +606,17 @@ export const crmTokens: Tokens = {
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
+      $description: 'EM value, string is better',
     },
     paddingInline: {
       $type: 'dimension',
       $value: '12px',
+      $description: 'number',
     },
     paddingBlock: {
       $type: 'dimension',
       $value: '12px',
+      $description: 'number',
     },
     cellHoverWithRangeBg: {
       $type: 'color',
@@ -641,10 +657,12 @@ export const crmTokens: Tokens = {
     controlHeight: {
       $type: 'dimension',
       $value: '48px',
+      $description: 'number',
     },
     paddingXXS: {
       $type: 'dimension',
       $value: '4px',
+      $description: 'number',
     },
     fontWeight: {
       $type: 'dimension',
@@ -653,18 +671,22 @@ export const crmTokens: Tokens = {
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: 'number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: 'number',
     },
     paddingSM: {
       $type: 'dimension',
       $value: '12px',
+      $description: 'number',
     },
   },
   checkbox: {
@@ -683,14 +705,17 @@ export const crmTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+      $description: 'number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
+      $description: 'EM value, string is better',
     },
     lineType: {
       $type: 'string',
@@ -699,14 +724,17 @@ export const crmTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
+      $description: 'number',
     },
     lineWidthBold: {
       $type: 'dimension',
       $value: '2px',
+      $description: 'number',
     },
     lineWidthFocus: {
       $type: 'dimension',
       $value: '2px',
+      $description: 'number',
     },
     colorBgContainer: {
       $type: 'color',
@@ -739,14 +767,17 @@ export const crmTokens: Tokens = {
     fontSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     marginXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: 'number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: 'number',
     },
     colorError: {
       $type: 'color',
@@ -757,7 +788,7 @@ export const crmTokens: Tokens = {
       $value: '600',
     },
   },
-  radiobutton: {
+  radio: {
     dotColorDisabled: {
       $type: 'color',
       $value: '{base.gray.gray-5}',
@@ -765,10 +796,12 @@ export const crmTokens: Tokens = {
     dotSize: {
       $type: 'dimension',
       $value: '8px',
+      $description: 'number',
     },
     radioSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     colorBgContainer: {
       $type: 'color',
@@ -781,6 +814,7 @@ export const crmTokens: Tokens = {
     wrapperMarginInlineEnd: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     colorPrimary: {
       $type: 'color',
@@ -809,10 +843,12 @@ export const crmTokens: Tokens = {
     fontSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: 'number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
+      $description: 'EM value, string is better',
     },
     lineType: {
       $type: 'string',
@@ -821,14 +857,17 @@ export const crmTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
+      $description: 'number',
     },
     lineWidthFocus: {
       $type: 'dimension',
       $value: '2px',
+      $description: 'number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: 'number',
     },
     colorText: {
       $type: 'color',
@@ -851,18 +890,22 @@ export const crmTokens: Tokens = {
     handleSize: {
       $type: 'dimension',
       $value: '18px',
+      $description: 'number',
     },
     trackHeight: {
       $type: 'dimension',
       $value: '22px',
+      $description: 'number',
     },
     trackMinWidth: {
       $type: 'dimension',
       $value: '44px',
+      $description: 'number',
     },
     trackPadding: {
       $type: 'dimension',
       $value: '2px',
+      $description: 'number',
     },
     colorPrimary: {
       $type: 'color',
@@ -875,20 +918,17 @@ export const crmTokens: Tokens = {
     innerMaxMargin: {
       $type: 'dimension',
       $value: '24px',
-    },
-    borderRadius: {
-      $type: 'dimension',
-      $value: '16px',
+      $description: 'number',
     },
   },
-  tags: {
+  tag: {
     defaultBg: {
       $type: 'color',
       $value: '{base.gray.gray-2}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{elements.textPrimary}',
+      $value: '{base.blue.blue-10}',
     },
     colorBorder: {
       $type: 'color',
@@ -948,7 +988,15 @@ export const crmTokens: Tokens = {
     },
     colorFillSecondary: {
       $type: 'color',
-      $value: '{elements.fillSecondary}',
+      $value: '{base.gray.gray-5}',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '600',
+    },
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '12px',
     },
   },
   popover: {
@@ -1012,15 +1060,15 @@ export const crmTokens: Tokens = {
   breadcrumbs: {
     itemColor: {
       $type: 'color',
-      $value: '{elements.textSecondary}',
+      $value: '{base.gray.gray-5}',
     },
     lastItemColor: {
       $type: 'color',
-      $value: '{elements.textPrimary}',
+      $value: '{base.blue.blue-10}',
     },
     separatorColor: {
       $type: 'color',
-      $value: '{elements.fillSecondary}',
+      $value: '{base.gray.gray-3}',
     },
     separatorMargin: {
       $type: 'dimension',
@@ -1028,7 +1076,7 @@ export const crmTokens: Tokens = {
     },
     colorBgTextHover: {
       $type: 'color',
-      $value: '{elements.fillTertiary}',
+      $value: '{base.gray.gray-3}',
     },
     borderRadiusXS: {
       $type: 'dimension',
@@ -1046,13 +1094,13 @@ export const crmTokens: Tokens = {
       $type: 'dimension',
       $value: '22px',
     },
-    marginXXS: {
-      $type: 'dimension',
-      $value: '4px',
-    },
     paddingXXS: {
       $type: 'dimension',
       $value: '4px',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
     },
   },
   timeline: {
@@ -1242,83 +1290,96 @@ export const crmTokens: Tokens = {
     },
     colorError: {
       $type: 'color',
-      $value: '#ff6643',
+      $value: '{base.red.red-5}',
     },
     colorinfo: {
       $type: 'color',
-      $value: '#166ebb',
+      $value: '{base.azure.azure-5}',
     },
     colorSuccess: {
       $type: 'color',
-      $value: '#4cbb43',
+      $value: '{base.green.green-5}',
     },
     colorWarning: {
       $type: 'color',
-      $value: '#ffb966',
+      $value: '{base.yellow.yellow-5}',
     },
     colorText: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorTextHeading: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorIcon: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorIconHover: {
       $type: 'color',
-      $value: '#2f355a',
+      $value: '{base.blue.blue-8}',
     },
     paddingMD: {
       $type: 'dimension',
-      $value: '15px',
+      $value: '16px',
     },
     paddingContentHorizontalLG: {
       $type: 'dimension',
-      $value: '15px',
+      $value: '16px',
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
-    borderRadiusLG: {
+    borderRadius: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '4px',
     },
-    marginXS: {
+    marginXXS: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '4px',
     },
-    padding: {
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
+    },
+    controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
+    },
+    boxShadow: {
+      $type: 'string',
+      $value:
+        '0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)',
     },
   },
   upload: {
     colorFillAlter: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     lineWidth: {
       $type: 'dimension',
-      $value: '1px',
+      $value: '2px',
     },
     colorBorder: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.static.white}',
     },
-    borderRadiusLG: {
+    borderRadius: {
       $type: 'dimension',
       $value: '4px',
     },
-    padding: {
+    paddingMD: {
       $type: 'dimension',
       $value: '16px',
     },
-    margin: {
+    marginMD: {
       $type: 'dimension',
       $value: '16px',
     },
@@ -1332,11 +1393,11 @@ export const crmTokens: Tokens = {
     },
     colorTextHeading: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     colorTextDescription: {
       $type: 'color',
-      $value: '#9c9c9e',
+      $value: '{base.gray.gray-6}',
     },
     fontSize: {
       $type: 'dimension',
@@ -1344,19 +1405,15 @@ export const crmTokens: Tokens = {
     },
     colorPrimary_Hover: {
       $type: 'color',
-      $value: '#d4d4d6',
+      $value: '{base.gray.gray-2}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '#131535',
-    },
-    fontSizeHeading3: {
-      $type: 'dimension',
-      $value: '24px',
+      $value: '{base.blue.blue-10}',
     },
     colorError: {
       $type: 'color',
-      $value: '#ff6643',
+      $value: '{base.red.red-5}',
     },
     paddingXS: {
       $type: 'dimension',
@@ -1364,7 +1421,7 @@ export const crmTokens: Tokens = {
     },
     colorLink: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
     },
     marginXS: {
       $type: 'dimension',
@@ -1380,7 +1437,23 @@ export const crmTokens: Tokens = {
     },
     actionsColor: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.blue.blue-10}',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '600',
+    },
+    hoverBorderColor: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
+    },
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '16px',
     },
   },
   progress: {

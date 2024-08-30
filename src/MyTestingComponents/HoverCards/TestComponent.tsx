@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, DatePicker, Switch } from 'antd';
+import { ConfigProvider, DatePicker, Select } from 'antd';
 
 const TestComponent = () => {
   return (
@@ -7,53 +7,49 @@ const TestComponent = () => {
       theme={{
         components: {
           // имя комопонента
-          DatePicker: {
+          Select: {
             // свойства компонента
-            cellHeight: '40px',
-            cellWidth: '40px',
-            cellActiveWithRangeBg: '#eff1f8',
-            cellHoverBg: '#eff1f8',
-            activeBorderColor: '#131535',
-            cellRangeBorderColor: '#2f355a',
-            activeBg: '#ffffff',
-            hoverBorderColor: '#ffffff',
-            inputFontSize: '16px',
+            multipleItemHeight: 24,
+            selectorBg: '#ffffff',
             colorBorder: '#ffffff',
-            borderRadius: '4px',
-            lineWidth: '2px',
-            colorBgContainer: '#ffffff',
-            colorBgContainerDisabled: '#e3e3e5',
-            colorBgElevated: '#ffffff',
-            colorError: '#ff6643',
-            colorErrorBorderHover: '#dd4827',
             colorErrorBg: '#ffffff',
             colorErrorBgHover: '#ffffff',
-            colorTextDisabled: '#bababc',
-            lineHeight: '24px',
-            paddingInline: '12px',
-            paddingBlock: '12px',
-            cellHoverWithRangeBg: '#eff1f8',
-            cellBgDisabled: '#ffffff',
-            colorPrimary: '#2f355a',
-            colorText: '#131535',
-            colorTextHeading: '#131535',
-            colorIcon: '#131535',
-            colorTextLightSolid: '#ffffff',
+            colorErrorHover: '#dd4827',
+            lineWidth: 2,
             colorTextPlaceholder: '#bababc',
+            borderRadius: 4,
+            fontSize: 16,
+            lineHeight: '24px',
+            colorIcon: '#131535',
+            controlHeight: 48,
+            controlPaddingHorizontal: 12,
+            showArrowPaddingInlineEnd: 20,
+            fontSizeIcon: 16,
+            colorPrimaryHover: '#f0f0f2',
+            colorText: '#131535',
+            colorErrorOutline: '#ff6643',
+            colorError: '#ff6643',
+            colorBgContainerDisabled: '#f0f0f2',
+            colorTextDisabled: '#bababc',
+            optionFontSize: 16,
+            optionLineHeight: 24,
+            optionPadding: 12,
+            optionSelectedFontWeight: '400',
+            colorBgElevated: '#ffffff',
+            optionSelectedBg: '#2f355a',
+            optionHeight: 48,
+            optionSelectedColor: '#ffffff',
+            optionActiveBg: '#f7f7f9',
+            multipleltemBg: '#f0f0f2',
+            multipleltemColorDisabled: '#e3e3e5',
             fontFamily: 'Nunito',
-            controlHeight: '48px',
-            paddingXXS: '4px',
-            fontWeight: '400',
-            controlInteractiveSize: '16px',
-            fontSize: '14px',
-            paddingXS: '8px',
-            paddingSM: '12px',
+            fontWeight: '500',
           },
         },
       }}
     >
       {/**твой компонент */}
-      <DatePicker />
+      <Select />
     </ConfigProvider>
   );
 };
