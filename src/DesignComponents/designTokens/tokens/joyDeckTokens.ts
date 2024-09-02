@@ -788,7 +788,7 @@ export const joyDeckTokens: Tokens = {
       $value: '400',
     },
   },
-  radio: {
+  radiobutton: {
     dotColorDisabled: {
       $type: 'color',
       $value: '{base.gray.gray-5}',
@@ -921,7 +921,7 @@ export const joyDeckTokens: Tokens = {
       $description: 'number',
     },
   },
-  tag: {
+  tags: {
     defaultBg: {
       $type: 'color',
       $value: '{base.teal.teal-1}',
@@ -1554,6 +1554,109 @@ export const joyDeckTokens: Tokens = {
     lineWidthFocus: {
       $type: 'dimension',
       $value: '2px',
+    },
+  },
+  card: {
+    actionsBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    actionsLiMargin: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: 'string',
+    },
+    headerBg: {
+      $type: 'string',
+      $value: 'transparent',
+    },
+    headerFontSize: {
+      $type: 'dimension',
+      $value: '22px',
+      $description: 'number',
+    },
+    headerFontSizeSM: {
+      $type: 'dimension',
+      $value: '12px',
+      $description: 'number',
+    },
+    colorBgContainer: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
+    },
+    colorTextDescription: {
+      $type: 'color',
+      $value: '{base.gray.gray-6}',
+    },
+    colorTextHeading: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
+    },
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
+      $description: 'number',
+    },
+    boxShadowTertiary: {
+      $type: 'string',
+      $value:
+        '0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02)',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
+      $description: 'number',
+    },
+    fontWeightStrong: {
+      $type: 'dimension',
+      $value: '600',
+      $description: 'number',
+    },
+    lineHeight: {
+      $type: 'dimension',
+      $value: '22px',
+      $description: 'value in EM, string is better',
+    },
+    margin: {
+      $type: 'dimension',
+      $value: '12px',
+      $description: 'number',
+    },
+    padding: {
+      $type: 'dimension',
+      $value: '20px',
+      $description: 'number',
+    },
+    marginXXS: {
+      $type: 'dimension',
+      $value: '4px',
+      $description: 'number',
+    },
+    colorIcon: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
+    },
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '16px',
+      $description: 'number',
+    },
+    paddingLG: {
+      $type: 'dimension',
+      $value: '0px',
+      $description: 'number',
+    },
+    colorBorderSecondary: {
+      $type: 'color',
+      $value: '{base.static.white}',
     },
   },
 };

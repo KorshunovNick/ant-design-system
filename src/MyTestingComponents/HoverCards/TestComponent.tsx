@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, DatePicker, Select } from 'antd';
+import { ConfigProvider, DatePicker, Card } from 'antd';
 
 const TestComponent = () => {
   return (
@@ -7,49 +7,37 @@ const TestComponent = () => {
       theme={{
         components: {
           // имя комопонента
-          Select: {
+          Card: {
             // свойства компонента
-            multipleItemHeight: 24,
-            selectorBg: '#ffffff',
-            colorBorder: '#ffffff',
-            colorErrorBg: '#ffffff',
-            colorErrorBgHover: '#ffffff',
-            colorErrorHover: '#dd4827',
-            lineWidth: 2,
-            colorTextPlaceholder: '#bababc',
-            borderRadius: 4,
-            fontSize: 16,
-            lineHeight: '24px',
-            colorIcon: '#131535',
-            controlHeight: 48,
-            controlPaddingHorizontal: 12,
-            showArrowPaddingInlineEnd: 20,
-            fontSizeIcon: 16,
-            colorPrimaryHover: '#f0f0f2',
+
+            actionsBg: '#ffffff',
+            actionsLiMargin: '8px',
+            headerBg: 'transparent',
+            headerFontSize: 22,
+            headerFontSizeSM: 12,
+            colorBgContainer: '#ffffff',
             colorText: '#131535',
-            colorErrorOutline: '#ff6643',
-            colorError: '#ff6643',
-            colorBgContainerDisabled: '#f0f0f2',
-            colorTextDisabled: '#bababc',
-            optionFontSize: 16,
-            optionLineHeight: 24,
-            optionPadding: 12,
-            optionSelectedFontWeight: '400',
-            colorBgElevated: '#ffffff',
-            optionSelectedBg: '#2f355a',
-            optionHeight: 48,
-            optionSelectedColor: '#ffffff',
-            optionActiveBg: '#f7f7f9',
-            multipleltemBg: '#f0f0f2',
-            multipleltemColorDisabled: '#e3e3e5',
+            colorTextDescription: '#9c9c9e',
+            colorTextHeading: '#131535',
+            borderRadius: 4,
+            boxShadowTertiary:
+              '0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02)',
             fontFamily: 'Nunito',
-            fontWeight: '500',
+            fontSize: 14,
+            //fontWeight: 500,
+            fontWeightStrong: 700,
+            lineHeight: 22,
+            margin: 12,
+            padding: 20,
+            marginXXS: 4,
+            colorIcon: '#131535',
+            controlInteractiveSize: 16,
           },
         },
       }}
     >
       {/**твой компонент */}
-      <Select />
+      <Card />
     </ConfigProvider>
   );
 };
