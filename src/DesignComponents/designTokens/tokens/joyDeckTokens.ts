@@ -1125,88 +1125,6 @@ export const joyDeckTokens: Tokens = {
       $value: '1px',
     },
   },
-  navigation: {
-    groupTitleColor: {
-      $type: 'color',
-      $value: '#ffffff',
-    },
-    groupTitleFontSize: {
-      $type: 'dimension',
-      $value: '14px',
-    },
-    horizontalItemBorderRadius: {
-      $type: 'dimension',
-      $value: '4px',
-    },
-    horizontalItemHoverBg: {
-      $type: 'color',
-      $value: '#5b6491',
-    },
-    horizontalItemHoverColor: {
-      $type: 'color',
-      $value: '#ffffff',
-    },
-    horizontalItemSelectedBg: {
-      $type: 'color',
-      $value: '#434b75',
-    },
-    iconSize: {
-      $type: 'dimension',
-      $value: '32px',
-    },
-    itemBorderRadius: {
-      $type: 'dimension',
-      $value: '4px',
-    },
-    itemBg: {
-      $type: 'color',
-      $value: '#2f355a',
-    },
-    itemColor: {
-      $type: 'color',
-      $value: '#ffffff',
-    },
-    iconMarginInlineEnd: {
-      $type: 'dimension',
-      $value: '10px',
-    },
-    itemDisabledColor: {
-      $type: 'color',
-      $value: '#bababc',
-    },
-    itemHoverBg: {
-      $type: 'color',
-      $value: '#5b6491',
-    },
-    itemHoverColor: {
-      $type: 'color',
-      $value: '#ffffff',
-    },
-    itemMarginBlock: {
-      $type: 'dimension',
-      $value: '30px',
-    },
-    itemMarginInline: {
-      $type: 'dimension',
-      $value: '20px',
-    },
-    itemPaddingInline: {
-      $type: 'dimension',
-      $value: '20px',
-    },
-    itemActiveBg: {
-      $type: 'color',
-      $value: '#434b75',
-    },
-    itemSelectedBg: {
-      $type: 'color',
-      $value: '#434b75',
-    },
-    itemSelectedColor: {
-      $type: 'color',
-      $value: '#ffffff',
-    },
-  },
   pagination: {
     itemSize: {
       $type: 'dimension',
@@ -1655,6 +1573,333 @@ export const joyDeckTokens: Tokens = {
       $description: 'number',
     },
     colorBorderSecondary: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+  },
+  drawer: {
+    colorBgElevated: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    colorBgMask: {
+      $type: 'color',
+      $value: '#13153580',
+    },
+    colorSplit: {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
+    },
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
+    },
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
+      $description: 'number',
+    },
+    fontWeightStrong: {
+      $type: 'dimension',
+      $value: '500',
+      $description: 'number',
+    },
+    fontSizeLG: {
+      $type: 'dimension',
+      $value: '22px',
+      $description: 'number',
+    },
+    lineHeightLG: {
+      $type: 'dimension',
+      $value: '24px',
+    },
+    lineType: {
+      $type: 'string',
+      $value: 'solid',
+    },
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
+      $description: 'number',
+    },
+    marginXS: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: 'number',
+    },
+    padding: {
+      $type: 'dimension',
+      $value: '20px',
+      $description: 'number',
+    },
+    paddingLG: {
+      $type: 'dimension',
+      $value: '60px',
+      $description: 'number',
+    },
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: 'number',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '24px',
+      $description: 'number',
+    },
+    colorIcon: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
+    },
+  },
+  modal: {
+    contentBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    headerBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    titleFontSize: {
+      $type: 'dimension',
+      $value: '24px',
+      $description: 'number',
+    },
+    titleColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
+    },
+    titleLineHeight: {
+      $type: 'dimension',
+      $value: '32px',
+    },
+    colorBgMask: {
+      $type: 'color',
+      $value: '#13153580',
+    },
+    colorIcon: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
+    },
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '24px',
+      $description: 'number',
+    },
+    colorSplit: {
+      $type: 'color',
+      $value: '{base.gray.gray-3}',
+    },
+    colorText: {
+      $type: 'color',
+      $value: '{base.blue.blue-10}',
+    },
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
+      $description: 'number',
+    },
+    boxShadow: {
+      $type: 'string',
+      $value:
+        '0 6px 16px 0 rgba(0, 0, 0 , 0.08), 0 3px 6px -4px rgba (0, 0, 0, 0.12), 0 9px 28px 8 px rgba(0, 0, 0, 0.05)',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
+      $description: 'number',
+    },
+    fontSizeLG: {
+      $type: 'dimension',
+      $value: '16px',
+      $description: 'number',
+    },
+    fontWeightStrong: {
+      $type: 'dimension',
+      $value: '500',
+      $description: 'number',
+    },
+    lineHeight: {
+      $type: 'dimension',
+      $value: '24px',
+    },
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
+      $description: 'number',
+    },
+    lineType: {
+      $type: 'string',
+      $value: 'solid',
+    },
+    margin: {
+      $type: 'dimension',
+      $value: '16px',
+      $description: 'number',
+    },
+    marginXS: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: 'number',
+    },
+    padding: {
+      $type: 'dimension',
+      $value: '30px',
+      $description: 'number',
+    },
+    paddingLG: {
+      $type: 'dimension',
+      $value: '60px',
+      $description: 'number',
+    },
+    screenSMMax: {
+      $type: 'dimension',
+      $value: '767px',
+      $description: 'number',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '400',
+      $description: 'number',
+    },
+  },
+  horizontal_navigation: {
+    paddingInline: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    paddingBlock: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    margin: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    iconSize: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    bgColor: {
+      $type: 'color',
+      $value: '#ffffff',
+    },
+    colorText: {
+      $type: 'color',
+      $value: '#ffffff',
+    },
+    marginSM: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    itemMargin: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    itemPaddingBlock: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    itemPaddingInline: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    colorIcon: {
+      $type: 'color',
+      $value: '#ffffff',
+    },
+    itemBgHover: {
+      $type: 'color',
+      $value: '#ffffff',
+    },
+    itemBgActive: {
+      $type: 'color',
+      $value: '#ffffff',
+    },
+    fontSize: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    lineHeight: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'String value',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '0',
+    },
+    borderRadius: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+    fontSizeSM: {
+      $type: 'dimension',
+      $value: '0px',
+    },
+  },
+  vertical_navigation: {
+    itemPaddingBlock: {
+      $type: 'dimension',
+      $value: '4px',
+    },
+    itemPaddingInline: {
+      $type: 'dimension',
+      $value: '20px',
+    },
+    fontSize: {
+      $type: 'dimension',
+      $value: '16px',
+    },
+    lineHeight: {
+      $type: 'dimension',
+      $value: '24px',
+    },
+    itemBgHover: {
+      $type: 'color',
+      $value: '{base.blue.blue-6}',
+    },
+    itemBgActive: {
+      $type: 'color',
+      $value: '{base.blue.blue-7}',
+    },
+    bgColor: {
+      $type: 'color',
+      $value: '{base.blue.blue-8}',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '400',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
+    fontSizeSM: {
+      $type: 'dimension',
+      $value: '14px',
+    },
+    iconColor: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    textColor: {
       $type: 'color',
       $value: '{base.static.white}',
     },

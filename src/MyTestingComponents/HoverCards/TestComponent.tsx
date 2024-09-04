@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider, DatePicker, Card } from 'antd';
+import { ConfigProvider, DatePicker, Drawer } from 'antd';
 
 const TestComponent = () => {
   return (
@@ -7,37 +7,53 @@ const TestComponent = () => {
       theme={{
         components: {
           // имя комопонента
-          Card: {
+          DatePicker: {
             // свойства компонента
-
-            actionsBg: '#ffffff',
-            actionsLiMargin: '8px',
-            headerBg: 'transparent',
-            headerFontSize: 22,
-            headerFontSizeSM: 12,
-            colorBgContainer: '#ffffff',
-            colorText: '#131535',
-            colorTextDescription: '#9c9c9e',
-            colorTextHeading: '#131535',
+            cellHeight: 40,
+            cellWidth: 40,
+            cellActiveWithRangeBg: '#eff1f8',
+            cellHoverBg: '#eff1f8',
+            activeBorderColor: '#131535',
+            cellRangeBorderColor: '#2f355a',
+            activeBg: '#ffffff',
+            hoverBorderColor: '#f0f0f2',
+            inputFontSize: 16,
+            colorBorder: '#ffffff',
             borderRadius: 4,
-            boxShadowTertiary:
-              '0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02)',
-            fontFamily: 'Nunito',
-            fontSize: 14,
-            //fontWeight: 500,
-            fontWeightStrong: 700,
-            lineHeight: 22,
-            margin: 12,
-            padding: 20,
-            marginXXS: 4,
+            lineWidth: 2,
+            colorBgContainer: '#ffffff',
+            colorBgContainerDisabled: '#e3e3e5',
+            colorBgElevated: '#ffffff',
+            colorError: '#ff6643',
+            colorErrorBorderHover: '#dd4827',
+            colorErrorBg: '#ffffff',
+            colorErrorBgHover: '#ffffff',
+            colorTextDisabled: '#bababc',
+            lineHeight: '24px',
+            paddingInline: 12,
+            paddingBlock: 12,
+            cellHoverWithRangeBg: '#eff1f8',
+            cellBgDisabled: '#ffffff',
+            colorPrimary: '#2f355a',
+            colorText: '#131535',
+            colorTextHeading: '#131535',
             colorIcon: '#131535',
+            colorTextLightSolid: '#ffffff',
+            colorTextPlaceholder: '#bababc',
+            fontFamily: 'Nunito',
+            controlHeight: 48,
+            paddingXXS: 4,
+            fontWeight: 400,
             controlInteractiveSize: 16,
+            fontSize: 14,
+            paddingXS: 8,
+            paddingSM: 12,
           },
         },
       }}
     >
       {/**твой компонент */}
-      <Card />
+      <DatePicker />
     </ConfigProvider>
   );
 };

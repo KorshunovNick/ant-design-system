@@ -55,7 +55,7 @@ export function parseDesignTokens(tokens: Tokens) {
       }
 
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'Card') {
+      if (themeKey === 'Datepicker') {
         currentTokens.push(`${token}: '${resultValue}' `);
       }
 
