@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Tabs
+        style={{ width: '100%' }}
         items={[
           { key: '1', label: 'Components', children: <DesignComponents /> },
           { key: '2', label: 'Table', children: <TestTable /> },

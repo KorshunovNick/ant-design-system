@@ -26,6 +26,7 @@ import { legalKZTokens } from './designTokens/tokens/legalKZTokens.js';
 import { parseDesignTokens } from './designTokens/parseDesignTokens.js';
 import { Tokens } from './designTokens/Tokens.types.js';
 import { joyDeckTokens } from './designTokens/tokens/joyDeckTokens.js';
+import ButtonCard from './designTokens/components/Button/ButtonCard.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -70,91 +71,7 @@ const DesignComponents = () => {
         style={{ padding: 100, border: '1px solid black' }}
       >
         <WrapperComponent title={'Button'}>
-          <Flex gap={13}>
-            <Button type="default" size="large">
-              Default large
-            </Button>
-            <Button type="default" size="large">
-              Default large
-            </Button>
-            <Button type="default" size="large">
-              Default large
-            </Button>
-            <Button type="default" size="large" disabled>
-              Default large
-            </Button>
-          </Flex>
-          <Flex gap={13} justify="space-between">
-            <Button type="default" size="small">
-              Default small
-            </Button>
-            <Button type="default" size="small">
-              Default small
-            </Button>
-            <Button type="default" size="small">
-              Default small
-            </Button>
-            <Button type="default" size="small" disabled>
-              Default small
-            </Button>
-          </Flex>
-
-          <Flex gap={13}>
-            <Button type="primary" size="large">
-              primary large
-            </Button>
-            <Button type="primary" size="large">
-              primary large
-            </Button>
-            <Button type="primary" size="large">
-              primary large
-            </Button>
-            <Button type="primary" size="large" disabled>
-              Default large
-            </Button>
-          </Flex>
-          <Flex gap={13} justify="space-between">
-            <Button type="primary" size="small">
-              primary small
-            </Button>
-            <Button type="primary" size="small">
-              primary small
-            </Button>
-            <Button type="primary" size="small">
-              primary small
-            </Button>
-            <Button type="primary" size="small" disabled>
-              primary small
-            </Button>
-          </Flex>
-          <Flex gap={13}>
-            <Button type="text" size="large">
-              text large
-            </Button>
-            <Button type="text" size="large">
-              text large
-            </Button>
-            <Button type="text" size="large">
-              text large
-            </Button>
-            <Button type="text" size="large" disabled>
-              text large
-            </Button>
-          </Flex>
-          <Flex gap={13} justify="space-between">
-            <Button type="text" size="small">
-              text small
-            </Button>
-            <Button type="text" size="small">
-              text small
-            </Button>
-            <Button type="text" size="small">
-              text small
-            </Button>
-            <Button type="text" size="small" disabled>
-              text small
-            </Button>
-          </Flex>
+          <ButtonCard />
         </WrapperComponent>
 
         <WrapperComponent title={'Card'}>

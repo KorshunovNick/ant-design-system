@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    gap: 4rem;
+
+    grid-template-areas:
+        "default max"
+        "links ."
+        "icons .";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.default {
+    grid-area: default;
+}
+
+.max {
+    grid-area: max;
+}
+
+.links {
+    grid-area: links;
+}
+
+.icons {
+    grid-area: icons;
+}
