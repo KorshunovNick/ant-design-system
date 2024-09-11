@@ -1,5 +1,6 @@
 import React from 'react';
 import { ConfigProvider, DatePicker, Drawer } from 'antd';
+import NotificationBox from '../../DesignComponents/components/Notification/NotificationBox';
 
 const TestComponent = () => {
   return (
@@ -7,53 +8,37 @@ const TestComponent = () => {
       theme={{
         components: {
           // имя комопонента
-          DatePicker: {
+          Notification: {
             // свойства компонента
-            cellHeight: 40,
-            cellWidth: 40,
-            cellActiveWithRangeBg: '#eff1f8',
-            cellHoverBg: '#eff1f8',
-            activeBorderColor: '#131535',
-            cellRangeBorderColor: '#2f355a',
-            activeBg: '#ffffff',
-            hoverBorderColor: '#f0f0f2',
-            inputFontSize: 16,
-            colorBorder: '#ffffff',
-            borderRadius: 4,
-            lineWidth: 2,
-            colorBgContainer: '#ffffff',
-            colorBgContainerDisabled: '#e3e3e5',
-            colorBgElevated: '#ffffff',
+            width: '420px',
+            fontSize: 14,
+            fontSizeLG: 16,
+            // lineHeight: 20,
+            // lineHeightLG: 22,
             colorError: '#ff6643',
-            colorErrorBorderHover: '#dd4827',
-            colorErrorBg: '#ffffff',
-            colorErrorBgHover: '#ffffff',
-            colorTextDisabled: '#bababc',
-            lineHeight: '24px',
-            paddingInline: 12,
-            paddingBlock: 12,
-            cellHoverWithRangeBg: '#eff1f8',
-            cellBgDisabled: '#ffffff',
-            colorPrimary: '#2f355a',
+            // colorinfo: '#237fcf',
+            colorSuccess: '#4cbb43',
+            colorWarning: '#ffb966',
             colorText: '#131535',
             colorTextHeading: '#131535',
             colorIcon: '#131535',
-            colorTextLightSolid: '#ffffff',
-            colorTextPlaceholder: '#bababc',
+            colorIconHover: '#2f355a',
+            paddingMD: 16,
+            paddingContentHorizontalLG: 16,
+            colorBgElevated: '#ffffff',
+            borderRadius: 4,
+            marginXXS: 4,
             fontFamily: 'Nunito',
-            controlHeight: 48,
-            paddingXXS: 4,
-            fontWeight: 400,
+            // fontWeight: '500',
             controlInteractiveSize: 16,
-            fontSize: 14,
-            paddingXS: 8,
-            paddingSM: 12,
+            boxShadow:
+              '0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)',
           },
         },
       }}
     >
       {/**твой компонент */}
-      <DatePicker />
+      <NotificationBox />
     </ConfigProvider>
   );
 };

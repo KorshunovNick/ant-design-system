@@ -6,7 +6,6 @@ import {
   NotificationSuccessIcon,
   NotificationWarningIcon,
 } from './notificationIcons';
-import './NotificationBox.module.scss';
 
 const NotificationBox = () => {
   const [duration, setDuration] = useState<number>(10);
@@ -71,7 +70,7 @@ const NotificationBox = () => {
         <InputNumber
           value={duration}
           onChange={e => setDuration(Number(e))}
-          suffix="Таймер/с"
+          suffix="Таймер notification сек."
           style={{ width: '300px' }}
           min={0}
         />
