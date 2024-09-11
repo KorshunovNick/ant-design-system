@@ -1,5 +1,5 @@
-import React, { PropsWithChildren } from 'react';
-import { Button, ButtonProps, Flex, FlexProps } from 'antd';
+import React, { PropsWithChildren, useState } from 'react';
+import { Button, ButtonProps, Flex, FlexProps, Tag } from 'antd';
 import { FaMagnifyingGlass } from 'react-icons/fa6';
 import { PiTrashSimpleLight } from 'react-icons/pi';
 import stl from './ButtonCard.module.scss';
@@ -41,22 +41,34 @@ const ButtonFlexRow = ({
   );
 };
 
-const LargeButton = (props?: ButtonProps, max?: boolean) => (
-  <Button {...props} size="large">
-    {max && <FaMagnifyingGlass />}
-    {props?.children ?? 'Кнопка'}
-    {max && <FaMagnifyingGlass />}
-  </Button>
-);
-const SmallButton = (props?: ButtonProps, max?: boolean) => (
-  <Button {...props} size="small">
-    {max && <FaMagnifyingGlass />}
-    {props?.children ?? 'Кнопка'}
-    {max && <FaMagnifyingGlass />}
-  </Button>
-);
-
 const ButtonCard = () => {
+  const [iconPosition, setIconPosition] = useState<
+    'none' | 'right' | 'left' | 'both'
+  >('none');
+
+  const LargeButton = (props?: ButtonProps, isMax?: boolean) => (
+    <Button {...props} size="large">
+      {(iconPosition === 'left' || iconPosition === 'both') && isMax && (
+        <FaMagnifyingGlass />
+      )}
+      {props?.children ?? 'Кнопка'}
+      {(iconPosition === 'right' || iconPosition === 'both') && isMax && (
+        <FaMagnifyingGlass />
+      )}
+    </Button>
+  );
+  const SmallButton = (props?: ButtonProps, isMax?: boolean) => (
+    <Button {...props} size="small">
+      {(iconPosition === 'left' || iconPosition === 'both') && isMax && (
+        <FaMagnifyingGlass />
+      )}
+      {props?.children ?? 'Кнопка'}
+      {(iconPosition === 'right' || iconPosition === 'both') && isMax && (
+        <FaMagnifyingGlass />
+      )}
+    </Button>
+  );
+
   return (
     <div className={stl.container}>
       <ButtonFlexContainer className={stl.default}>
@@ -98,6 +110,48 @@ const ButtonCard = () => {
       <ButtonFlexContainer className={stl.max}>
         <ButtonFlexCol>
           <h2 style={{ textAlign: 'start' }}>Max</h2>
+          <ButtonFlexRow>
+            <Tag
+              onClick={() => setIconPosition('none')}
+              style={{
+                backgroundColor:
+                  iconPosition === 'none' ? 'lightgreen' : 'white',
+                color: iconPosition === 'none' ? 'white' : 'black',
+              }}
+            >
+              NONE
+            </Tag>
+            <Tag
+              onClick={() => setIconPosition('left')}
+              style={{
+                backgroundColor:
+                  iconPosition === 'left' ? 'lightgreen' : 'white',
+                color: iconPosition === 'left' ? 'white' : 'black',
+              }}
+            >
+              LEFT
+            </Tag>
+            <Tag
+              onClick={() => setIconPosition('right')}
+              style={{
+                backgroundColor:
+                  iconPosition === 'right' ? 'lightgreen' : 'white',
+                color: iconPosition === 'right' ? 'white' : 'black',
+              }}
+            >
+              RIGHT
+            </Tag>
+            <Tag
+              onClick={() => setIconPosition('both')}
+              style={{
+                backgroundColor:
+                  iconPosition === 'both' ? 'lightgreen' : 'white',
+                color: iconPosition === 'both' ? 'white' : 'black',
+              }}
+            >
+              BOTH
+            </Tag>
+          </ButtonFlexRow>
           <ButtonFlexRow gap={21}>
             {LargeButton({}, true)}
             {LargeButton({ disabled: true }, true)}
