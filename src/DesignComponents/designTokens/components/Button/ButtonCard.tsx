@@ -1,7 +1,7 @@
-import React, { PropsWithChildren, useState } from 'react';
+import { PropsWithChildren, useState } from 'react';
 import { Button, ButtonProps, Flex, FlexProps, Tag } from 'antd';
-import { FaMagnifyingGlass } from 'react-icons/fa6';
-import { PiTrashSimpleLight } from 'react-icons/pi';
+import { SearchOutlined } from '@ant-design/icons';
+import { DeleteOutlined } from '@ant-design/icons';
 import stl from './ButtonCard.module.scss';
 
 const ButtonFlexContainer = ({
@@ -49,22 +49,22 @@ const ButtonCard = () => {
   const LargeButton = (props?: ButtonProps, isMax?: boolean) => (
     <Button {...props} size="large">
       {(iconPosition === 'left' || iconPosition === 'both') && isMax && (
-        <FaMagnifyingGlass />
+        <SearchOutlined />
       )}
       {props?.children ?? 'Кнопка'}
       {(iconPosition === 'right' || iconPosition === 'both') && isMax && (
-        <FaMagnifyingGlass />
+        <SearchOutlined />
       )}
     </Button>
   );
   const SmallButton = (props?: ButtonProps, isMax?: boolean) => (
     <Button {...props} size="small">
       {(iconPosition === 'left' || iconPosition === 'both') && isMax && (
-        <FaMagnifyingGlass />
+        <SearchOutlined />
       )}
       {props?.children ?? 'Кнопка'}
       {(iconPosition === 'right' || iconPosition === 'both') && isMax && (
-        <FaMagnifyingGlass />
+        <SearchOutlined />
       )}
     </Button>
   );
@@ -114,6 +114,7 @@ const ButtonCard = () => {
             <Tag
               onClick={() => setIconPosition('none')}
               style={{
+                cursor: 'pointer',
                 backgroundColor:
                   iconPosition === 'none' ? 'lightgreen' : 'white',
                 color: iconPosition === 'none' ? 'white' : 'black',
@@ -124,6 +125,7 @@ const ButtonCard = () => {
             <Tag
               onClick={() => setIconPosition('left')}
               style={{
+                cursor: 'pointer',
                 backgroundColor:
                   iconPosition === 'left' ? 'lightgreen' : 'white',
                 color: iconPosition === 'left' ? 'white' : 'black',
@@ -134,6 +136,7 @@ const ButtonCard = () => {
             <Tag
               onClick={() => setIconPosition('right')}
               style={{
+                cursor: 'pointer',
                 backgroundColor:
                   iconPosition === 'right' ? 'lightgreen' : 'white',
                 color: iconPosition === 'right' ? 'white' : 'black',
@@ -144,6 +147,7 @@ const ButtonCard = () => {
             <Tag
               onClick={() => setIconPosition('both')}
               style={{
+                cursor: 'pointer',
                 backgroundColor:
                   iconPosition === 'both' ? 'lightgreen' : 'white',
                 color: iconPosition === 'both' ? 'white' : 'black',
@@ -203,25 +207,25 @@ const ButtonCard = () => {
           <ButtonFlexRow gap={26}>
             {LargeButton({
               type: 'link',
-              icon: <PiTrashSimpleLight size={24} />,
+              icon: <DeleteOutlined size={24} />,
               children: '',
             })}
             {LargeButton({
               disabled: true,
               type: 'link',
-              icon: <PiTrashSimpleLight size={24} />,
+              icon: <DeleteOutlined size={24} />,
               children: '',
             })}
           </ButtonFlexRow>
           <ButtonFlexRow gap={30}>
             {SmallButton({
               type: 'link',
-              icon: <PiTrashSimpleLight size={20} />,
+              icon: <DeleteOutlined size={20} />,
               children: '',
             })}
             {SmallButton({
               type: 'link',
-              icon: <PiTrashSimpleLight size={20} />,
+              icon: <DeleteOutlined size={20} />,
               children: '',
               disabled: true,
             })}
