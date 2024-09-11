@@ -209,12 +209,14 @@ const ButtonCard = () => {
               type: 'link',
               icon: <DeleteOutlined size={24} />,
               children: '',
+              style: { fontSize: 24 },
             })}
             {LargeButton({
               disabled: true,
               type: 'link',
               icon: <DeleteOutlined size={24} />,
               children: '',
+              style: { fontSize: 24 },
             })}
           </ButtonFlexRow>
           <ButtonFlexRow gap={30}>
@@ -222,11 +224,13 @@ const ButtonCard = () => {
               type: 'link',
               icon: <DeleteOutlined size={20} />,
               children: '',
+              style: { fontSize: 20 },
             })}
             {SmallButton({
               type: 'link',
               icon: <DeleteOutlined size={20} />,
               children: '',
+              style: { fontSize: 20 },
               disabled: true,
             })}
           </ButtonFlexRow>
