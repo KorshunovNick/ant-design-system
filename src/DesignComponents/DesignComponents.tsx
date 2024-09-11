@@ -26,7 +26,8 @@ import { legalKZTokens } from './designTokens/tokens/legalKZTokens.js';
 import { parseDesignTokens } from './designTokens/parseDesignTokens.js';
 import { Tokens } from './designTokens/Tokens.types.js';
 import { joyDeckTokens } from './designTokens/tokens/joyDeckTokens.js';
-import ButtonCard from './designTokens/components/Button/ButtonCard.js';
+import ButtonCard from './components/Button/ButtonCard.js';
+import NotificationBox from './components/Notification/NotificationBox.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -47,7 +48,13 @@ const DesignComponents = () => {
   };
 
   return (
-    <ConfigProvider theme={{ components: { ...theme } }}>
+    <ConfigProvider
+      theme={{
+        components: {
+          ...theme,
+        },
+      }}
+    >
       <WrapperComponent title="Выберите тему">
         <h3>Выбранная тема: {themeRef.current}</h3>
 
@@ -73,17 +80,17 @@ const DesignComponents = () => {
         <WrapperComponent title={'Button'}>
           <ButtonCard />
         </WrapperComponent>
-
+        <WrapperComponent title={'Notifications'}>
+          <NotificationBox />
+        </WrapperComponent>
         <WrapperComponent title={'Card'}>
           <Card title="Card" style={{ width: 300 }}>
             <p>Card content</p>
           </Card>
         </WrapperComponent>
-
         <WrapperComponent title={'Checkbox'}>
           <Checkbox>Checkbox</Checkbox>
         </WrapperComponent>
-
         <WrapperComponent title={'Input'}>
           <Input placeholder="placeholder" name="label" />
 
@@ -99,7 +106,6 @@ const DesignComponents = () => {
 
           <Input placeholder="disabled" name="label" disabled />
         </WrapperComponent>
-
         <WrapperComponent title={'TextArea'}>
           <TextArea rows={4} placeholder="placeholder" name="label" />
 
@@ -135,11 +141,9 @@ const DesignComponents = () => {
 
           <TextArea rows={4} placeholder="disabled" name="label" disabled />
         </WrapperComponent>
-
         <WrapperComponent title={'Radio'}>
           <Radio>Radio</Radio>
         </WrapperComponent>
-
         <WrapperComponent title={'Select'}>
           <Select
             defaultValue="lucy"
@@ -171,13 +175,11 @@ const DesignComponents = () => {
                         placeholder="select it"
                     /> */}
         </WrapperComponent>
-
         <WrapperComponent title={'Upload'}>
           <Upload>
             <Button>Upload</Button>
           </Upload>
         </WrapperComponent>
-
         <WrapperComponent title={'Tabs'}>
           <Tabs defaultActiveKey="1">
             <Tabs.TabPane tab="Tab 1" key="1">
@@ -188,31 +190,25 @@ const DesignComponents = () => {
             </Tabs.TabPane>
           </Tabs>
         </WrapperComponent>
-
         <WrapperComponent title={'Tooltip'}>
           <Tooltip title="Tooltip">
             <span>Tooltip</span>
           </Tooltip>
         </WrapperComponent>
-
         <WrapperComponent title={'Tag'}>
           <Tag color="blue">Tag</Tag>
         </WrapperComponent>
-
         <WrapperComponent title={'Switch'}>
           <Switch defaultChecked />
         </WrapperComponent>
-
         <WrapperComponent title={'Dropdown'}>
           <Dropdown overlay={<Menu>Dropdown menu</Menu>}>
             <Button>Dropdown</Button>
           </Dropdown>
         </WrapperComponent>
-
         <WrapperComponent title={'Datepicker'}>
           <DatePicker />
         </WrapperComponent>
-
         <WrapperComponent title={'Drawer'}>
           <Button onClick={() => setOpenDrawer(true)}>open drawer</Button>
           <Drawer
@@ -224,7 +220,6 @@ const DesignComponents = () => {
             <p>Drawer content</p>
           </Drawer>
         </WrapperComponent>
-
         <WrapperComponent title={'Modal'}>
           <Button onClick={() => setOpenModal(true)}>open modal</Button>
           <Modal
