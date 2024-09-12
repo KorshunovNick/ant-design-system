@@ -1311,29 +1311,8 @@ export const legalKZTokens: Tokens = {
     },
     lineHeight: {
       $type: 'dimension',
-      $value: '20px',
-      $description: '$string',
-    },
-    lineHeightLG: {
-      $type: 'dimension',
       $value: '22px',
       $description: '$string',
-    },
-    colorError: {
-      $type: 'color',
-      $value: '{base.red.red-5}',
-    },
-    colorInfo: {
-      $type: 'color',
-      $value: '{base.azure.azure-5}',
-    },
-    colorSuccess: {
-      $type: 'color',
-      $value: '{base.green.green-5}',
-    },
-    colorWarning: {
-      $type: 'color',
-      $value: '{base.yellow.yellow-5}',
     },
     colorText: {
       $type: 'color',
@@ -1363,11 +1342,6 @@ export const legalKZTokens: Tokens = {
     marginXXS: {
       $type: 'dimension',
       $value: '4px',
-      $description: '$number',
-    },
-    fontWeight: {
-      $type: 'dimension',
-      $value: '400',
       $description: '$number',
     },
     controlInteractiveSize: {
