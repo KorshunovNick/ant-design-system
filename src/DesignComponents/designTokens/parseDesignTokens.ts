@@ -33,6 +33,8 @@ export function parseDesignTokens(tokens: Tokens) {
 
       const tokenType = objectToken['$type'];
       const tokenValue = objectToken['$value'];
+      const tokenDescription = objectToken['$description'];
+
       let resultValue = tokenValue;
 
       switch (tokenType) {
@@ -53,7 +55,11 @@ export function parseDesignTokens(tokens: Tokens) {
         default:
           resultValue = tokenValue;
       }
-
+      if (tokenDescription) {
+        if (tokenDescription.includes('$number')) {
+          resultValue = Number(parseInt(String(tokenValue)));
+        }
+      }
       // Вот тут можно поменять имя, а после смотреть в консоли
       if (themeKey === 'Notification') {
         currentTokens.push(`${token}: '${resultValue}' `);
