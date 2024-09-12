@@ -28,6 +28,7 @@ import { Tokens } from './designTokens/Tokens.types.js';
 import { joyDeckTokens } from './designTokens/tokens/joyDeckTokens.js';
 import ButtonCard from './components/Button/ButtonCard.js';
 import NotificationBox from './components/Notification/NotificationBox.js';
+import SwitchBox from './components/Switch/SwitchBox.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -77,12 +78,16 @@ const DesignComponents = () => {
         gap={20}
         style={{ padding: 100, border: '1px solid black' }}
       >
+        <WrapperComponent title={'Switch'}>
+          <SwitchBox />
+        </WrapperComponent>
         <WrapperComponent title={'Button'}>
           <ButtonCard />
         </WrapperComponent>
         <WrapperComponent title={'Notifications'}>
           <NotificationBox />
         </WrapperComponent>
+
         <WrapperComponent title={'Card'}>
           <Card title="Card" style={{ width: 300 }}>
             <p>Card content</p>
@@ -198,9 +203,7 @@ const DesignComponents = () => {
         <WrapperComponent title={'Tag'}>
           <Tag color="blue">Tag</Tag>
         </WrapperComponent>
-        <WrapperComponent title={'Switch'}>
-          <Switch defaultChecked />
-        </WrapperComponent>
+
         <WrapperComponent title={'Dropdown'}>
           <Dropdown overlay={<Menu>Dropdown menu</Menu>}>
             <Button>Dropdown</Button>
