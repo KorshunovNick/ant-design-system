@@ -9,60 +9,67 @@ export const legalKZTokens: Tokens = {
     onlyIconSizeLG: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'Размер иконки в кнопке',
+      $description: 'Размер иконки в кнопке ($number)',
     },
     onlyIconSizeSM: {
       $type: 'dimension',
       $value: '20px',
-      $description: 'Размер иконки в кнопке',
+      $description: 'Размер иконки в кнопке ($number)',
     },
     contentFontSizeLG: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     contentFontSizeSM: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     contentLineHeightLG: {
       $type: 'dimension',
       $value: '24px',
+      $description: '$number',
     },
     contentLineHeightSM: {
       $type: 'dimension',
       $value: '20px',
+      $description: '$number',
     },
     paddingBlockLG: {
       $type: 'dimension',
       $value: '12px',
-      $description: 'вертикальные паддинги',
+      $description: 'вертикальные паддинги ($number)',
     },
     paddingBlockSM: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'вертикальные паддинги',
+      $description: 'вертикальные паддинги ($number)',
     },
     paddingInlineLG: {
       $type: 'dimension',
       $value: '20px',
-      $description: 'Горизонтальные паддинги',
+      $description: 'Горизонтальные паддинги ($number)',
     },
     paddingInlineSM: {
       $type: 'dimension',
       $value: '20px',
-      $description: 'Горизонтальные паддинги',
+      $description: 'Горизонтальные паддинги ($number)',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     borderRadiusLG: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     borderRadiusSM: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     defaultBg: {
       $type: 'color',
@@ -155,18 +162,22 @@ export const legalKZTokens: Tokens = {
     controlHeightLG: {
       $type: 'dimension',
       $value: '48px',
+      $description: '$number',
     },
     controlHeightSM: {
       $type: 'dimension',
       $value: '36px',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     fontSizeLG: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     lineType: {
       $type: 'string',
@@ -175,18 +186,17 @@ export const legalKZTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
+      $description: '$number',
     },
     lineWidthFocus: {
       $type: 'dimension',
       $value: '2px',
+      $description: '$number',
     },
     marginXS: {
       $type: 'dimension',
       $value: '8px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$number',
     },
     colorTextLightSolid: {
       $type: 'color',
@@ -213,7 +223,7 @@ export const legalKZTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     colorBorder: {
       $type: 'color',
@@ -226,37 +236,37 @@ export const legalKZTokens: Tokens = {
     inputFontSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'value in EM, string is better',
+      $description: '$string',
     },
     paddingBlock: {
       $type: 'dimension',
       $value: '12px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingInline: {
       $type: 'dimension',
       $value: '12px',
-      $description: 'number',
+      $description: '$number',
     },
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingXXS: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     colorIcon: {
       $type: 'color',
@@ -276,7 +286,7 @@ export const legalKZTokens: Tokens = {
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '{base.azure.azure-2}',
+      $value: '{base.azure.azure-6}',
     },
     colorText: {
       $type: 'color',
@@ -310,19 +320,17 @@ export const legalKZTokens: Tokens = {
       $type: 'string',
       $value: '0 0 0 0 rgba(0, 0, 0, 0)',
     },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
-    },
     fontWeight: {
       $type: 'dimension',
       $value: '400',
+      $description: '$number',
     },
   },
   description: {
     fontSize: {
       $type: 'dimension',
       $value: '12px',
+      $description: '$number',
     },
     colorTextDescription: {
       $type: 'color',
@@ -331,20 +339,19 @@ export const legalKZTokens: Tokens = {
     lineHeight: {
       $type: 'dimension',
       $value: '16px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$string',
     },
     fontWeight: {
       $type: 'dimension',
       $value: '500',
+      $description: '$number',
     },
   },
   label: {
     labelFontSize: {
       $type: 'dimension',
       $value: '12px',
+      $description: '$number',
     },
     labelColor: {
       $type: 'color',
@@ -357,28 +364,29 @@ export const legalKZTokens: Tokens = {
     marginXXS: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '12px',
+      $description: '$number',
     },
     fontWeight: {
       $type: 'dimension',
       $value: '500',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '16px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$string',
     },
   },
   select: {
     multipleItemHeight: {
       $type: 'dimension',
       $value: '24px',
+      $description: '$number',
     },
     selectorBg: {
       $type: 'color',
@@ -403,6 +411,7 @@ export const legalKZTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
+      $description: '$number',
     },
     colorTextPlaceholder: {
       $type: 'color',
@@ -411,14 +420,17 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
+      $description: '$string',
     },
     colorIcon: {
       $type: 'color',
@@ -427,18 +439,22 @@ export const legalKZTokens: Tokens = {
     controlHeight: {
       $type: 'dimension',
       $value: '48px',
+      $description: '$number',
     },
     controlPaddingHorizontal: {
       $type: 'dimension',
       $value: '12px',
+      $description: '$number',
     },
     showArrowPaddingInlineEnd: {
       $type: 'dimension',
       $value: '20px',
+      $description: '$number',
     },
     fontSizeIcon: {
       $type: 'dimension',
       $value: '12px',
+      $description: '$number',
     },
     colorPrimaryHover: {
       $type: 'color',
@@ -467,18 +483,22 @@ export const legalKZTokens: Tokens = {
     optionFontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     optionLineHeight: {
       $type: 'dimension',
       $value: '20px',
+      $description: '$number',
     },
     optionPadding: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     optionSelectedFontWeight: {
       $type: 'string',
       $value: '400',
+      $description: '$number',
     },
     colorBgElevated: {
       $type: 'color',
@@ -491,6 +511,7 @@ export const legalKZTokens: Tokens = {
     optionHeight: {
       $type: 'dimension',
       $value: '36px',
+      $description: '$number',
     },
     optionSelectedColor: {
       $type: 'color',
@@ -502,31 +523,32 @@ export const legalKZTokens: Tokens = {
     },
     multipleltemBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{base.gray.gray-1}',
     },
     multipleltemColorDisabled: {
       $type: 'color',
       $value: '{base.gray.gray-2}',
     },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
-    },
     fontWeight: {
       $type: 'dimension',
       $value: '400',
+      $description: '$number',
+    },
+    activeBorderColor: {
+      $type: 'color',
+      $value: '{base.azure.azure-6}',
     },
   },
   datepicker: {
     cellHeight: {
       $type: 'dimension',
       $value: '40px',
-      $description: 'number',
+      $description: '$number',
     },
     cellWidth: {
       $type: 'dimension',
       $value: '40px',
-      $description: 'number',
+      $description: '$number',
     },
     cellActiveWithRangeBg: {
       $type: 'color',
@@ -538,7 +560,7 @@ export const legalKZTokens: Tokens = {
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '{base.azure.azure-2}',
+      $value: '{base.azure.azure-6}',
     },
     cellRangeBorderColor: {
       $type: 'color',
@@ -555,7 +577,7 @@ export const legalKZTokens: Tokens = {
     inputFontSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     colorBorder: {
       $type: 'color',
@@ -564,12 +586,12 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
-      $description: 'number',
+      $description: '$number',
     },
     lineWidth: {
       $type: 'dimension',
-      $value: '1px',
-      $description: 'number',
+      $value: '2px',
+      $description: '$number',
     },
     colorBgContainer: {
       $type: 'color',
@@ -606,17 +628,17 @@ export const legalKZTokens: Tokens = {
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'EM value, string is better',
+      $description: '$string',
     },
     paddingInline: {
       $type: 'dimension',
       $value: '12px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingBlock: {
       $type: 'dimension',
       $value: '12px',
-      $description: 'number',
+      $description: '$number',
     },
     cellHoverWithRangeBg: {
       $type: 'color',
@@ -650,43 +672,40 @@ export const legalKZTokens: Tokens = {
       $type: 'color',
       $value: '{base.gray.gray-5}',
     },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
-    },
     controlHeight: {
       $type: 'dimension',
       $value: '48px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingXXS: {
       $type: 'dimension',
       $value: '4px',
-      $description: 'number',
+      $description: '$number',
     },
     fontWeight: {
       $type: 'dimension',
       $value: '400',
+      $description: '$number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingSM: {
       $type: 'dimension',
       $value: '12px',
-      $description: 'number',
+      $description: '$number',
     },
   },
   checkbox: {
@@ -705,17 +724,17 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
-      $description: 'number',
+      $description: '$number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'EM value, string is better',
+      $description: '$string',
     },
     lineType: {
       $type: 'string',
@@ -724,17 +743,17 @@ export const legalKZTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     lineWidthBold: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     lineWidthFocus: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     colorBgContainer: {
       $type: 'color',
@@ -760,24 +779,20 @@ export const legalKZTokens: Tokens = {
       $type: 'color',
       $value: '{base.azure.azure-5}',
     },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
-    },
     fontSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     marginXS: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
+      $description: '$number',
     },
     colorError: {
       $type: 'color',
@@ -786,6 +801,7 @@ export const legalKZTokens: Tokens = {
     fontWeight: {
       $type: 'dimension',
       $value: '400',
+      $description: '$number',
     },
   },
   radiobutton: {
@@ -796,12 +812,12 @@ export const legalKZTokens: Tokens = {
     dotSize: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
+      $description: '$number',
     },
     radioSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     colorBgContainer: {
       $type: 'color',
@@ -814,7 +830,7 @@ export const legalKZTokens: Tokens = {
     wrapperMarginInlineEnd: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     colorPrimary: {
       $type: 'color',
@@ -836,19 +852,15 @@ export const legalKZTokens: Tokens = {
       $type: 'color',
       $value: '{base.gray.gray-5}',
     },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
-    },
     fontSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'EM value, string is better',
+      $description: '$string',
     },
     lineType: {
       $type: 'string',
@@ -857,17 +869,17 @@ export const legalKZTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     lineWidthFocus: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
+      $description: '$number',
     },
     colorText: {
       $type: 'color',
@@ -880,6 +892,7 @@ export const legalKZTokens: Tokens = {
     fontWeight: {
       $type: 'dimension',
       $value: '400',
+      $description: '$number',
     },
   },
   switch: {
@@ -890,22 +903,22 @@ export const legalKZTokens: Tokens = {
     handleSize: {
       $type: 'dimension',
       $value: '18px',
-      $description: 'number',
+      $description: '$number',
     },
     trackHeight: {
       $type: 'dimension',
       $value: '22px',
-      $description: 'number',
+      $description: '$number',
     },
     trackMinWidth: {
       $type: 'dimension',
       $value: '44px',
-      $description: 'number',
+      $description: '$number',
     },
     trackPadding: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     colorPrimary: {
       $type: 'color',
@@ -918,7 +931,7 @@ export const legalKZTokens: Tokens = {
     innerMaxMargin: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'number',
+      $description: '$number',
     },
   },
   tags: {
@@ -937,34 +950,37 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     borderRadiusSM: {
       $type: 'dimension',
       $value: '4px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     fontSizeSM: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     fontSizeIcon: {
       $type: 'dimension',
       $value: '12px',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$string',
     },
     lineHeightSM: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$string',
     },
     lineType: {
       $type: 'string',
@@ -973,18 +989,22 @@ export const legalKZTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '1px',
+      $description: '$number',
     },
     marginXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     paddingXXS: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     colorFillSecondary: {
       $type: 'color',
@@ -993,74 +1013,82 @@ export const legalKZTokens: Tokens = {
     fontWeight: {
       $type: 'dimension',
       $value: '500',
+      $description: '$number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '12px',
+      $description: '$number',
     },
   },
   popover: {
     titleMinWidth: {
       $type: 'dimension',
       $value: '140px',
+      $description: '$number',
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '{surface.cardBg}',
+      $value: '{base.static.white}',
     },
     colorText: {
       $type: 'color',
-      $value: '{elements.textSecondary}',
+      $value: '{base.gray.gray-6}',
     },
     colorTextHeading: {
       $type: 'color',
-      $value: '{elements.textPrimary}',
+      $value: '{base.azure.azure-10}',
     },
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Nunito',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     fontWeightStrong: {
       $type: 'dimension',
       $value: '700',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '20px',
+      $description: '$number',
     },
     sizePopupArrow: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     marginSM: {
       $type: 'dimension',
       $value: '12px',
+      $description: '$number',
     },
     paddingXXS: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     borderRadiusXS: {
       $type: 'dimension',
       $value: '2px',
+      $description: '$number',
     },
   },
   breadcrumbs: {
     itemColor: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{base.gray.gray-6}',
     },
     lastItemColor: {
       $type: 'color',
@@ -1068,11 +1096,12 @@ export const legalKZTokens: Tokens = {
     },
     separatorColor: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{base.gray.gray-4}',
     },
     separatorMargin: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     colorBgTextHover: {
       $type: 'color',
@@ -1081,136 +1110,220 @@ export const legalKZTokens: Tokens = {
     borderRadiusXS: {
       $type: 'dimension',
       $value: '2px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
+      $description: '$string',
     },
     paddingXXS: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     fontWeight: {
       $type: 'dimension',
       $value: '400',
+      $description: '$number',
     },
   },
   timeline: {
     dotBg: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{base.static.white}',
     },
     dotBorderWidth: {
       $type: 'dimension',
       $value: '2px',
+      $description: '$number',
     },
     tailColor: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.gray.gray-3}',
     },
     itemPaddingBottom: {
       $type: 'dimension',
       $value: '0px',
+      $description: '$number',
     },
     tailWidth: {
       $type: 'dimension',
-      $value: '1px',
+      $value: '2px',
+      $description: '$number',
     },
   },
   pagination: {
     itemSize: {
       $type: 'dimension',
       $value: '24px',
+      $description: '$number',
     },
-    itemActiveColorDisabled: {
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
+      $description: '$number',
+    },
+    lineHeight: {
+      $type: 'dimension',
+      $value: '22px',
+      $description: '$string',
+    },
+    marginXS: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: '$number',
+    },
+    marginXXS: {
+      $type: 'dimension',
+      $value: '4px',
+      $description: '$number',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '600',
+      $description: '$number',
+    },
+    itemActiveBg: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.static.white}',
+    },
+    itemBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    itemInputBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    colorText: {
+      $type: 'color',
+      $value: '{base.azure.azure-10}',
+    },
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
+      $description: '$number',
+    },
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
+      $description: '$number',
+    },
+    lineWidthFocus: {
+      $type: 'dimension',
+      $value: '2px',
+      $description: '$number',
+    },
+    colorBorder: {
+      $type: 'color',
+      $value: '{base.azure.azure-10}',
+    },
+    paddingXS: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: '$number',
+    },
+    paddingXXS: {
+      $type: 'dimension',
+      $value: '4px',
+      $description: '$number',
     },
   },
   table: {
     'theader-th-font-size': {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
-    cellFontSize: {
+    'theader-th-font-weight': {
+      $type: 'dimension',
+      $value: '500',
+      $description: '$number',
+    },
+    'theader-th-line-height': {
+      $type: 'dimension',
+      $value: '20px',
+      $description: '$number',
+    },
+    'tbody-tr-color': {
+      $type: 'color',
+      $value: '{base.azure.azure-10}',
+    },
+    'tbody-tr-hover-color': {
+      $type: 'color',
+      $value: '{base.azure.azure-10}',
+    },
+    'tbody-tr-hover-color-background-color': {
+      $type: 'color',
+      $value: '{base.gray.gray-3}',
+    },
+    'theader-tr-background-color': {
+      $type: 'color',
+      $value: '{base.gray.gray-2}',
+    },
+    'theader-header-border-radius': {
+      $type: 'dimension',
+      $value: '4px',
+      $description: '$number',
+    },
+    'theader-th-padding': {
+      $type: 'string',
+      $value: '16px 20px',
+      $description: '$string',
+    },
+    'tbody-td-font-size': {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
-    cellPaddingBlock: {
+    'tbody-tr-border-bottom': {
       $type: 'dimension',
-      $value: '20px',
+      $value: '1px',
+      $description: '$number',
     },
-    cellPaddingInline: {
-      $type: 'dimension',
-      $value: '20px',
-    },
-    selectionColumnWidth: {
-      $type: 'dimension',
-      $value: '32px',
-    },
-    footerBg: {
-      $type: 'color',
-      $value: '#ffffff',
-    },
-    footerColor: {
-      $type: 'color',
-      $value: '#ffffff',
-    },
-    headerBg: {
-      $type: 'color',
-      $value: '#e3e3e5',
-    },
-    headerColor: {
-      $type: 'color',
-      $value: '#131535',
-    },
-    rowSelectedBg: {
-      $type: 'color',
-      $value: '#eff1f8',
-    },
-    borderColor: {
-      $type: 'color',
-      $value: '#e3e3e5',
-    },
-    rowHoverBg: {
-      $type: 'color',
-      $value: '#eff1f8',
+    'tbody-td-padding': {
+      $type: 'string',
+      $value: 'String 16px 20px',
+      $description: '$string',
     },
   },
   notification: {
     width: {
       $type: 'dimension',
       $value: '420px',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     fontSizeLG: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '20px',
+      $description: '$string',
     },
     lineHeightLG: {
       $type: 'dimension',
       $value: '22px',
+      $description: '$string',
     },
     colorError: {
       $type: 'color',
       $value: '{base.red.red-5}',
     },
-    colorinfo: {
+    colorInfo: {
       $type: 'color',
       $value: '{base.azure.azure-5}',
     },
@@ -1238,14 +1351,6 @@ export const legalKZTokens: Tokens = {
       $type: 'color',
       $value: '{base.azure.azure-8}',
     },
-    paddingMD: {
-      $type: 'dimension',
-      $value: '16px',
-    },
-    paddingContentHorizontalLG: {
-      $type: 'dimension',
-      $value: '16px',
-    },
     colorBgElevated: {
       $type: 'color',
       $value: '{base.static.white}',
@@ -1253,27 +1358,35 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     marginXXS: {
       $type: 'dimension',
       $value: '4px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$number',
     },
     fontWeight: {
       $type: 'dimension',
       $value: '400',
+      $description: '$number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     boxShadow: {
       $type: 'string',
       $value:
         '0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)',
+    },
+    colorPrimary: {
+      $type: 'color',
+      $value: '{base.azure.azure-6}',
+    },
+    colorPrimaryBorderHover: {
+      $type: 'color',
+      $value: '{base.azure.azure-6}',
     },
   },
   upload: {
@@ -1284,6 +1397,7 @@ export const legalKZTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
+      $description: '$number',
     },
     colorBorder: {
       $type: 'color',
@@ -1292,22 +1406,27 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     paddingMD: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     marginMD: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     marginXXS: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     fontSizeLG: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     colorTextHeading: {
       $type: 'color',
@@ -1320,6 +1439,7 @@ export const legalKZTokens: Tokens = {
     fontSize: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
     },
     colorPrimary_Hover: {
       $type: 'color',
@@ -1336,6 +1456,7 @@ export const legalKZTokens: Tokens = {
     paddingXS: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     colorLink: {
       $type: 'color',
@@ -1344,26 +1465,25 @@ export const legalKZTokens: Tokens = {
     marginXS: {
       $type: 'dimension',
       $value: '8px',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
+      $description: '$string',
     },
     controlltemBgHover: {
       $type: 'color',
-      $value: '#ffffff00',
+      $value: '{base.static.white}',
     },
     actionsColor: {
       $type: 'color',
       $value: '{base.azure.azure-10}',
     },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
-    },
     fontWeight: {
       $type: 'dimension',
       $value: '500',
+      $description: '$number',
     },
     hoverBorderColor: {
       $type: 'color',
@@ -1372,16 +1492,17 @@ export const legalKZTokens: Tokens = {
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
   },
   progress: {
     remainingColor: {
       $type: 'color',
-      $value: '#e3e3e5',
+      $value: '{base.azure.azure-1}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '#131535',
+      $value: '{base.azure.azure-6}',
     },
   },
   tabs: {
@@ -1397,33 +1518,15 @@ export const legalKZTokens: Tokens = {
       $type: 'color',
       $value: '{base.azure.azure-10}',
     },
-    cardBg: {
-      $type: 'color',
-      $value: '{base.gray.gray-2}',
-    },
-    cardGutter: {
-      $type: 'dimension',
-      $value: '8px',
-    },
-    cardHeight: {
-      $type: 'dimension',
-      $value: '32px',
-    },
-    cardPadding: {
-      $type: 'dimension',
-      $value: '12px',
-    },
     horizontalItemGutter: {
       $type: 'dimension',
       $value: '20px',
+      $description: '$number',
     },
     horizontalItemPadding: {
       $type: 'dimension',
       $value: '12px',
-    },
-    horizontalMargin: {
-      $type: 'dimension',
-      $value: '16px',
+      $description: '$number',
     },
     itemHoverColor: {
       $type: 'color',
@@ -1435,11 +1538,8 @@ export const legalKZTokens: Tokens = {
     },
     titleFontSize: {
       $type: 'dimension',
-      $value: '14px',
-    },
-    titleFontSizeLG: {
-      $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     colorTextDisabled: {
       $type: 'color',
@@ -1448,30 +1548,73 @@ export const legalKZTokens: Tokens = {
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$string',
     },
     controlItemBgHover: {
       $type: 'color',
       $value: '{base.azure.azure-5}',
     },
-    paddingXS: {
-      $type: 'dimension',
-      $value: '4px',
-    },
-    borderRadius: {
-      $type: 'dimension',
-      $value: '4px',
-    },
-    fontWeight: {
+    titleFontWeight: {
       $type: 'dimension',
       $value: '600',
+      $description: '$number',
     },
     lineWidthFocus: {
       $type: 'dimension',
       $value: '2px',
+      $description: '$number',
+    },
+    cardBg: {
+      $type: 'color',
+      $value: '{base.static.white}',
+    },
+    cardGutter: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: '$number',
+    },
+    cardHeight: {
+      $type: 'dimension',
+      $value: '40px',
+      $description: '$number',
+    },
+    cardPadding: {
+      $type: 'dimension',
+      $value: '16px',
+      $description: '$number',
+    },
+    colorText: {
+      $type: 'color',
+      $value: '{base.azure.azure-10}',
+    },
+    borderRadius: {
+      $type: 'dimension',
+      $value: '4px',
+      $description: '$number',
+    },
+    fontSize: {
+      $type: 'dimension',
+      $value: '14px',
+      $description: '$number',
+    },
+    lineType: {
+      $type: 'string',
+      $value: 'solid',
+    },
+    lineWidth: {
+      $type: 'dimension',
+      $value: '2px',
+      $description: '$number',
+    },
+    lineWidthBold: {
+      $type: 'dimension',
+      $value: '2px',
+      $description: '$number',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
+      $description: '$number',
     },
   },
   card: {
@@ -1482,7 +1625,7 @@ export const legalKZTokens: Tokens = {
     actionsLiMargin: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'string',
+      $description: '$string',
     },
     headerBg: {
       $type: 'string',
@@ -1491,12 +1634,12 @@ export const legalKZTokens: Tokens = {
     headerFontSize: {
       $type: 'dimension',
       $value: '22px',
-      $description: 'number',
+      $description: '$number',
     },
     headerFontSizeSM: {
       $type: 'dimension',
       $value: '12px',
-      $description: 'number',
+      $description: '$number',
     },
     colorBgContainer: {
       $type: 'color',
@@ -1517,46 +1660,42 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
-      $description: 'number',
+      $description: '$number',
     },
     boxShadowTertiary: {
       $type: 'string',
       $value:
         '0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.02)',
     },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
-    },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
-      $description: 'number',
+      $description: '$number',
     },
     fontWeightStrong: {
       $type: 'dimension',
       $value: '600',
-      $description: 'number',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
-      $description: 'value in EM, string is better',
+      $description: '$string',
     },
     margin: {
       $type: 'dimension',
       $value: '12px',
-      $description: 'number',
+      $description: '$number',
     },
     padding: {
       $type: 'dimension',
       $value: '20px',
-      $description: 'number',
+      $description: '$number',
     },
     marginXXS: {
       $type: 'dimension',
       $value: '4px',
-      $description: 'number',
+      $description: '$number',
     },
     colorIcon: {
       $type: 'color',
@@ -1565,16 +1704,21 @@ export const legalKZTokens: Tokens = {
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingLG: {
       $type: 'dimension',
       $value: '0px',
-      $description: 'number',
+      $description: '$number',
     },
     colorBorderSecondary: {
       $type: 'color',
       $value: '{base.static.white}',
+    },
+    fontWeight: {
+      $type: 'dimension',
+      $value: '500',
+      $description: '$number',
     },
   },
   drawer: {
@@ -1597,21 +1741,22 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
-      $description: 'number',
+      $description: '$number',
     },
     fontWeightStrong: {
       $type: 'dimension',
       $value: '500',
-      $description: 'number',
+      $description: '$number',
     },
     fontSizeLG: {
       $type: 'dimension',
       $value: '22px',
-      $description: 'number',
+      $description: '$number',
     },
-    lineHeightLG: {
+    lineHeight: {
       $type: 'dimension',
       $value: '24px',
+      $description: '$string',
     },
     lineType: {
       $type: 'string',
@@ -1620,36 +1765,32 @@ export const legalKZTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     marginXS: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
+      $description: '$number',
     },
     padding: {
       $type: 'dimension',
       $value: '20px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingLG: {
       $type: 'dimension',
       $value: '60px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingXS: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'number',
+      $description: '$number',
     },
     colorIcon: {
       $type: 'color',
@@ -1668,7 +1809,7 @@ export const legalKZTokens: Tokens = {
     titleFontSize: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'number',
+      $description: '$number',
     },
     titleColor: {
       $type: 'color',
@@ -1677,6 +1818,7 @@ export const legalKZTokens: Tokens = {
     titleLineHeight: {
       $type: 'dimension',
       $value: '32px',
+      $description: '$string',
     },
     colorBgMask: {
       $type: 'color',
@@ -1689,7 +1831,7 @@ export const legalKZTokens: Tokens = {
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '24px',
-      $description: 'number',
+      $description: '$number',
     },
     colorSplit: {
       $type: 'color',
@@ -1702,40 +1844,37 @@ export const legalKZTokens: Tokens = {
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
-      $description: 'number',
+      $description: '$number',
     },
     boxShadow: {
       $type: 'string',
       $value:
         '0 6px 16px 0 rgba(0, 0, 0 , 0.08), 0 3px 6px -4px rgba (0, 0, 0, 0.12), 0 9px 28px 8 px rgba(0, 0, 0, 0.05)',
     },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
-    },
     fontSize: {
       $type: 'dimension',
       $value: '14px',
-      $description: 'number',
+      $description: '$number',
     },
     fontSizeLG: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     fontWeightStrong: {
       $type: 'dimension',
       $value: '500',
-      $description: 'number',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
+      $description: '$string',
     },
     lineWidth: {
       $type: 'dimension',
       $value: '2px',
-      $description: 'number',
+      $description: '$number',
     },
     lineType: {
       $type: 'string',
@@ -1744,54 +1883,59 @@ export const legalKZTokens: Tokens = {
     margin: {
       $type: 'dimension',
       $value: '16px',
-      $description: 'number',
+      $description: '$number',
     },
     marginXS: {
       $type: 'dimension',
       $value: '8px',
-      $description: 'number',
+      $description: '$number',
     },
     padding: {
       $type: 'dimension',
       $value: '30px',
-      $description: 'number',
+      $description: '$number',
     },
     paddingLG: {
       $type: 'dimension',
       $value: '60px',
-      $description: 'number',
+      $description: '$number',
     },
     screenSMMax: {
       $type: 'dimension',
       $value: '767px',
-      $description: 'number',
+      $description: '$number',
     },
     fontWeight: {
       $type: 'dimension',
       $value: '400',
-      $description: 'number',
+      $description: '$number',
     },
   },
   horizontal_navigation: {
     paddingInline: {
       $type: 'dimension',
-      $value: '30px',
+      $value: '40px',
+      $description: '$number',
     },
     paddingBlock: {
       $type: 'dimension',
-      $value: '10px',
+      $value: '16px',
+      $description: '$number',
     },
     margin: {
       $type: 'dimension',
-      $value: '15px',
+      $value: '40px',
+      $description: '$number',
     },
     iconSize: {
       $type: 'dimension',
       $value: '32px',
+      $description: '$number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
-      $value: '24px',
+      $value: '16px',
+      $description: '$number',
     },
     bgColor: {
       $type: 'color',
@@ -1803,19 +1947,23 @@ export const legalKZTokens: Tokens = {
     },
     marginSM: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '16px',
+      $description: '$number',
     },
     itemMargin: {
       $type: 'dimension',
-      $value: '10px',
+      $value: '8px',
+      $description: '$number',
     },
     itemPaddingBlock: {
       $type: 'dimension',
-      $value: '15px',
+      $value: '4px',
+      $description: '$number',
     },
     itemPaddingInline: {
       $type: 'dimension',
-      $value: '20px',
+      $value: '12px',
+      $description: '$number',
     },
     colorIcon: {
       $type: 'color',
@@ -1832,44 +1980,54 @@ export const legalKZTokens: Tokens = {
     fontSize: {
       $type: 'dimension',
       $value: '16px',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '24px',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'Inter',
+      $description: '$string',
     },
     fontWeight: {
       $type: 'dimension',
       $value: '500',
+      $description: '$number',
     },
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
+      $description: '$number',
     },
     fontSizeSM: {
       $type: 'dimension',
       $value: '14px',
+      $description: '$number',
+    },
+    paddingBlockSM: {
+      $type: 'dimension',
+      $value: '8px',
+      $description: '$number',
     },
   },
   vertical_navigation: {
     itemPaddingBlock: {
       $type: 'dimension',
       $value: '0px',
+      $description: '$number',
     },
     itemPaddingInline: {
       $type: 'dimension',
       $value: '0px',
+      $description: '$number',
     },
     fontSize: {
       $type: 'dimension',
       $value: '0px',
+      $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
       $value: '0px',
+      $description: '$string',
     },
     itemBgHover: {
       $type: 'color',
@@ -1886,14 +2044,12 @@ export const legalKZTokens: Tokens = {
     fontWeight: {
       $type: 'dimension',
       $value: '0',
-    },
-    fontFamily: {
-      $type: 'string',
-      $value: 'String value',
+      $description: '$number',
     },
     fontSizeSM: {
       $type: 'dimension',
       $value: '0px',
+      $description: '$number',
     },
     iconColor: {
       $type: 'color',
@@ -1902,6 +2058,36 @@ export const legalKZTokens: Tokens = {
     textColor: {
       $type: 'color',
       $value: '#ffffff',
+    },
+    borderRadius: {
+      $type: 'dimension',
+      $value: '0px',
+      $description: '$number',
+    },
+    padding: {
+      $type: 'dimension',
+      $value: '0px',
+      $description: '$number',
+    },
+    paddingInline: {
+      $type: 'dimension',
+      $value: '0px',
+      $description: '$number',
+    },
+    paddingBlockSM: {
+      $type: 'dimension',
+      $value: '0px',
+      $description: '$number',
+    },
+    paddingBlock: {
+      $type: 'dimension',
+      $value: '0px',
+      $description: '$number',
+    },
+    controlInteractiveSize: {
+      $type: 'dimension',
+      $value: '0px',
+      $description: '$number',
     },
   },
 };
