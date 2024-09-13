@@ -109,6 +109,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -131,10 +132,17 @@ h1 {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
+}
+
+.ant-select-selection-overflow {
+  flex-wrap: nowrap !important;
+  overflow: hidden;
 }
