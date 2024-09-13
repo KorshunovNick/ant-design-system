@@ -61,7 +61,7 @@ export function parseDesignTokens(tokens: Tokens) {
         }
       }
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'Switch') {
+      if (themeKey === 'Select') {
         currentTokens.push(`${token}: '${resultValue}' `);
       }
 

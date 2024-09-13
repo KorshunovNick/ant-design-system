@@ -29,6 +29,7 @@ import { joyDeckTokens } from './designTokens/tokens/joyDeckTokens.js';
 import ButtonCard from './components/Button/ButtonCard.js';
 import NotificationBox from './components/Notification/NotificationBox.js';
 import SwitchBox from './components/Switch/SwitchBox.js';
+import SelectBox from './components/Select/SelectBox.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -86,6 +87,10 @@ const DesignComponents = () => {
         </WrapperComponent>
         <WrapperComponent title={'Notifications'}>
           <NotificationBox />
+        </WrapperComponent>
+
+        <WrapperComponent title={'Select'}>
+          <SelectBox />
         </WrapperComponent>
 
         <WrapperComponent title={'Card'}>
@@ -149,37 +154,7 @@ const DesignComponents = () => {
         <WrapperComponent title={'Radio'}>
           <Radio>Radio</Radio>
         </WrapperComponent>
-        <WrapperComponent title={'Select'}>
-          <Select
-            defaultValue="lucy"
-            style={{ width: 120 }}
-            options={[
-              { value: 'jack', label: 'Jack' },
-              { value: 'lucy', label: 'Lucy' },
-              { value: 'Yiminghe', label: 'yiminghe' },
-              { value: 'disabled', label: 'Disabled', disabled: true },
-            ]}
-          />
-          {/* <Select
-                        defaultValue="lucy"
-                        style={{ width: 120 }}
-                        disabled
-                        options={[{ value: 'lucy', label: 'Lucy' }]}
-                    />
-                    <Select
-                        defaultValue="lucy"
-                        style={{ width: 120 }}
-                        loading
-                        options={[{ value: 'lucy', label: 'Lucy' }]}
-                    />
-                    <Select
-                        defaultValue="lucy"
-                        style={{ width: 120 }}
-                        allowClear
-                        options={[{ value: 'lucy', label: 'Lucy' }]}
-                        placeholder="select it"
-                    /> */}
-        </WrapperComponent>
+
         <WrapperComponent title={'Upload'}>
           <Upload>
             <Button>Upload</Button>
