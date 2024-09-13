@@ -46,6 +46,7 @@ const TestComponent = () => {
             fontWeight: '500',
             // activeBorderColor: 'green',
             colorPrimary: 'green',
+            activeShadow: '0 0 0 0 rgba(0, 0, 0, 0)',
           },
         },
       }}

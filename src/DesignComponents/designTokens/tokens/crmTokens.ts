@@ -427,11 +427,6 @@ export const crmTokens: Tokens = {
       $value: '16px',
       $description: '$number',
     },
-    lineHeight: {
-      $type: 'dimension',
-      $value: '24px',
-      $description: '$string',
-    },
     colorIcon: {
       $type: 'color',
       $value: '{base.blue.blue-10}',
@@ -485,11 +480,6 @@ export const crmTokens: Tokens = {
       $value: '16px',
       $description: '$number',
     },
-    optionLineHeight: {
-      $type: 'dimension',
-      $value: '24px',
-      $description: '$number',
-    },
     optionPadding: {
       $type: 'dimension',
       $value: '12px',
@@ -534,9 +524,25 @@ export const crmTokens: Tokens = {
       $value: '500',
       $description: '$number',
     },
-    activeBorderColor: {
+    colorPrimary: {
       $type: 'color',
       $value: '{base.blue.blue-10}',
+    },
+    lineHeight: {
+      $type: 'string',
+      $value: '24px',
+    },
+    optionLineHeight: {
+      $type: 'string',
+      $value: '24px',
+    },
+    lineWidthFocus: {
+      $type: 'dimension',
+      $value: '2px',
+    },
+    activeShadow: {
+      $type: 'string',
+      $value: '0 0 0 0 rgba(0, 0, 0, 0)',
     },
   },
   datepicker: {
@@ -1243,7 +1249,7 @@ export const crmTokens: Tokens = {
     },
     'theader-th-font-weight': {
       $type: 'dimension',
-      $value: '500',
+      $value: '600',
       $description: '$number',
     },
     'theader-th-line-height': {
@@ -1261,16 +1267,11 @@ export const crmTokens: Tokens = {
     },
     'tbody-tr-hover-color-background-color': {
       $type: 'color',
-      $value: '{base.gray.gray-4}',
+      $value: '{base.blue.blue-1}',
     },
     'theader-tr-background-color': {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
-    },
-    'theader-header-border-radius': {
-      $type: 'dimension',
-      $value: '4px',
-      $description: '$number',
+      $value: '{base.gray.gray-2}',
     },
     'theader-th-padding': {
       $type: 'string',
@@ -1282,15 +1283,44 @@ export const crmTokens: Tokens = {
       $value: '14px',
       $description: '$number',
     },
-    'tbody-tr-border-bottom': {
-      $type: 'dimension',
-      $value: '1px',
-      $description: '$number',
-    },
     'tbody-td-padding': {
       $type: 'string',
       $value: '16px 20px',
       $description: '$string',
+    },
+    'tbody-tr-border-bottom': {
+      $type: 'string',
+      $value: '1px solid',
+      $description: '$string',
+    },
+    'tbody-td-font-weight': {
+      $type: 'dimension',
+      $value: '500',
+      $description: '$number',
+    },
+    'table-builder-icon-padding': {
+      $type: 'dimension',
+      $value: '4px',
+      $description: '$number',
+    },
+    'container-border-color': {
+      $type: 'color',
+      $value: '{base.gray.gray-3}',
+    },
+    'tbody-td-line-height': {
+      $type: 'dimension',
+      $value: '20px',
+      $description: '$number',
+    },
+    'table-builder-icon-height': {
+      $type: 'dimension',
+      $value: '16px',
+      $description: '$number',
+    },
+    'table-builder-icon-width': {
+      $type: 'dimension',
+      $value: '16px',
+      $description: '$number',
     },
   },
   notification: {
@@ -1490,7 +1520,7 @@ export const crmTokens: Tokens = {
     },
     itemColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.gray.gray-7}',
     },
     horizontalItemGutter: {
       $type: 'dimension',
@@ -1504,7 +1534,7 @@ export const crmTokens: Tokens = {
     },
     itemHoverColor: {
       $type: 'color',
-      $value: '{base.blue.blue-8}',
+      $value: '{base.blue.blue-6}',
     },
     itemSelectedColor: {
       $type: 'color',
@@ -1557,10 +1587,6 @@ export const crmTokens: Tokens = {
       $value: '16px',
       $description: '$number',
     },
-    colorText: {
-      $type: 'color',
-      $value: '{base.blue.blue-10}',
-    },
     borderRadius: {
       $type: 'dimension',
       $value: '4px',
@@ -1577,7 +1603,7 @@ export const crmTokens: Tokens = {
     },
     lineWidth: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '1px',
       $description: '$number',
     },
     lineWidthBold: {
@@ -1588,6 +1614,15 @@ export const crmTokens: Tokens = {
     fontWeight: {
       $type: 'dimension',
       $value: '600',
+      $description: '$number',
+    },
+    colorBorder: {
+      $type: 'color',
+      $value: '{base.gray.gray-3}',
+    },
+    margin: {
+      $type: 'dimension',
+      $value: '8px',
       $description: '$number',
     },
   },
