@@ -44,7 +44,8 @@ const TestComponent = () => {
             multipleltemBg: '#f0f0f2',
             multipleltemColorDisabled: '#e3e3e5',
             fontWeight: '500',
-            activeBorderColor: '#131535',
+            // activeBorderColor: 'green',
+            colorPrimary: 'green',
           },
         },
       }}
