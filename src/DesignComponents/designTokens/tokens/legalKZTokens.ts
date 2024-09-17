@@ -536,13 +536,15 @@ export const legalKZTokens: Tokens = {
       $type: 'string',
       $value: '24px',
     },
-    lineWidthFocus: {
+    controlOutlineWidth: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '0px',
+      $description: '$number',
     },
-    activeShadow: {
-      $type: 'string',
-      $value: '0 0 0 0 rgba(0, 0, 0, 0)',
+    paddingXXS: {
+      $type: 'dimension',
+      $value: '12px',
+      $description: '$number',
     },
   },
   datepicker: {

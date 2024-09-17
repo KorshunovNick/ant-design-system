@@ -536,13 +536,15 @@ export const crmTokens: Tokens = {
       $type: 'string',
       $value: '24px',
     },
-    lineWidthFocus: {
+    controlOutlineWidth: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '0px',
+      $description: '$number',
     },
-    activeShadow: {
-      $type: 'string',
-      $value: '0 0 0 0 rgba(0, 0, 0, 0)',
+    paddingXXS: {
+      $type: 'dimension',
+      $value: '12px',
+      $description: '$number',
     },
   },
   datepicker: {
@@ -943,7 +945,7 @@ export const crmTokens: Tokens = {
   tags: {
     defaultBg: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{base.gray.gray-1}',
     },
     defaultColor: {
       $type: 'color',
@@ -951,7 +953,7 @@ export const crmTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-4}',
+      $value: '{base.gray.gray-3}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1512,15 +1514,15 @@ export const crmTokens: Tokens = {
   tabs: {
     inkBarColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.blue.blue-6}',
     },
     itemActiveColor: {
       $type: 'color',
-      $value: '{base.blue.blue-10}',
+      $value: '{base.blue.blue-6}',
     },
     itemColor: {
       $type: 'color',
-      $value: '{base.gray.gray-7}',
+      $value: '{base.blue.blue-10}',
     },
     horizontalItemGutter: {
       $type: 'dimension',
@@ -1534,7 +1536,7 @@ export const crmTokens: Tokens = {
     },
     itemHoverColor: {
       $type: 'color',
-      $value: '{base.blue.blue-6}',
+      $value: '{base.blue.blue-7}',
     },
     itemSelectedColor: {
       $type: 'color',
@@ -1570,7 +1572,7 @@ export const crmTokens: Tokens = {
     },
     cardBg: {
       $type: 'color',
-      $value: '{base.gray.gray-1}',
+      $value: '{base.gray.gray-3}',
     },
     cardGutter: {
       $type: 'dimension',
@@ -1622,7 +1624,7 @@ export const crmTokens: Tokens = {
     },
     margin: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '2px',
       $description: '$number',
     },
   },
