@@ -1,8 +1,12 @@
 import React, { ReactNode } from 'react';
 import { Select, SelectProps } from 'antd';
-import { FlexCol, FlexRow } from '../FlexContainers/FlexContainers';
+import { FlexCol, FlexRow } from '../shared/FlexContainers/FlexContainers';
 import { ExclamationCircleOutlined } from '@ant-design/icons';
-import stl from './SelectBox.module.scss';
+import {
+  InputWrapper,
+  InputWrapperProps,
+} from '../shared/InputWrapper/InputWrapper';
+import { LabelWithIcon } from '../shared/LabelWithIcon/LabelWithIcon';
 
 const options = [
   { value: 'Mersedez', label: 'Mersedez' },
@@ -18,41 +22,26 @@ const options = [
   { value: 'disabled', label: 'Disabled', disabled: true },
 ];
 
-const LabelWithIcon = () => (
-  <span>
-    Label <ExclamationCircleOutlined size={12} />
-  </span>
-);
-
-type UISelectProps = {
-  label?: string | ReactNode;
-  description?: string | ReactNode;
-};
-
 const UISelect = ({
   label,
   description,
   ...selectProps
-}: SelectProps & UISelectProps) => {
+}: SelectProps & InputWrapperProps) => {
   return (
-    <FlexCol gap={4}>
-      <span className={stl.label}>{label}</span>
-      <FlexCol gap={0}>
-        <Select
-          {...selectProps}
-          options={selectProps.options ?? options}
-          variant={selectProps.variant ?? 'outlined'}
-          style={{
-            minWidth: 200,
-            maxWidth: 200,
-            height: 48,
-            flexWrap: 'nowrap',
-            textAlign: 'start',
-          }}
-        />
-        <span className={stl.description}>{description && 'description'}</span>
-      </FlexCol>
-    </FlexCol>
+    <InputWrapper label={label} description={description}>
+      <Select
+        {...selectProps}
+        options={selectProps.options ?? options}
+        variant={selectProps.variant ?? 'outlined'}
+        style={{
+          minWidth: 200,
+          maxWidth: 200,
+          height: 48,
+          flexWrap: 'nowrap',
+          textAlign: 'start',
+        }}
+      />
+    </InputWrapper>
   );
 };
 

@@ -1,5 +1,7 @@
 import { ConfigProvider } from 'antd';
-import SelectBox from '../../DesignComponents/components/Select/SelectBox';
+import { InputBox } from '../../DesignComponents/components/Input/InputBox';
+import { TextAreaBox } from '../../DesignComponents/components/TextArea/TextArea';
+import { FlexCol } from '../../DesignComponents/components/shared/FlexContainers/FlexContainers';
 
 const TestComponent = () => {
   return (
@@ -7,52 +9,43 @@ const TestComponent = () => {
       theme={{
         components: {
           // имя комопонента
-          Select: {
+          Input: {
             // свойства компонента
-            multipleItemHeight: 24,
-            controlHeight: '48px', // controlHeight - высота селекта
-            selectorBg: '#ffffff',
-            colorBorder: '#ffffff',
-            colorErrorBg: '#ffffff',
-            colorErrorBgHover: '#ffffff',
-            colorErrorHover: '#dd4827',
+            activeBg: '#ffffff',
+            colorBgContainer: '#ffffff',
             lineWidth: 2,
-            colorTextPlaceholder: '#bababc',
+            colorBorder: '#ffffff',
+            colorErrorBgHover: '#ffffff',
+            inputFontSize: 16,
+            lineHeight: '24px',
+            paddingBlock: 12,
+            paddingInline: 12,
             borderRadius: 4,
+            paddingXXS: 8,
             fontSize: 16,
-            // lineHeight: '24px',
             colorIcon: '#131535',
-            // controlHeight: 48,
-            controlPaddingHorizontal: 12,
-            showArrowPaddingInlineEnd: 20,
-            fontSizeIcon: 16,
-            colorPrimaryHover: '#f0f0f2',
+            colorTextPlaceholder: '#bababc',
+            hoverBg: '#ffffff',
+            hoverBorderColor: '#f0f0f2',
+            activeBorderColor: '#131535',
             colorText: '#131535',
-            colorErrorOutline: '#ff6643',
             colorError: '#ff6643',
+            colorErrorText: '#ff6643',
+            colorErrorBorderHover: '#dd4827',
+            colorErrorBg: '#ffffff',
             colorBgContainerDisabled: '#f0f0f2',
             colorTextDisabled: '#bababc',
-            optionFontSize: 16,
-            optionLineHeight: '24px', // optionLineHeight string
-            optionPadding: 12,
-            optionSelectedFontWeight: '400',
-            colorBgElevated: '#ffffff',
-            optionSelectedBg: '#2f355a',
-            optionHeight: 48,
-            optionSelectedColor: '#ffffff',
-            optionActiveBg: '#f7f7f9',
-            multipleltemBg: '#f0f0f2',
-            multipleltemColorDisabled: '#e3e3e5',
-            fontWeight: '500',
-            // activeBorderColor: 'green',
-            colorPrimary: 'green',
             activeShadow: '0 0 0 0 rgba(0, 0, 0, 0)',
+            fontWeight: '500',
           },
         },
       }}
     >
       {/**твой компонент */}
-      <SelectBox />
+      <FlexCol gap={120}>
+        <InputBox />
+        <TextAreaBox />
+      </FlexCol>
     </ConfigProvider>
   );
 };

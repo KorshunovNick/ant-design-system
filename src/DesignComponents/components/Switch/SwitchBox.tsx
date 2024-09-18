@@ -1,5 +1,5 @@
 import { Switch } from 'antd';
-import { FlexCol } from '../FlexContainers/FlexContainers';
+import { FlexCol } from '../shared/FlexContainers/FlexContainers';
 
 const SwitchBox = () => {
   return (
