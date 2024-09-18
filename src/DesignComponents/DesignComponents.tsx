@@ -30,6 +30,8 @@ import ButtonCard from './components/Button/ButtonCard.js';
 import NotificationBox from './components/Notification/NotificationBox.js';
 import SwitchBox from './components/Switch/SwitchBox.js';
 import SelectBox from './components/Select/SelectBox.js';
+import { InputBox } from './components/Input/InputBox.js';
+import { TextAreaBox } from './components/TextArea/TextArea.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -93,6 +95,14 @@ const DesignComponents = () => {
           <SelectBox />
         </WrapperComponent>
 
+        <WrapperComponent title={'Input'}>
+          <InputBox />
+        </WrapperComponent>
+
+        <WrapperComponent title={'TextArea'}>
+          <TextAreaBox />
+        </WrapperComponent>
+
         <WrapperComponent title={'Card'}>
           <Card title="Card" style={{ width: 300 }}>
             <p>Card content</p>
@@ -101,56 +111,7 @@ const DesignComponents = () => {
         <WrapperComponent title={'Checkbox'}>
           <Checkbox>Checkbox</Checkbox>
         </WrapperComponent>
-        <WrapperComponent title={'Input'}>
-          <Input placeholder="placeholder" name="label" />
 
-          <Input placeholder="outlined" name="label" variant="outlined" />
-
-          <Input placeholder="filled" name="label" variant="filled" />
-
-          <Input placeholder="borderless" name="label" variant="borderless" />
-
-          <Input placeholder="error" name="label" status="error" />
-
-          <Input placeholder="warning" name="label" status="warning" />
-
-          <Input placeholder="disabled" name="label" disabled />
-        </WrapperComponent>
-        <WrapperComponent title={'TextArea'}>
-          <TextArea rows={4} placeholder="placeholder" name="label" />
-
-          <TextArea
-            rows={4}
-            placeholder="outlined"
-            name="label"
-            variant="outlined"
-          />
-
-          <TextArea
-            rows={4}
-            placeholder="filled"
-            name="label"
-            variant="filled"
-          />
-
-          <TextArea
-            rows={4}
-            placeholder="borderless"
-            name="label"
-            variant="borderless"
-          />
-
-          <TextArea rows={4} placeholder="error" name="label" status="error" />
-
-          <TextArea
-            rows={4}
-            placeholder="warning"
-            name="label"
-            status="warning"
-          />
-
-          <TextArea rows={4} placeholder="disabled" name="label" disabled />
-        </WrapperComponent>
         <WrapperComponent title={'Radio'}>
           <Radio>Radio</Radio>
         </WrapperComponent>

@@ -7,7 +7,7 @@ import {
   FlexCol,
   FlexContainer,
   FlexRow,
-} from '../FlexContainers/FlexContainers';
+} from '../shared/FlexContainers/FlexContainers';
 
 const ButtonCard = () => {
   const [iconPosition, setIconPosition] = useState<
