@@ -1,0 +1,28 @@
+.wrapper {
+    width: fit-content;
+}
+
+.form {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+.error_message {
+    color: red;
+    font-size: 12px;
+    text-align: start;
+
+}
+
+.error {
+
+    span {
+        color: red !important;
+    }
+
+    *[class=ant-checkbox-inner] {
+        border-color: red !important;
+
+    }
+}

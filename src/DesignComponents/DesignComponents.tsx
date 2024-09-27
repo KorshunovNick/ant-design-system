@@ -2,15 +2,12 @@ import React, { useRef, useState } from 'react';
 import {
   Button,
   Card,
-  Checkbox,
-  Input,
   Radio,
   Select,
   Upload,
   Tabs,
   Tooltip,
   Tag,
-  Switch,
   Dropdown,
   DatePicker,
   Drawer,
@@ -20,7 +17,6 @@ import {
   Modal,
 } from 'antd';
 import { WrapperComponent } from './content/WrapperComponent.js';
-import TextArea from 'antd/es/input/TextArea.js';
 import { crmTokens } from './designTokens/tokens/crmTokens.js';
 import { legalKZTokens } from './designTokens/tokens/legalKZTokens.js';
 import { parseDesignTokens } from './designTokens/parseDesignTokens.js';
@@ -32,6 +28,7 @@ import SwitchBox from './components/Switch/SwitchBox.js';
 import SelectBox from './components/Select/SelectBox.js';
 import { InputBox } from './components/Input/InputBox.js';
 import { TextAreaBox } from './components/TextArea/TextArea.js';
+import { CheckboxContainer } from './components/Checkbox/CheckboxContainer.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -103,13 +100,14 @@ const DesignComponents = () => {
           <TextAreaBox />
         </WrapperComponent>
 
+        <WrapperComponent title={'Checkbox'}>
+          <CheckboxContainer />
+        </WrapperComponent>
+
         <WrapperComponent title={'Card'}>
           <Card title="Card" style={{ width: 300 }}>
             <p>Card content</p>
           </Card>
-        </WrapperComponent>
-        <WrapperComponent title={'Checkbox'}>
-          <Checkbox>Checkbox</Checkbox>
         </WrapperComponent>
 
         <WrapperComponent title={'Radio'}>

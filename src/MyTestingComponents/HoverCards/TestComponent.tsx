@@ -1,7 +1,6 @@
 import { ConfigProvider } from 'antd';
-import { InputBox } from '../../DesignComponents/components/Input/InputBox';
-import { TextAreaBox } from '../../DesignComponents/components/TextArea/TextArea';
 import { FlexCol } from '../../DesignComponents/components/shared/FlexContainers/FlexContainers';
+import { CheckboxContainer } from '../../DesignComponents/components/Checkbox/CheckboxContainer';
 
 const TestComponent = () => {
   return (
@@ -9,42 +8,39 @@ const TestComponent = () => {
       theme={{
         components: {
           // имя комопонента
-          Input: {
+          Checkbox: {
             // свойства компонента
-            activeBg: '#ffffff',
-            colorBgContainer: '#ffffff',
-            lineWidth: 2,
-            colorBorder: '#ffffff',
-            colorErrorBgHover: '#ffffff',
-            inputFontSize: 16,
-            lineHeight: '24px',
-            paddingBlock: 12,
-            paddingInline: 12,
-            borderRadius: 4,
-            paddingXXS: 8,
-            fontSize: 16,
-            colorIcon: '#131535',
-            colorTextPlaceholder: '#bababc',
-            hoverBg: '#ffffff',
-            hoverBorderColor: '#f0f0f2',
-            activeBorderColor: '#131535',
             colorText: '#131535',
-            colorError: '#ff6643',
-            colorErrorText: '#ff6643',
-            colorErrorBorderHover: '#dd4827',
-            colorErrorBg: '#ffffff',
-            colorBgContainerDisabled: '#f0f0f2',
             colorTextDisabled: '#bababc',
-            activeShadow: '0 0 0 0 rgba(0, 0, 0, 0)',
-            fontWeight: '500',
+            colorWhite: '#ffffff',
+            borderRadius: 4,
+            controlInteractiveSize: 16,
+            // @ts-ignore
+            lineHeight: '24px',
+            lineType: 'solid',
+            lineWidth: 2,
+            lineWidthBold: 2,
+            lineWidthFocus: 2,
+            colorBgContainer: '#ffffff',
+            colorBgContainerDisabled: '#f0f0f2',
+            colorBorder: '#e3e3e5',
+            colorPrimary: '#131535',
+            colorPrimaryBorder: '#131535',
+            colorPrimaryHover: '#2f355a',
+            fontSize: 16,
+            marginXS: 8,
+            paddingXS: 8,
+            colorError: '#ff6643',
+            fontWeight: '600',
+            colorErrorOutline: 'red',
+            colorErrorBorder: 'yellow',
           },
         },
       }}
     >
       {/**твой компонент */}
       <FlexCol gap={120}>
-        <InputBox />
-        <TextAreaBox />
+        <CheckboxContainer />
       </FlexCol>
     </ConfigProvider>
   );
