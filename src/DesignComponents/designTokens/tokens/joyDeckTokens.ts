@@ -1022,30 +1022,15 @@ export const joyDeckTokens: Tokens = {
       $value: '4px',
       $description: '$number',
     },
-    fontSize: {
-      $type: 'dimension',
-      $value: '14px',
-      $description: '$number',
-    },
     fontSizeSM: {
       $type: 'dimension',
-      $value: '14px',
+      $value: '12px',
       $description: '$number',
     },
     fontSizeIcon: {
       $type: 'dimension',
       $value: '12px',
       $description: '$number',
-    },
-    lineHeight: {
-      $type: 'dimension',
-      $value: '14px',
-      $description: '$string',
-    },
-    lineHeightSM: {
-      $type: 'dimension',
-      $value: '14px',
-      $description: '$string',
     },
     lineType: {
       $type: 'string',
@@ -1054,11 +1039,6 @@ export const joyDeckTokens: Tokens = {
     lineWidth: {
       $type: 'dimension',
       $value: '1px',
-      $description: '$number',
-    },
-    marginXS: {
-      $type: 'dimension',
-      $value: '8px',
       $description: '$number',
     },
     paddingXS: {
