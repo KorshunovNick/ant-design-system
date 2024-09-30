@@ -12,11 +12,16 @@ function getColorToken(token: string): string {
 
   const colorTokenString = String(token);
   resultValue = colorTokenString
+    // удаляю { } "{static.red.red-10}" -> static.red.red-10
     .slice(1, colorTokenString.length - 1)
+    // преобразование static.red.red-10 -> ["static","red","red-10"]
     .split('.')
-    .reduce((acc, current) => acc[current], colorTokens).$value;
+    // получение исходной переменной colorTokens['static']['red']['red-10']
+    .reduce((acc, current) => acc?.[current], colorTokens)?.$value;
 
-  return resultValue.includes('{') ? getColorToken(resultValue) : resultValue;
+  // если значение токена ссылка на другой токен рекурсивно запускаем приведение к корректному цвету заново
+  // если нет, то отдаем цвет
+  return resultValue?.includes('{') ? getColorToken(resultValue) : resultValue;
 }
 
 export function parseDesignTokens(tokens: Tokens) {
