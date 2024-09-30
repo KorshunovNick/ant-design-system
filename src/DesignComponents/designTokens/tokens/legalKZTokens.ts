@@ -1,6 +1,68 @@
 import { Tokens } from '../Tokens.types';
 
 export const legalKZTokens: Tokens = {
+  surface: {
+    layoutBodyBg: {
+      $type: 'color',
+      $value: '{gray.gray-3}',
+    },
+    colorSurfaceBg: {
+      $type: 'color',
+      $value: '{gray.gray-1}',
+    },
+    colorBgElevated: {
+      $type: 'color',
+      $value: '{gray.gray-1}',
+    },
+  },
+  text: {
+    textPrimary: {
+      $type: 'color',
+      $value: '{azure.azure-10}',
+    },
+    textSecondary: {
+      $type: 'color',
+      $value: '{gray.gray-6}',
+    },
+    textTertiary: {
+      $type: 'color',
+      $value: '{gray.gray-5}',
+    },
+    textInverse: {
+      $type: 'color',
+      $value: '{static.white}',
+    },
+  },
+  icon: {
+    colorIcon: {
+      $type: 'color',
+      $value: '{azure.azure-10}',
+    },
+  },
+  brand: {
+    colorPrimary: {
+      $type: 'color',
+      $value: '{azure.azure-6}',
+    },
+  },
+  status: {
+    colorInfo: {
+      $type: 'color',
+      $value: '{azure.azure-6}',
+    },
+    colorSuccess: {
+      $type: 'color',
+      $value: '{green.green-5}',
+    },
+    colorWarning: {
+      $type: 'color',
+      $value: '{orange.orange-5}',
+    },
+    colorError: {
+      $type: 'color',
+      $value: '{volcano.volcano-5}',
+    },
+  },
   button: {
     fontWeight: {
       $type: 'string',
@@ -73,91 +135,91 @@ export const legalKZTokens: Tokens = {
     },
     defaultBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     defaultBorderColor: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{base.azure.azure-8}',
+      $value: '{azure.azure-8}',
     },
     defaultHoverBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     defaultHoverBorderColor: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     defaultHoverColor: {
       $type: 'color',
-      $value: '{base.azure.azure-7}',
+      $value: '{azure.azure-7}',
     },
     defaultActiveBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     defaultActiveBorderColor: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     defaultActiveColor: {
       $type: 'color',
-      $value: '{base.azure.azure-9}',
+      $value: '{azure.azure-9}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     primaryColor: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{static.white}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{base.azure.azure-5}',
+      $value: '{azure.azure-5}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{base.azure.azure-7}',
+      $value: '{azure.azure-7}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     textHoverBG: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-7}',
     },
     borderColorDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-5}',
     },
     colorLink: {
       $type: 'color',
-      $value: '{base.azure.azure-7}',
+      $value: '{azure.azure-7}',
     },
     colorLinkActive: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     colorLinkHover: {
       $type: 'color',
-      $value: '{base.azure.azure-5}',
+      $value: '{azure.azure-5}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-5}',
     },
     controlHeightLG: {
       $type: 'dimension',
@@ -193,14 +255,9 @@ export const legalKZTokens: Tokens = {
       $value: '2px',
       $description: '$number',
     },
-    marginXS: {
-      $type: 'dimension',
-      $value: '8px',
-      $description: '$number',
-    },
     colorTextLightSolid: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{static.white}',
     },
     defaultShadow: {
       $type: 'string',
@@ -214,11 +271,11 @@ export const legalKZTokens: Tokens = {
   input: {
     activeBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorBgContainer: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     lineWidth: {
       $type: 'dimension',
@@ -227,11 +284,11 @@ export const legalKZTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     colorErrorBgHover: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     inputFontSize: {
       $type: 'dimension',
@@ -270,51 +327,51 @@ export const legalKZTokens: Tokens = {
     },
     colorIcon: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorTextPlaceholder: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     hoverBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{gray.gray-4}',
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorError: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     colorErrorText: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     colorErrorBorderHover: {
       $type: 'color',
-      $value: '{base.red.red-6}',
+      $value: '{volcano.volcano-6}',
     },
     colorErrorBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     activeShadow: {
       $type: 'string',
@@ -334,7 +391,7 @@ export const legalKZTokens: Tokens = {
     },
     colorTextDescription: {
       $type: 'color',
-      $value: '{base.gray.gray-6}',
+      $value: '{gray.gray-7}',
     },
     lineHeight: {
       $type: 'dimension',
@@ -355,11 +412,11 @@ export const legalKZTokens: Tokens = {
     },
     labelColor: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     labelRequiredMarkColor: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     marginXXS: {
       $type: 'dimension',
@@ -390,23 +447,23 @@ export const legalKZTokens: Tokens = {
     },
     selectorBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     colorErrorBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorErrorBgHover: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorErrorHover: {
       $type: 'color',
-      $value: '{base.red.red-6}',
+      $value: '{volcano.volcano-6}',
     },
     lineWidth: {
       $type: 'dimension',
@@ -415,7 +472,7 @@ export const legalKZTokens: Tokens = {
     },
     colorTextPlaceholder: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -429,7 +486,7 @@ export const legalKZTokens: Tokens = {
     },
     colorIcon: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     controlHeight: {
       $type: 'dimension',
@@ -453,27 +510,27 @@ export const legalKZTokens: Tokens = {
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{gray.gray-3}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorErrorOutline: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     colorError: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     optionFontSize: {
       $type: 'dimension',
@@ -492,11 +549,11 @@ export const legalKZTokens: Tokens = {
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     optionSelectedBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     optionHeight: {
       $type: 'dimension',
@@ -505,19 +562,19 @@ export const legalKZTokens: Tokens = {
     },
     optionSelectedColor: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     optionActiveBg: {
       $type: 'color',
-      $value: '{base.gray.gray-1}',
+      $value: '{gray.gray-2}',
     },
     multipleltemBg: {
       $type: 'color',
-      $value: '{base.gray.gray-1}',
+      $value: '{gray.gray-2}',
     },
     multipleltemColorDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-4}',
     },
     fontWeight: {
       $type: 'dimension',
@@ -526,7 +583,7 @@ export const legalKZTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     lineHeight: {
       $type: 'string',
@@ -560,27 +617,27 @@ export const legalKZTokens: Tokens = {
     },
     cellActiveWithRangeBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     cellHoverBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     cellRangeBorderColor: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     activeBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{gray.gray-4}',
     },
     inputFontSize: {
       $type: 'dimension',
@@ -589,7 +646,7 @@ export const legalKZTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -603,35 +660,35 @@ export const legalKZTokens: Tokens = {
     },
     colorBgContainer: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorError: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     colorErrorBorderHover: {
       $type: 'color',
-      $value: '{base.red.red-6}',
+      $value: '{volcano.volcano-6}',
     },
     colorErrorBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorErrorBgHover: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     lineHeight: {
       $type: 'dimension',
@@ -650,35 +707,35 @@ export const legalKZTokens: Tokens = {
     },
     cellHoverWithRangeBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     cellBgDisabled: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorTextHeading: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorIcon: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorTextLightSolid: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{static.white}',
     },
     colorTextPlaceholder: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     controlHeight: {
       $type: 'dimension',
@@ -719,15 +776,15 @@ export const legalKZTokens: Tokens = {
   checkbox: {
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     colorWhite: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{static.white}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -765,27 +822,27 @@ export const legalKZTokens: Tokens = {
     },
     colorBgContainer: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{gray.gray-3}',
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{gray.gray-5}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-5}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{base.azure.azure-5}',
+      $value: '{azure.azure-5}',
     },
     fontSize: {
       $type: 'dimension',
@@ -804,7 +861,7 @@ export const legalKZTokens: Tokens = {
     },
     colorError: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     fontWeight: {
       $type: 'dimension',
@@ -812,10 +869,10 @@ export const legalKZTokens: Tokens = {
       $description: '$number',
     },
   },
-  radiobutton: {
+  radio: {
     dotColorDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-7}',
     },
     dotSize: {
       $type: 'dimension',
@@ -829,36 +886,36 @@ export const legalKZTokens: Tokens = {
     },
     colorBgContainer: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     wrapperMarginInlineEnd: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '24px',
       $description: '$number',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-4}',
+      $value: '{gray.gray-5}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{base.azure.azure-5}',
+      $value: '{azure.azure-5}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     fontSize: {
       $type: 'dimension',
@@ -891,11 +948,11 @@ export const legalKZTokens: Tokens = {
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorError: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     fontWeight: {
       $type: 'dimension',
@@ -906,7 +963,7 @@ export const legalKZTokens: Tokens = {
   switch: {
     handleBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{static.white}',
     },
     handleSize: {
       $type: 'dimension',
@@ -930,11 +987,11 @@ export const legalKZTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{base.azure.azure-5}',
+      $value: '{azure.azure-5}',
     },
     innerMaxMargin: {
       $type: 'dimension',
@@ -942,18 +999,18 @@ export const legalKZTokens: Tokens = {
       $description: '$number',
     },
   },
-  tags: {
+  tag: {
     defaultBg: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{gray.gray-4}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{gray.gray-10}',
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{gray.gray-5}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1016,7 +1073,7 @@ export const legalKZTokens: Tokens = {
     },
     colorFillSecondary: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-7}',
     },
     fontWeight: {
       $type: 'dimension',
@@ -1037,15 +1094,15 @@ export const legalKZTokens: Tokens = {
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.gray.gray-6}',
+      $value: '{gray.gray-7}',
     },
     colorTextHeading: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1057,14 +1114,14 @@ export const legalKZTokens: Tokens = {
       $value: '14px',
       $description: '$number',
     },
-    fontWeightStrong: {
+    fontWeight: {
       $type: 'dimension',
-      $value: '700',
+      $value: '500',
       $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
-      $value: '20px',
+      $value: '22px',
       $description: '$number',
     },
     sizePopupArrow: {
@@ -1074,7 +1131,7 @@ export const legalKZTokens: Tokens = {
     },
     paddingXS: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '4px',
       $description: '$number',
     },
     marginSM: {
@@ -1093,58 +1150,10 @@ export const legalKZTokens: Tokens = {
       $description: '$number',
     },
   },
-  breadcrumbs: {
-    itemColor: {
-      $type: 'color',
-      $value: '{base.gray.gray-6}',
-    },
-    lastItemColor: {
-      $type: 'color',
-      $value: '{base.azure.azure-10}',
-    },
-    separatorColor: {
-      $type: 'color',
-      $value: '{base.gray.gray-4}',
-    },
-    separatorMargin: {
-      $type: 'dimension',
-      $value: '8px',
-      $description: '$number',
-    },
-    colorBgTextHover: {
-      $type: 'color',
-      $value: '{base.gray.gray-3}',
-    },
-    borderRadiusXS: {
-      $type: 'dimension',
-      $value: '2px',
-      $description: '$number',
-    },
-    fontSize: {
-      $type: 'dimension',
-      $value: '14px',
-      $description: '$number',
-    },
-    lineHeight: {
-      $type: 'dimension',
-      $value: '22px',
-      $description: '$string',
-    },
-    paddingXXS: {
-      $type: 'dimension',
-      $value: '4px',
-      $description: '$number',
-    },
-    fontWeight: {
-      $type: 'dimension',
-      $value: '400',
-      $description: '$number',
-    },
-  },
   timeline: {
     dotBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{static.white}',
     },
     dotBorderWidth: {
       $type: 'dimension',
@@ -1153,7 +1162,7 @@ export const legalKZTokens: Tokens = {
     },
     tailColor: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{gray.gray-5}',
     },
     itemPaddingBottom: {
       $type: 'dimension',
@@ -1199,19 +1208,19 @@ export const legalKZTokens: Tokens = {
     },
     itemActiveBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     itemBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     itemInputBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1230,7 +1239,7 @@ export const legalKZTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     paddingXS: {
       $type: 'dimension',
@@ -1256,24 +1265,24 @@ export const legalKZTokens: Tokens = {
     },
     'theader-th-line-height': {
       $type: 'dimension',
-      $value: '20px',
+      $value: '22px',
       $description: '$number',
     },
     'tbody-tr-color': {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     'tbody-tr-hover-color': {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     'tbody-tr-hover-color-background-color': {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     'theader-tr-background-color': {
       $type: 'color',
-      $value: '{base.gray.gray-1}',
+      $value: '{gray.gray-2}',
     },
     'theader-th-padding': {
       $type: 'string',
@@ -1307,11 +1316,11 @@ export const legalKZTokens: Tokens = {
     },
     'container-border-color': {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     'tbody-td-line-height': {
       $type: 'dimension',
-      $value: '20px',
+      $value: '22px',
       $description: '$number',
     },
     'table-builder-icon-height': {
@@ -1348,23 +1357,23 @@ export const legalKZTokens: Tokens = {
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorTextHeading: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorIcon: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorIconHover: {
       $type: 'color',
-      $value: '{base.azure.azure-8}',
+      $value: '{azure.azure-8}',
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1388,17 +1397,17 @@ export const legalKZTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     colorPrimaryBorderHover: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
   },
   upload: {
     colorFillAlter: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     lineWidth: {
       $type: 'dimension',
@@ -1407,7 +1416,7 @@ export const legalKZTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1436,11 +1445,11 @@ export const legalKZTokens: Tokens = {
     },
     colorTextHeading: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorTextDescription: {
       $type: 'color',
-      $value: '{base.gray.gray-6}',
+      $value: '{gray.gray-7}',
     },
     fontSize: {
       $type: 'dimension',
@@ -1449,15 +1458,15 @@ export const legalKZTokens: Tokens = {
     },
     colorPrimary_Hover: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{gray.gray-4}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorError: {
       $type: 'color',
-      $value: '{base.red.red-5}',
+      $value: '{volcano.volcano-5}',
     },
     paddingXS: {
       $type: 'dimension',
@@ -1466,7 +1475,7 @@ export const legalKZTokens: Tokens = {
     },
     colorLink: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     marginXS: {
       $type: 'dimension',
@@ -1480,11 +1489,11 @@ export const legalKZTokens: Tokens = {
     },
     controlltemBgHover: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     actionsColor: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     fontWeight: {
       $type: 'dimension',
@@ -1493,7 +1502,7 @@ export const legalKZTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     controlInteractiveSize: {
       $type: 'dimension',
@@ -1504,25 +1513,25 @@ export const legalKZTokens: Tokens = {
   progress: {
     remainingColor: {
       $type: 'color',
-      $value: '{base.azure.azure-1}',
+      $value: '{azure.azure-1}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
   },
   tabs: {
     inkBarColor: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     itemActiveColor: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     itemColor: {
       $type: 'color',
-      $value: '{base.gray.gray-7}',
+      $value: '{gray.gray-7}',
     },
     horizontalItemGutter: {
       $type: 'dimension',
@@ -1536,20 +1545,15 @@ export const legalKZTokens: Tokens = {
     },
     itemHoverColor: {
       $type: 'color',
-      $value: '{base.azure.azure-6}',
+      $value: '{azure.azure-6}',
     },
     itemSelectedColor: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
-    },
-    titleFontSize: {
-      $type: 'dimension',
-      $value: '16px',
-      $description: '$number',
+      $value: '{azure.azure-10}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{base.gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     lineHeight: {
       $type: 'dimension',
@@ -1558,12 +1562,7 @@ export const legalKZTokens: Tokens = {
     },
     controlItemBgHover: {
       $type: 'color',
-      $value: '{base.azure.azure-5}',
-    },
-    titleFontWeight: {
-      $type: 'dimension',
-      $value: '600',
-      $description: '$number',
+      $value: '{azure.azure-5}',
     },
     lineWidthFocus: {
       $type: 'dimension',
@@ -1572,7 +1571,7 @@ export const legalKZTokens: Tokens = {
     },
     cardBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-2}',
     },
     cardGutter: {
       $type: 'dimension',
@@ -1596,7 +1595,7 @@ export const legalKZTokens: Tokens = {
     },
     fontSize: {
       $type: 'dimension',
-      $value: '14px',
+      $value: '16px',
       $description: '$number',
     },
     lineType: {
@@ -1620,7 +1619,7 @@ export const legalKZTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     margin: {
       $type: 'dimension',
@@ -1631,7 +1630,7 @@ export const legalKZTokens: Tokens = {
   card: {
     actionsBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     actionsLiMargin: {
       $type: 'dimension',
@@ -1654,19 +1653,19 @@ export const legalKZTokens: Tokens = {
     },
     colorBgContainer: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     colorTextDescription: {
       $type: 'color',
-      $value: '{base.gray.gray-6}',
+      $value: '{gray.gray-7}',
     },
     colorTextHeading: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1710,7 +1709,7 @@ export const legalKZTokens: Tokens = {
     },
     colorIcon: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     controlInteractiveSize: {
       $type: 'dimension',
@@ -1724,7 +1723,7 @@ export const legalKZTokens: Tokens = {
     },
     colorBorderSecondary: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     fontWeight: {
       $type: 'dimension',
@@ -1735,7 +1734,7 @@ export const legalKZTokens: Tokens = {
   drawer: {
     colorBgElevated: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorBgMask: {
       $type: 'color',
@@ -1743,11 +1742,11 @@ export const legalKZTokens: Tokens = {
     },
     colorSplit: {
       $type: 'color',
-      $value: '{base.gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1785,7 +1784,7 @@ export const legalKZTokens: Tokens = {
     },
     padding: {
       $type: 'dimension',
-      $value: '20px',
+      $value: '16px',
       $description: '$number',
     },
     paddingLG: {
@@ -1805,17 +1804,17 @@ export const legalKZTokens: Tokens = {
     },
     colorIcon: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
   },
   modal: {
     contentBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     headerBg: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     titleFontSize: {
       $type: 'dimension',
@@ -1824,7 +1823,7 @@ export const legalKZTokens: Tokens = {
     },
     titleColor: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     titleLineHeight: {
       $type: 'dimension',
@@ -1837,7 +1836,7 @@ export const legalKZTokens: Tokens = {
     },
     colorIcon: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     controlInteractiveSize: {
       $type: 'dimension',
@@ -1846,11 +1845,11 @@ export const legalKZTokens: Tokens = {
     },
     colorSplit: {
       $type: 'color',
-      $value: '{base.gray.gray-3}',
+      $value: '{gray.gray-3}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1950,11 +1949,11 @@ export const legalKZTokens: Tokens = {
     },
     bgColor: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     colorText: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     marginSM: {
       $type: 'dimension',
@@ -1978,15 +1977,15 @@ export const legalKZTokens: Tokens = {
     },
     colorIcon: {
       $type: 'color',
-      $value: '{base.azure.azure-10}',
+      $value: '{azure.azure-10}',
     },
     itemBgHover: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     itemBgActive: {
       $type: 'color',
-      $value: '{base.static.white}',
+      $value: '{gray.gray-1}',
     },
     fontSize: {
       $type: 'dimension',
