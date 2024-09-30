@@ -29,6 +29,7 @@ import SelectBox from './components/Select/SelectBox.js';
 import { InputBox } from './components/Input/InputBox.js';
 import { TextAreaBox } from './components/TextArea/TextArea.js';
 import { CheckboxContainer } from './components/Checkbox/CheckboxContainer.js';
+import { TagContainer } from './components/Tag/TagContainer.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -104,6 +105,10 @@ const DesignComponents = () => {
           <CheckboxContainer />
         </WrapperComponent>
 
+        <WrapperComponent title={'Tag'}>
+          <TagContainer />
+        </WrapperComponent>
+
         <WrapperComponent title={'Card'}>
           <Card title="Card" style={{ width: 300 }}>
             <p>Card content</p>
@@ -133,9 +138,6 @@ const DesignComponents = () => {
           <Tooltip title="Tooltip">
             <span>Tooltip</span>
           </Tooltip>
-        </WrapperComponent>
-        <WrapperComponent title={'Tag'}>
-          <Tag color="blue">Tag</Tag>
         </WrapperComponent>
 
         <WrapperComponent title={'Dropdown'}>

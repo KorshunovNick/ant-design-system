@@ -1,0 +1,10 @@
+.tag {
+    max-width: fit-content;
+}
+
+.tags {
+    display: grid;
+    max-width: 440px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+}
