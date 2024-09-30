@@ -66,7 +66,7 @@ export function parseDesignTokens(tokens: Tokens) {
         }
       }
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'Checkbox') {
+      if (themeKey === 'Tag') {
         currentTokens.push(`${token}: '${resultValue}' `);
       }
 
