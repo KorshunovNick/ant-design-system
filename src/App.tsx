@@ -1,8 +1,8 @@
 import './App.css';
 import { Tabs } from 'antd';
-import DesignComponents from './DesignComponents/DesignComponents';
-import TestTable from './TestTable/TestTable';
-import TestComponent from './MyTestingComponents/TestComponent';
+import DesignComponents from './components/DesignComponents/DesignComponents';
+import TestTable from './components/TestTable/TestTable';
+import TestComponent from './components/TestComponent/TestComponent';
 
 function App() {
   return (
