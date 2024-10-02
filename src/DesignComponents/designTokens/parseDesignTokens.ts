@@ -4,6 +4,8 @@ import { Tokens } from './Tokens.types';
 const currentTokens: Array<string> = [];
 
 function capitalizeFirstLetter(str: string) {
+  if (str === 'datepicker') return 'DatePicker';
+
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
@@ -66,7 +68,7 @@ export function parseDesignTokens(tokens: Tokens) {
         }
       }
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'Tag') {
+      if (themeKey === 'DatePicker') {
         currentTokens.push(`${token}: '${resultValue}' `);
       }
 

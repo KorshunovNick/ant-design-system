@@ -30,6 +30,7 @@ import { InputBox } from './components/Input/InputBox.js';
 import { TextAreaBox } from './components/TextArea/TextArea.js';
 import { CheckboxContainer } from './components/Checkbox/CheckboxContainer.js';
 import { TagContainer } from './components/Tag/TagContainer.js';
+import { DatePickerContainer } from './components/DatePicker/DatePickerContainer.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -109,6 +110,10 @@ const DesignComponents = () => {
           <TagContainer />
         </WrapperComponent>
 
+        <WrapperComponent title={'Datepicker and RangePicker'}>
+          <DatePickerContainer />
+        </WrapperComponent>
+
         <WrapperComponent title={'Card'}>
           <Card title="Card" style={{ width: 300 }}>
             <p>Card content</p>
@@ -145,9 +150,7 @@ const DesignComponents = () => {
             <Button>Dropdown</Button>
           </Dropdown>
         </WrapperComponent>
-        <WrapperComponent title={'Datepicker'}>
-          <DatePicker />
-        </WrapperComponent>
+
         <WrapperComponent title={'Drawer'}>
           <Button onClick={() => setOpenDrawer(true)}>open drawer</Button>
           <Drawer
