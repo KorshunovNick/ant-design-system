@@ -37,9 +37,6 @@ const themeObject: Record<string, Tokens> = {
 };
 
 const DesignComponents = () => {
-  const [isOpenDrawer, setOpenDrawer] = useState(false);
-  const [isOpenModal, setOpenModal] = useState(false);
-
   const themeRef = useRef('crmTokens');
   const [theme, setTheme] = useState<any>(() => parseDesignTokens(crmTokens));
 
@@ -147,31 +144,6 @@ const DesignComponents = () => {
           <Dropdown overlay={<Menu>Dropdown menu</Menu>}>
             <Button>Dropdown</Button>
           </Dropdown>
-        </WrapperComponent>
-
-        <WrapperComponent title={'Drawer'}>
-          <Button onClick={() => setOpenDrawer(true)}>open drawer</Button>
-          <Drawer
-            title="Drawer"
-            placement="right"
-            open={isOpenDrawer}
-            onClose={() => setOpenDrawer(false)}
-          >
-            <p>Drawer content</p>
-          </Drawer>
-        </WrapperComponent>
-        <WrapperComponent title={'Modal'}>
-          <Button onClick={() => setOpenModal(true)}>open modal</Button>
-          <Modal
-            title={'Basic modal'}
-            open={isOpenModal}
-            onClose={() => setOpenModal(false)}
-            destroyOnClose
-            closable
-            onCancel={() => setOpenModal(false)}
-          >
-            <p>modal content</p>
-          </Modal>
         </WrapperComponent>
       </Flex>
     </ConfigProvider>
