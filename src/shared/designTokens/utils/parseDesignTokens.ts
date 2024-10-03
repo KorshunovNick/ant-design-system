@@ -1,5 +1,5 @@
-import { colorTokens } from './colorTokens/colorTokens';
-import { Tokens } from './Tokens.types';
+import { colorTokens } from '../colorTokens/colorTokens';
+import { Tokens } from '../types/Tokens.types';
 
 const currentTokens: Array<string> = [];
 
