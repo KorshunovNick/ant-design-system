@@ -14,6 +14,10 @@ export const legalKZTokens: Tokens = {
       $type: 'color',
       $value: '{gray.gray-1}',
     },
+    colorBgContainer: {
+      $type: 'color',
+      $value: '{gray.gray-1}',
+    },
   },
   text: {
     textPrimary: {
@@ -690,17 +694,7 @@ export const legalKZTokens: Tokens = {
       $type: 'color',
       $value: '{gray.gray-6}',
     },
-    lineHeight: {
-      $type: 'dimension',
-      $value: '24px',
-      $description: '$string',
-    },
     paddingInline: {
-      $type: 'dimension',
-      $value: '12px',
-      $description: '$number',
-    },
-    paddingBlock: {
       $type: 'dimension',
       $value: '12px',
       $description: '$number',
@@ -739,22 +733,12 @@ export const legalKZTokens: Tokens = {
     },
     controlHeight: {
       $type: 'dimension',
-      $value: '48px',
+      $value: '46px',
       $description: '$number',
     },
     paddingXXS: {
       $type: 'dimension',
       $value: '4px',
-      $description: '$number',
-    },
-    fontWeight: {
-      $type: 'dimension',
-      $value: '400',
-      $description: '$number',
-    },
-    controlInteractiveSize: {
-      $type: 'dimension',
-      $value: '16px',
       $description: '$number',
     },
     fontSize: {
@@ -771,6 +755,10 @@ export const legalKZTokens: Tokens = {
       $type: 'dimension',
       $value: '12px',
       $description: '$number',
+    },
+    activeShadow: {
+      $type: 'string',
+      $value: '0 0 0 0 rgba(0, 0, 0, 0)',
     },
   },
   checkbox: {
@@ -1606,6 +1594,10 @@ export const legalKZTokens: Tokens = {
       $value: '8px',
       $description: '$number',
     },
+    colorBgContainer: {
+      $type: 'color',
+      $value: '{gray.gray-1}',
+    },
   },
   card: {
     actionsBg: {
@@ -1634,18 +1626,6 @@ export const legalKZTokens: Tokens = {
     colorBgContainer: {
       $type: 'color',
       $value: '{gray.gray-1}',
-    },
-    colorText: {
-      $type: 'color',
-      $value: '{azure.azure-10}',
-    },
-    colorTextDescription: {
-      $type: 'color',
-      $value: '{gray.gray-7}',
-    },
-    colorTextHeading: {
-      $type: 'color',
-      $value: '{azure.azure-10}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1687,10 +1667,6 @@ export const legalKZTokens: Tokens = {
       $value: '4px',
       $description: '$number',
     },
-    colorIcon: {
-      $type: 'color',
-      $value: '{azure.azure-10}',
-    },
     controlInteractiveSize: {
       $type: 'dimension',
       $value: '16px',
@@ -1700,10 +1676,6 @@ export const legalKZTokens: Tokens = {
       $type: 'dimension',
       $value: '0px',
       $description: '$number',
-    },
-    colorBorderSecondary: {
-      $type: 'color',
-      $value: '{gray.gray-1}',
     },
     fontWeight: {
       $type: 'dimension',
