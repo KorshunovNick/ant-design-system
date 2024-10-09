@@ -29,6 +29,7 @@ import { legalKZTokens } from '../../shared/designTokens/tokens/legalKZTokens.js
 import { joyDeckTokens } from '../../shared/designTokens/tokens/joyDeckTokens.js';
 import { parseDesignTokens } from '../../shared/designTokens/utils/parseDesignTokens.js';
 import { WrapperComponent } from '../../shared/ui/WrapperComponent/WrapperComponent.js';
+import { ModalContainer } from './components/Modal/ModalContainer.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -107,6 +108,10 @@ const DesignComponents = () => {
 
         <WrapperComponent title={'Datepicker and RangePicker'}>
           <DatePickerContainer />
+        </WrapperComponent>
+
+        <WrapperComponent title={'Modal an Drawer'}>
+          <ModalContainer />
         </WrapperComponent>
 
         <WrapperComponent title={'Card'}>
