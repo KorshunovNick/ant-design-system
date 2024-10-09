@@ -1,5 +1,6 @@
 import { ConfigProvider } from 'antd';
 import { DatePickerContainer } from '../DesignComponents/components/DatePicker/DatePickerContainer';
+import { ModalContainer } from '../DesignComponents/components/Modal/ModalContainer';
 
 const TestComponent = () => {
   return (
@@ -7,52 +8,57 @@ const TestComponent = () => {
       theme={{
         components: {
           // имя комопонента
-          DatePicker: {
+          Drawer: {
             // свойства компонента
-            cellHeight: 40,
-            cellWidth: 40,
-            cellActiveWithRangeBg: '#eff1f8',
-            cellHoverBg: '#eff1f8',
-            activeBorderColor: '#131535',
-            cellRangeBorderColor: '#2f355a',
-            activeBg: '#ffffff',
-            hoverBorderColor: '#f5f5f5',
-            inputFontSize: 16,
-            colorBorder: '#f0f0f0',
-            borderRadius: 4,
-            lineWidth: 2,
-            colorBgContainer: '#ffffff',
-            colorBgContainerDisabled: '#f5f5f5',
-            colorBgElevated: '#ffffff',
-            colorError: '#ff7a45',
-            colorErrorBorderHover: '#fa541c',
-            colorErrorBg: '#ffffff',
-            colorErrorBgHover: '#ffffff',
-            colorTextDisabled: '#bfbfbf',
-            // lineHeight: '20px', // убрать
-            paddingInline: 12,
-            paddingBlock: 12, // не работает
-            cellHoverWithRangeBg: '#eff1f8',
-            cellBgDisabled: '#ffffff',
-            colorPrimary: '#2f355a',
+            colorBgElevated: '#f0f0f0',
+            colorBgMask: '#13153580',
+            colorSplit: '#d9d9d9',
             colorText: '#131535',
-            colorTextHeading: '#131535',
-            colorIcon: '#131535',
-            colorTextLightSolid: '#ffffff',
-            colorTextPlaceholder: '#bfbfbf',
-            controlHeight: 46, // поменять на 46
-            paddingXXS: 4,
-            // fontWeight: 400, // не нужен
-            controlInteractiveSize: 16, // как -будто бы не нужен
-            fontSize: 14,
+            borderRadius: 4,
+            fontWeightStrong: 600,
+            fontSizeLG: 22,
+            lineHeight: '24px',
+            lineType: 'solid',
+            lineWidth: 2,
+            marginXS: 8,
+            padding: 16,
+            paddingLG: 60,
             paddingXS: 8,
-            paddingSM: 12,
+            controlInteractiveSize: 24,
+            colorIcon: '#131535',
+          },
+          Modal: {
+            contentBg: '#f0f0f0',
+            headerBg: '#f0f0f0',
+            titleFontSize: 24,
+            titleColor: '#131535',
+            titleLineHeight: '32px',
+            colorBgMask: '#13153580',
+            colorIcon: '#131535',
+            controlInteractiveSize: 24,
+            colorSplit: '#d9d9d9',
+            colorText: ' #131535',
+            borderRadius: 4,
+            boxShadow:
+              '0 6px 16px 0 rgba(0, 0, 0 , 0.08), 0 3px 6px -4px rgba (0, 0, 0, 0.12), 0 9px 28px 8 px rgba(0, 0, 0, 0.05)',
+            fontSize: 16,
+            fontSizeLG: 20,
+            fontWeightStrong: 600,
+            lineHeight: '24px',
+            lineWidth: 2,
+            lineType: 'solid',
+            margin: 16,
+            marginXS: 8,
+            padding: 30,
+            paddingLG: 60,
+            screenSMMax: 767,
+            fontWeight: 500,
           },
         },
       }}
     >
       {/**твой компонент */}
-      <DatePickerContainer />
+      <ModalContainer />
     </ConfigProvider>
   );
 };

@@ -68,8 +68,8 @@ export function parseDesignTokens(tokens: Tokens) {
         }
       }
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'DatePicker') {
-        currentTokens.push(`${token}: '${resultValue}' `);
+      if (themeKey === 'Modal') {
+        currentTokens.push(`${token}: ${resultValue} `);
       }
 
       Object.assign(theme[themeKey], { [token]: resultValue });
