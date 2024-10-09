@@ -8,11 +8,11 @@ export const crmTokens: Tokens = {
     },
     colorSurfaceBg: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-3}',
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-3}',
     },
     colorBgContainer: {
       $type: 'color',
@@ -1090,7 +1090,6 @@ export const crmTokens: Tokens = {
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
-      $description: '$number',
     },
     sizePopupArrow: {
       $type: 'dimension',
@@ -1250,7 +1249,7 @@ export const crmTokens: Tokens = {
     },
     'theader-tr-background-color': {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-2}',
     },
     'theader-th-padding': {
       $type: 'string',
@@ -1284,7 +1283,7 @@ export const crmTokens: Tokens = {
     },
     'container-border-color': {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{gray.gray-3}',
     },
     'tbody-td-line-height': {
       $type: 'dimension',
@@ -1758,6 +1757,10 @@ export const crmTokens: Tokens = {
       $type: 'color',
       $value: '{navy.navy-10}',
     },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
+    },
   },
   modal: {
     contentBg: {
@@ -1871,6 +1874,10 @@ export const crmTokens: Tokens = {
       $type: 'dimension',
       $value: '500',
       $description: '$number',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
     },
   },
   horizontal_navigation: {

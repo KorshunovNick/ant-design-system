@@ -1090,7 +1090,6 @@ export const legalKZTokens: Tokens = {
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
-      $description: '$number',
     },
     sizePopupArrow: {
       $type: 'dimension',
@@ -1758,6 +1757,10 @@ export const legalKZTokens: Tokens = {
       $type: 'color',
       $value: '{azure.azure-10}',
     },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
+    },
   },
   modal: {
     contentBg: {
@@ -1871,6 +1874,10 @@ export const legalKZTokens: Tokens = {
       $type: 'dimension',
       $value: '400',
       $description: '$number',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
     },
   },
   horizontal_navigation: {
