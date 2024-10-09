@@ -3,9 +3,21 @@ import {
   FlexCol,
   FlexRow,
 } from '../../../../shared/ui/FlexContainers/FlexContainers';
-import { Button, Drawer, DrawerProps, Modal, ModalProps, Radio } from 'antd';
+import {
+  Button,
+  Checkbox,
+  DatePicker,
+  Drawer,
+  DrawerProps,
+  Input,
+  Modal,
+  ModalProps,
+  Radio,
+  Select,
+} from 'antd';
 import './ModalContainer.scss';
 import TextArea from 'antd/es/input/TextArea';
+import { InputWrapper } from '../../../../shared/ui/InputWrapper/InputWrapper';
 
 interface Props {
   modalProps: ModalProps;
@@ -14,19 +26,63 @@ interface Props {
 const ModalFooterButtons: FC<Props> = ({ modalProps }) => {
   return (
     <FlexRow>
-      <Button type="text" onClick={modalProps.onOk}>
+      <Button type="primary" onClick={modalProps.onOk}>
         Сохранить
       </Button>
       <Button type="text" onClick={modalProps.onCancel}>
-        Закрыть
+        Отменить
       </Button>
     </FlexRow>
+  );
+};
+
+const ModalContent = () => {
+  return (
+    <FlexCol gap={16}>
+      <p style={{ fontSize: 14 }}>Добавьте информацию о доп. соглашении</p>
+      <FlexRow>
+        <InputWrapper label={'Номер доп. соглашения'}>
+          <Input placeholder="Введите номер доп. соглашения" />
+        </InputWrapper>
+        <InputWrapper label={'Дата заключения'}>
+          <DatePicker placeholder="Выберите дату" />
+        </InputWrapper>
+      </FlexRow>
+    </FlexCol>
+  );
+};
+
+const DrawerContent = ({ onOk }: { onOk: () => void }) => {
+  return (
+    <FlexCol gap={36}>
+      <FlexCol gap={0}>
+        <InputWrapper label={'Тип взаимодействия'}>
+          <Select
+            placeholder="Выберите тип взаимодействия"
+            options={[
+              { label: 'Взаимодействие', value: 1 },
+              { label: 'Взаимодействие', value: 2 },
+              { label: 'Взаимодействие', value: 3 },
+            ]}
+          />
+        </InputWrapper>
+        <InputWrapper label={'Комментарий'}>
+          <TextArea placeholder="Введите комментарий" rows={3} />
+        </InputWrapper>
+      </FlexCol>
+      <div>
+        <Button type="primary" onClick={onOk}>
+          Сохранить
+        </Button>
+      </div>
+    </FlexCol>
   );
 };
 
 export const ModalContainer = () => {
   const [isOpenDrawer, setOpenDrawer] = useState(false);
   const [isOpenModal, setOpenModal] = useState(false);
+  const [modalContent, setModalContent] = useState(false);
   const [content, setContent] = useState('');
   const [placement, setPlacement] = useState<DrawerProps['placement']>('right');
 
@@ -45,6 +101,17 @@ export const ModalContainer = () => {
             value={content}
             rows={6}
           />
+        </div>
+        <div style={{ alignSelf: 'center' }}>
+          <FlexRow gap={8}>
+            <Checkbox
+              checked={modalContent}
+              onChange={e => {
+                setModalContent(e.target.checked);
+              }}
+            />
+            Заполнить контент модального окна и drawer
+          </FlexRow>
         </div>
         <div>
           {!!content.length && (
@@ -76,6 +143,7 @@ export const ModalContainer = () => {
           onCancel={() => setOpenModal(false)}
         >
           <p>{content}</p>
+          {modalContent && <ModalContent />}
         </Modal>
       </div>
       <FlexCol>
@@ -99,6 +167,7 @@ export const ModalContainer = () => {
           onClose={() => setOpenDrawer(false)}
         >
           <p>{content}</p>
+          {modalContent && <DrawerContent onOk={() => setOpenDrawer(false)} />}
         </Drawer>
       </FlexCol>
     </FlexCol>
