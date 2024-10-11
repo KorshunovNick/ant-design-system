@@ -51,7 +51,7 @@ const UISelect = ({
 const SelectBox = () => {
   return (
     <div>
-      <FlexRow gap={228}>
+      <FlexCol gap={228}>
         <FlexCol gap={60}>
           <h2>Select</h2>
           <FlexRow gap={75}>
@@ -117,7 +117,7 @@ const SelectBox = () => {
             />
           </FlexRow>
         </FlexCol>
-      </FlexRow>
+      </FlexCol>
     </div>
   );
 };

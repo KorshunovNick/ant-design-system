@@ -30,6 +30,7 @@ import { joyDeckTokens } from '../../shared/designTokens/tokens/joyDeckTokens.js
 import { parseDesignTokens } from '../../shared/designTokens/utils/parseDesignTokens.js';
 import { WrapperComponent } from '../../shared/ui/WrapperComponent/WrapperComponent.js';
 import { ModalContainer } from './components/Modal/ModalContainer.js';
+import { PopoverContainer } from './components/Popover/PopoverContainer.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -73,62 +74,69 @@ const DesignComponents = () => {
 
       <Flex
         vertical
-        gap={20}
+        gap={150}
         style={{ padding: 100, border: '1px solid black' }}
       >
         <WrapperComponent title={'Switch'}>
           <SwitchBox />
         </WrapperComponent>
+        <hr />
         <WrapperComponent title={'Button'}>
           <ButtonCard />
         </WrapperComponent>
+        <hr />
         <WrapperComponent title={'Notifications'}>
           <NotificationBox />
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Select'}>
           <SelectBox />
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Input'}>
           <InputBox />
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'TextArea'}>
           <TextAreaBox />
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Checkbox'}>
           <CheckboxContainer />
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Tag'}>
           <TagContainer />
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Datepicker and RangePicker'}>
           <DatePickerContainer />
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Modal an Drawer'}>
           <ModalContainer />
         </WrapperComponent>
-
+        <hr />
+        <WrapperComponent title={'Popover'}>
+          <PopoverContainer />
+        </WrapperComponent>
+        <hr />
         <WrapperComponent title={'Card'}>
           <Card title="Card" style={{ width: 300 }}>
             <p>Card content</p>
           </Card>
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Radio'}>
           <Radio>Radio</Radio>
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Upload'}>
           <Upload>
             <Button>Upload</Button>
           </Upload>
         </WrapperComponent>
+        <hr />
         <WrapperComponent title={'Tabs'}>
           <Tabs defaultActiveKey="1">
             <Tabs.TabPane tab="Tab 1" key="1">
@@ -139,12 +147,13 @@ const DesignComponents = () => {
             </Tabs.TabPane>
           </Tabs>
         </WrapperComponent>
+        <hr />
         <WrapperComponent title={'Tooltip'}>
           <Tooltip title="Tooltip">
             <span>Tooltip</span>
           </Tooltip>
         </WrapperComponent>
-
+        <hr />
         <WrapperComponent title={'Dropdown'}>
           <Dropdown overlay={<Menu>Dropdown menu</Menu>}>
             <Button>Dropdown</Button>

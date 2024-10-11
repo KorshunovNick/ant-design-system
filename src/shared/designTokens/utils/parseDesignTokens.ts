@@ -68,7 +68,7 @@ export function parseDesignTokens(tokens: Tokens) {
         }
       }
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'Modal') {
+      if (themeKey === 'Popover') {
         currentTokens.push(`${token}: ${resultValue} `);
       }
 

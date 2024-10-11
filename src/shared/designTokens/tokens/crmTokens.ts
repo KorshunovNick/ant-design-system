@@ -1090,7 +1090,7 @@ export const crmTokens: Tokens = {
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
-      $description: '$number',
+      // $description: '$number',
     },
     sizePopupArrow: {
       $type: 'dimension',
