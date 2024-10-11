@@ -199,7 +199,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorText: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{cyan.cyan-7}',
     },
     colorTextDisabled: {
       $type: 'color',
@@ -211,7 +211,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorLink: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{cyan.cyan-7}',
     },
     colorLinkActive: {
       $type: 'color',
@@ -1090,7 +1090,6 @@ export const joyDeckTokens: Tokens = {
     lineHeight: {
       $type: 'dimension',
       $value: '22px',
-      $description: '$number',
     },
     sizePopupArrow: {
       $type: 'dimension',
@@ -1758,6 +1757,10 @@ export const joyDeckTokens: Tokens = {
       $type: 'color',
       $value: '{navy.navy-10}',
     },
+    fontFamily: {
+      $type: 'string',
+      $value: 'String value',
+    },
   },
   modal: {
     contentBg: {
@@ -1871,6 +1874,10 @@ export const joyDeckTokens: Tokens = {
       $type: 'dimension',
       $value: '400',
       $description: '$number',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
     },
   },
   horizontal_navigation: {
