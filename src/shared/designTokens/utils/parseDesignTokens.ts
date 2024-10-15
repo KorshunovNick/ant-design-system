@@ -63,13 +63,17 @@ export function parseDesignTokens(tokens: Tokens) {
           resultValue = tokenValue;
       }
       if (tokenDescription) {
-        if (tokenDescription.includes('$number')) {
+        if (tokenDescription.includes('number')) {
           resultValue = Number(parseInt(String(tokenValue)));
         }
       }
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'Popover') {
-        currentTokens.push(`${token}: ${resultValue} `);
+      if (themeKey === 'Modal') {
+        const isNumber =
+          tokenType === 'number' ||
+          (tokenDescription && tokenDescription.includes('number'));
+        const logValue = isNumber ? resultValue : `"${resultValue}"`;
+        currentTokens.push(`${token}: ${logValue} `);
       }
 
       Object.assign(theme[themeKey], { [token]: resultValue });

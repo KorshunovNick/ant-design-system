@@ -5,7 +5,6 @@ import { FlexCol } from '../../../../shared/ui/FlexContainers/FlexContainers';
 const PopoverContent = () => {
   return (
     <FlexCol gap={2}>
-      <p>propmpt text</p>
       <p style={{ color: '#8C8C8C' }}>propmpt text</p>
       <p style={{ color: '#8C8C8C' }}>propmpt text</p>
     </FlexCol>
@@ -40,6 +39,7 @@ export const PopoverContainer = () => {
       </Radio.Group>
       <div>
         <Popover
+          title={'propmpt text'}
           content={<PopoverContent />}
           trigger={trigger}
           placement={position}
