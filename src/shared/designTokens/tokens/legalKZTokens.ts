@@ -1120,6 +1120,10 @@ export const legalKZTokens: Tokens = {
       $value: '2px',
       $description: '$number',
     },
+    marginXS: {
+      $type: 'dimension',
+      $value: '4px',
+    },
   },
   timeline: {
     dotBg: {
@@ -1856,15 +1860,15 @@ export const legalKZTokens: Tokens = {
     },
     marginXS: {
       $type: 'dimension',
-      $value: '30px',
+      $value: '16px',
       $description: '$number',
     },
-    padding: {
+    paddingMD: {
       $type: 'dimension',
       $value: '30px',
       $description: '$number',
     },
-    paddingLG: {
+    paddingContentHorizontalLG: {
       $type: 'dimension',
       $value: '60px',
       $description: '$number',

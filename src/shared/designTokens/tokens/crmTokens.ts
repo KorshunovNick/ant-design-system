@@ -760,6 +760,10 @@ export const crmTokens: Tokens = {
       $type: 'string',
       $value: '0 0 0 0 rgba(0, 0, 0, 0)',
     },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Nunito',
+    },
   },
   checkbox: {
     colorText: {
@@ -1115,6 +1119,10 @@ export const crmTokens: Tokens = {
       $type: 'dimension',
       $value: '2px',
       $description: '$number',
+    },
+    marginXS: {
+      $type: 'dimension',
+      $value: '4px',
     },
   },
   timeline: {
@@ -1852,15 +1860,15 @@ export const crmTokens: Tokens = {
     },
     marginXS: {
       $type: 'dimension',
-      $value: '30px',
+      $value: '16px',
       $description: '$number',
     },
-    padding: {
+    paddingMD: {
       $type: 'dimension',
       $value: '30px',
       $description: '$number',
     },
-    paddingLG: {
+    paddingContentHorizontalLG: {
       $type: 'dimension',
       $value: '60px',
       $description: '$number',
