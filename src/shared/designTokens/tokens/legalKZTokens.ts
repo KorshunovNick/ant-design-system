@@ -306,7 +306,7 @@ export const legalKZTokens: Tokens = {
     },
     paddingBlock: {
       $type: 'dimension',
-      $value: '12px',
+      $value: '10px',
       $description: '$number',
     },
     paddingInline: {
@@ -759,6 +759,10 @@ export const legalKZTokens: Tokens = {
     activeShadow: {
       $type: 'string',
       $value: '0 0 0 0 rgba(0, 0, 0, 0)',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
     },
   },
   checkbox: {
@@ -1852,7 +1856,7 @@ export const legalKZTokens: Tokens = {
     },
     marginXS: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '30px',
       $description: '$number',
     },
     padding: {
