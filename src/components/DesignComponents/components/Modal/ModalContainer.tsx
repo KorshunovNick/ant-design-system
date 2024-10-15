@@ -25,11 +25,11 @@ interface Props {
 
 const ModalFooterButtons: FC<Props> = ({ modalProps }) => {
   return (
-    <FlexRow>
-      <Button type="primary" onClick={modalProps.onOk}>
+    <FlexRow gap={16}>
+      <Button type="primary" onClick={modalProps.onOk} size="large">
         Сохранить
       </Button>
-      <Button type="text" onClick={modalProps.onCancel}>
+      <Button type="text" onClick={modalProps.onCancel} size="large">
         Отменить
       </Button>
     </FlexRow>
@@ -40,12 +40,15 @@ const ModalContent = () => {
   return (
     <FlexCol gap={16}>
       <p style={{ fontSize: 14 }}>Добавьте информацию о доп. соглашении</p>
-      <FlexRow>
+      <FlexRow gap={16}>
         <InputWrapper label={'Номер доп. соглашения'}>
-          <Input placeholder="Введите номер доп. соглашения" />
+          <Input
+            placeholder="Введите номер доп. соглашения"
+            style={{ width: 200 }}
+          />
         </InputWrapper>
         <InputWrapper label={'Дата заключения'}>
-          <DatePicker placeholder="Выберите дату" />
+          <DatePicker placeholder="Выберите дату" style={{ width: 200 }} />
         </InputWrapper>
       </FlexRow>
     </FlexCol>
@@ -55,10 +58,11 @@ const ModalContent = () => {
 const DrawerContent = ({ onOk }: { onOk: () => void }) => {
   return (
     <FlexCol gap={36}>
-      <FlexCol gap={0}>
+      <FlexCol gap={8}>
         <InputWrapper label={'Тип взаимодействия'}>
           <Select
             placeholder="Выберите тип взаимодействия"
+            allowClear
             options={[
               { label: 'Взаимодействие', value: 1 },
               { label: 'Взаимодействие', value: 2 },
@@ -71,7 +75,7 @@ const DrawerContent = ({ onOk }: { onOk: () => void }) => {
         </InputWrapper>
       </FlexCol>
       <div>
-        <Button type="primary" onClick={onOk}>
+        <Button type="primary" onClick={onOk} size="large">
           Сохранить
         </Button>
       </div>
