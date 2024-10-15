@@ -306,7 +306,7 @@ export const joyDeckTokens: Tokens = {
     },
     paddingBlock: {
       $type: 'dimension',
-      $value: '12px',
+      $value: '10px',
       $description: '$number',
     },
     paddingInline: {
@@ -759,6 +759,10 @@ export const joyDeckTokens: Tokens = {
     activeShadow: {
       $type: 'string',
       $value: '0 0 0 0 rgba(0, 0, 0, 0)',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
     },
   },
   checkbox: {
@@ -1759,7 +1763,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'String value',
+      $value: 'Inter',
     },
   },
   modal: {
@@ -1852,7 +1856,7 @@ export const joyDeckTokens: Tokens = {
     },
     marginXS: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '30px',
       $description: '$number',
     },
     padding: {

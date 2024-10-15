@@ -306,7 +306,7 @@ export const crmTokens: Tokens = {
     },
     paddingBlock: {
       $type: 'dimension',
-      $value: '12px',
+      $value: '10px',
       $description: '$number',
     },
     paddingInline: {
@@ -1852,7 +1852,7 @@ export const crmTokens: Tokens = {
     },
     marginXS: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '30px',
       $description: '$number',
     },
     padding: {
