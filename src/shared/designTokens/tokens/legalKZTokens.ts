@@ -1513,11 +1513,6 @@ export const legalKZTokens: Tokens = {
       $value: '20px',
       $description: '$number',
     },
-    horizontalItemPadding: {
-      $type: 'dimension',
-      $value: '12px',
-      $description: '$number',
-    },
     itemHoverColor: {
       $type: 'color',
       $value: '{azure.azure-6}',
@@ -1532,7 +1527,7 @@ export const legalKZTokens: Tokens = {
     },
     lineHeight: {
       $type: 'dimension',
-      $value: '22px',
+      $value: '20px',
       $description: '$string',
     },
     controlItemBgHover: {
@@ -1550,17 +1545,12 @@ export const legalKZTokens: Tokens = {
     },
     cardGutter: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '2px',
       $description: '$number',
     },
     cardHeight: {
       $type: 'dimension',
       $value: '40px',
-      $description: '$number',
-    },
-    cardPadding: {
-      $type: 'dimension',
-      $value: '16px',
       $description: '$number',
     },
     borderRadius: {
@@ -1570,7 +1560,7 @@ export const legalKZTokens: Tokens = {
     },
     fontSize: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '14px',
       $description: '$number',
     },
     lineType: {
@@ -1604,6 +1594,18 @@ export const legalKZTokens: Tokens = {
     colorBgContainer: {
       $type: 'color',
       $value: '{gray.gray-1}',
+    },
+    cardPadding: {
+      $type: 'string',
+      $value: '12px',
+    },
+    horizontalItemPadding: {
+      $type: 'string',
+      $value: '12px',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
     },
   },
   card: {

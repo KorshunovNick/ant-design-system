@@ -891,7 +891,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimaryBorder: {
       $type: 'color',
@@ -899,11 +899,11 @@ export const joyDeckTokens: Tokens = {
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{cyan.cyan-5}',
+      $value: '{cyan.cyan-6}',
     },
     colorTextDisabled: {
       $type: 'color',
@@ -1513,11 +1513,6 @@ export const joyDeckTokens: Tokens = {
       $value: '20px',
       $description: '$number',
     },
-    horizontalItemPadding: {
-      $type: 'dimension',
-      $value: '12px',
-      $description: '$number',
-    },
     itemHoverColor: {
       $type: 'color',
       $value: '{cyan.cyan-7}',
@@ -1532,7 +1527,7 @@ export const joyDeckTokens: Tokens = {
     },
     lineHeight: {
       $type: 'dimension',
-      $value: '22px',
+      $value: '20px',
       $description: '$string',
     },
     controlItemBgHover: {
@@ -1550,17 +1545,12 @@ export const joyDeckTokens: Tokens = {
     },
     cardGutter: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '2px',
       $description: '$number',
     },
     cardHeight: {
       $type: 'dimension',
       $value: '40px',
-      $description: '$number',
-    },
-    cardPadding: {
-      $type: 'dimension',
-      $value: '16px',
       $description: '$number',
     },
     borderRadius: {
@@ -1570,7 +1560,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontSize: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '14px',
       $description: '$number',
     },
     lineType: {
@@ -1604,6 +1594,18 @@ export const joyDeckTokens: Tokens = {
     colorBgContainer: {
       $type: 'color',
       $value: '{gray.gray-1}',
+    },
+    cardPadding: {
+      $type: 'string',
+      $value: '12px',
+    },
+    horizontalItemPadding: {
+      $type: 'string',
+      $value: '12px',
+    },
+    fontFamily: {
+      $type: 'string',
+      $value: 'Inter',
     },
   },
   card: {
