@@ -22,7 +22,7 @@ const TestComponent = () => {
             lineWidthFocus: 2,
             cardBg: '#f0f0f0',
             cardGutter: 2,
-            cardHeight: 40,
+            cardHeight: '60px',
             cardPadding: '16px',
             borderRadius: 4,
             fontSize: 16,

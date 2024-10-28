@@ -32,6 +32,18 @@ export const TabsContainer = () => {
         })}
       />
       <TabsBlock />
+      <Tabs
+        type="line"
+        style={{ maxWidth: 800 }}
+        items={new Array(20).fill(null).map((_, i) => {
+          const id = String(i + 1);
+          return {
+            label: `Tab`,
+            key: id,
+            children: ``,
+          };
+        })}
+      />
     </FlexCol>
   );
 };
