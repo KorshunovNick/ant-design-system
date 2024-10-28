@@ -1,12 +1,13 @@
+import { OverrideToken } from 'antd/es/theme/interface';
 import { colorTokens } from '../colorTokens/colorTokens';
 import { Tokens } from '../types/Tokens.types';
 
 const currentTokens: Array<string> = [];
 
-function capitalizeFirstLetter(str: string) {
+function capitalizeFirstLetter(str: string): keyof OverrideToken {
   if (str === 'datepicker') return 'DatePicker';
 
-  return str.charAt(0).toUpperCase() + str.slice(1);
+  return (str.charAt(0).toUpperCase() + str.slice(1)) as keyof OverrideToken;
 }
 
 function getColorToken(token: string): string {
@@ -68,7 +69,7 @@ export function parseDesignTokens(tokens: Tokens) {
         }
       }
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'Modal') {
+      if (themeKey === 'Tabs') {
         const isNumber =
           tokenType === 'number' ||
           (tokenDescription && tokenDescription.includes('number'));
