@@ -33,6 +33,7 @@ import { ModalContainer } from './components/Modal/ModalContainer.js';
 import { PopoverContainer } from './components/Popover/PopoverContainer.js';
 import { TabsContainer } from './components/Tabs/TabsContainer.js';
 import stl from './DesignComponents.module.scss';
+import { RadioContainer } from './components/Radio/RadioContainer.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -130,7 +131,7 @@ const DesignComponents = () => {
           </WrapperComponent>
           <hr />
           <WrapperComponent title={'Radio'}>
-            <Radio>Radio</Radio>
+            <RadioContainer />
           </WrapperComponent>
           <hr />
           <WrapperComponent title={'Upload'}>

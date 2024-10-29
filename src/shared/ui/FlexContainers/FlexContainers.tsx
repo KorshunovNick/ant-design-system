@@ -1,5 +1,5 @@
 import { Flex, FlexProps } from 'antd';
-import { PropsWithChildren } from 'react';
+import { forwardRef, PropsWithChildren } from 'react';
 
 export const FlexContainer = ({
   children,
@@ -12,16 +12,15 @@ export const FlexContainer = ({
   );
 };
 
-export const FlexCol = ({
-  children,
-  ...props
-}: PropsWithChildren & FlexProps) => {
-  return (
-    <Flex gap={props.gap ?? 20} vertical>
-      {children}
-    </Flex>
-  );
-};
+export const FlexCol = forwardRef<HTMLDivElement, PropsWithChildren<FlexProps>>(
+  ({ children, ...props }, ref) => {
+    return (
+      <Flex ref={ref} gap={props.gap ?? 20} vertical>
+        {children}
+      </Flex>
+    );
+  },
+);
 
 export const FlexRow = ({
   children,
