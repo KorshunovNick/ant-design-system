@@ -1,6 +1,6 @@
 import { OverrideToken } from 'antd/es/theme/interface';
-import { colorTokens } from '../colorTokens/colorTokens';
-import { Tokens } from '../types/Tokens.types';
+import { colorTokens } from '../colorTokens/colorTokens.ts';
+import { Tokens } from '../types/Tokens.types.ts';
 
 const currentTokens: Array<string> = [];
 

@@ -1,4 +1,4 @@
-import { Tokens } from '../types/Tokens.types';
+import { Tokens } from '../types/Tokens.types.ts';
 
 export const legalKZTokens: Tokens = {
   surface: {

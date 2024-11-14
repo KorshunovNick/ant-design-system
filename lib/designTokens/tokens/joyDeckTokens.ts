@@ -1,6 +1,6 @@
-import { Tokens } from '../types/Tokens.types';
+import { Tokens } from '../types/Tokens.types.ts';
 
-export const crmTokens: Tokens = {
+export const joyDeckTokens: Tokens = {
   surface: {
     layoutBodyBg: {
       $type: 'color',
@@ -8,11 +8,11 @@ export const crmTokens: Tokens = {
     },
     colorSurfaceBg: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-1}',
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-1}',
     },
     colorBgContainer: {
       $type: 'color',
@@ -26,11 +26,11 @@ export const crmTokens: Tokens = {
     },
     textSecondary: {
       $type: 'color',
-      $value: '{gray.gray-7}',
+      $value: '{gray.gray-6}',
     },
     textTertiary: {
       $type: 'color',
-      $value: '{gray.gray-6}',
+      $value: '{gray.gray-5}',
     },
     textInverse: {
       $type: 'color',
@@ -46,7 +46,7 @@ export const crmTokens: Tokens = {
   brand: {
     colorPrimary: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{cyan.cyan-7}',
     },
   },
   status: {
@@ -129,77 +129,77 @@ export const crmTokens: Tokens = {
     },
     borderRadiusLG: {
       $type: 'dimension',
-      $value: '4px',
+      $value: '8px',
       $description: '$number',
     },
     borderRadiusSM: {
       $type: 'dimension',
-      $value: '4px',
+      $value: '8px',
       $description: '$number',
     },
     defaultBg: {
       $type: 'color',
-      $value: '{navy.navy-2}',
+      $value: '{gray.gray-1}',
     },
     defaultBorderColor: {
       $type: 'color',
-      $value: '{navy.navy-2}',
+      $value: '{cyan.cyan-7}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     defaultHoverBg: {
       $type: 'color',
-      $value: '{navy.navy-3}',
+      $value: '{gray.gray-1}',
     },
     defaultHoverBorderColor: {
       $type: 'color',
-      $value: '{navy.navy-3}',
+      $value: '{cyan.cyan-6}',
     },
     defaultHoverColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-6}',
     },
     defaultActiveBg: {
       $type: 'color',
-      $value: '{navy.navy-4}',
+      $value: '{gray.gray-1}',
     },
     defaultActiveBorderColor: {
       $type: 'color',
-      $value: '{navy.navy-4}',
+      $value: '{cyan.cyan-7}',
     },
     defaultActiveColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{orange.orange-3}',
+      $value: '{cyan.cyan-7}',
     },
     primaryColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{static.white}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{orange.orange-4}',
+      $value: '{cyan.cyan-5}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{orange.orange-5}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{orange.orange-3}',
+      $value: '{cyan.cyan-6}',
     },
     textHoverBG: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{cyan.cyan-1}',
     },
     colorText: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     colorTextDisabled: {
       $type: 'color',
@@ -211,15 +211,15 @@ export const crmTokens: Tokens = {
     },
     colorLink: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{cyan.cyan-7}',
     },
     colorLinkActive: {
       $type: 'color',
-      $value: '{navy.navy-7}',
+      $value: '{cyan.cyan-6}',
     },
     colorLinkHover: {
       $type: 'color',
-      $value: '{navy.navy-6}',
+      $value: '{cyan.cyan-5}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
@@ -256,12 +256,12 @@ export const crmTokens: Tokens = {
     },
     lineWidthFocus: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '2px',
       $description: '$number',
     },
     colorTextLightSolid: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{static.white}',
     },
     defaultShadow: {
       $type: 'string',
@@ -288,7 +288,7 @@ export const crmTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-3}',
     },
     colorErrorBgHover: {
       $type: 'color',
@@ -343,11 +343,11 @@ export const crmTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-4}',
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     colorText: {
       $type: 'color',
@@ -383,7 +383,7 @@ export const crmTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '500',
+      $value: '400',
       $description: '$number',
     },
   },
@@ -455,7 +455,7 @@ export const crmTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-3}',
     },
     colorErrorBg: {
       $type: 'color',
@@ -485,7 +485,7 @@ export const crmTokens: Tokens = {
     },
     fontSize: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '14px',
       $description: '$number',
     },
     colorIcon: {
@@ -509,12 +509,12 @@ export const crmTokens: Tokens = {
     },
     fontSizeIcon: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '12px',
       $description: '$number',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     colorText: {
       $type: 'color',
@@ -538,12 +538,12 @@ export const crmTokens: Tokens = {
     },
     optionFontSize: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '14px',
       $description: '$number',
     },
     optionPadding: {
       $type: 'dimension',
-      $value: '12px',
+      $value: '8px',
       $description: '$number',
     },
     optionSelectedFontWeight: {
@@ -557,24 +557,24 @@ export const crmTokens: Tokens = {
     },
     optionSelectedBg: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{cyan.cyan-1}',
     },
     optionHeight: {
       $type: 'dimension',
-      $value: '48px',
+      $value: '36px',
       $description: '$number',
     },
     optionSelectedColor: {
       $type: 'color',
-      $value: '{static.white}',
+      $value: '{navy.navy-10}',
     },
     optionActiveBg: {
       $type: 'color',
-      $value: '{gray.gray-2}',
+      $value: '{gray.gray-1}',
     },
     multipleltemBg: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-2}',
     },
     multipleltemColorDisabled: {
       $type: 'color',
@@ -582,12 +582,12 @@ export const crmTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '500',
+      $value: '400',
       $description: '$number',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     lineHeight: {
       $type: 'string',
@@ -621,19 +621,19 @@ export const crmTokens: Tokens = {
     },
     cellActiveWithRangeBg: {
       $type: 'color',
-      $value: '{navy.navy-1}',
+      $value: '{cyan.cyan-1}',
     },
     cellHoverBg: {
       $type: 'color',
-      $value: '{navy.navy-1}',
+      $value: '{cyan.cyan-1}',
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-6}',
     },
     cellRangeBorderColor: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{cyan.cyan-6}',
     },
     activeBg: {
       $type: 'color',
@@ -641,7 +641,7 @@ export const crmTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-4}',
     },
     inputFontSize: {
       $type: 'dimension',
@@ -650,7 +650,7 @@ export const crmTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-3}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -659,7 +659,7 @@ export const crmTokens: Tokens = {
     },
     lineWidth: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '1px',
       $description: '$number',
     },
     colorBgContainer: {
@@ -701,7 +701,7 @@ export const crmTokens: Tokens = {
     },
     cellHoverWithRangeBg: {
       $type: 'color',
-      $value: '{navy.navy-1}',
+      $value: '{cyan.cyan-1}',
     },
     cellBgDisabled: {
       $type: 'color',
@@ -709,7 +709,7 @@ export const crmTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{cyan.cyan-6}',
     },
     colorText: {
       $type: 'color',
@@ -762,7 +762,7 @@ export const crmTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Nunito',
+      $value: 'Inter',
     },
   },
   checkbox: {
@@ -772,7 +772,7 @@ export const crmTokens: Tokens = {
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{gray.gray-7}',
+      $value: '{gray.gray-6}',
     },
     colorWhite: {
       $type: 'color',
@@ -826,15 +826,15 @@ export const crmTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{gray.gray-5}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{cyan.cyan-6}',
     },
     fontSize: {
       $type: 'dimension',
@@ -857,7 +857,7 @@ export const crmTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '600',
+      $value: '400',
       $description: '$number',
     },
   },
@@ -882,7 +882,7 @@ export const crmTokens: Tokens = {
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{gray.gray-3}',
     },
     wrapperMarginInlineEnd: {
       $type: 'dimension',
@@ -891,23 +891,23 @@ export const crmTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{gray.gray-5}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{cyan.cyan-6}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{gray.gray-7}',
+      $value: '{gray.gray-6}',
     },
     fontSize: {
       $type: 'dimension',
@@ -948,7 +948,7 @@ export const crmTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '600',
+      $value: '400',
       $description: '$number',
     },
   },
@@ -979,11 +979,11 @@ export const crmTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{cyan.cyan-6}',
     },
     innerMaxMargin: {
       $type: 'dimension',
@@ -1049,7 +1049,7 @@ export const crmTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '600',
+      $value: '500',
       $description: '$number',
     },
     controlInteractiveSize: {
@@ -1137,7 +1137,7 @@ export const crmTokens: Tokens = {
     },
     tailColor: {
       $type: 'color',
-      $value: '{gray.gray-6}',
+      $value: '{gray.gray-5}',
     },
     itemPaddingBottom: {
       $type: 'dimension',
@@ -1183,11 +1183,11 @@ export const crmTokens: Tokens = {
     },
     itemActiveBg: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-1}',
     },
     itemBg: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-1}',
     },
     itemInputBg: {
       $type: 'color',
@@ -1235,12 +1235,12 @@ export const crmTokens: Tokens = {
     },
     'theader-th-font-weight': {
       $type: 'dimension',
-      $value: '600',
+      $value: '500',
       $description: '$number',
     },
     'theader-th-line-height': {
       $type: 'dimension',
-      $value: '22px',
+      $value: '20px',
       $description: '$number',
     },
     'tbody-tr-color': {
@@ -1253,7 +1253,7 @@ export const crmTokens: Tokens = {
     },
     'tbody-tr-hover-color-background-color': {
       $type: 'color',
-      $value: '{navy.navy-1}',
+      $value: '{gray.gray-2}',
     },
     'theader-tr-background-color': {
       $type: 'color',
@@ -1372,11 +1372,11 @@ export const crmTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
     colorPrimaryBorderHover: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
   },
   upload: {
@@ -1391,7 +1391,7 @@ export const crmTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-3}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1477,7 +1477,7 @@ export const crmTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-3}',
     },
     controlInteractiveSize: {
       $type: 'dimension',
@@ -1488,25 +1488,25 @@ export const crmTokens: Tokens = {
   progress: {
     remainingColor: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{cyan.cyan-1}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{cyan.cyan-7}',
     },
   },
   tabs: {
     inkBarColor: {
       $type: 'color',
-      $value: '{navy.navy-6}',
+      $value: '{cyan.cyan-7}',
     },
     itemActiveColor: {
       $type: 'color',
-      $value: '{navy.navy-6}',
+      $value: '{navy.navy-10}',
     },
     itemColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{gray.gray-7}',
     },
     horizontalItemGutter: {
       $type: 'dimension',
@@ -1515,7 +1515,7 @@ export const crmTokens: Tokens = {
     },
     itemHoverColor: {
       $type: 'color',
-      $value: '{navy.navy-7}',
+      $value: '{cyan.cyan-7}',
     },
     itemSelectedColor: {
       $type: 'color',
@@ -1523,16 +1523,16 @@ export const crmTokens: Tokens = {
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{gray.gray-7}',
+      $value: '{gray.gray-6}',
     },
     lineHeight: {
       $type: 'dimension',
-      $value: '22px',
+      $value: '20px',
       $description: '$string',
     },
     controlItemBgHover: {
       $type: 'color',
-      $value: '{navy.navy-2}',
+      $value: '{cyan.cyan-5}',
     },
     lineWidthFocus: {
       $type: 'dimension',
@@ -1541,7 +1541,7 @@ export const crmTokens: Tokens = {
     },
     cardBg: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-2}',
     },
     cardGutter: {
       $type: 'dimension',
@@ -1579,16 +1579,16 @@ export const crmTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '600',
+      $value: '500',
       $description: '$number',
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{gray.gray-3}',
     },
     margin: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '8px',
       $description: '$number',
     },
     colorBgContainer: {
@@ -1605,7 +1605,7 @@ export const crmTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Nunito',
+      $value: 'Inter',
     },
   },
   card: {
@@ -1653,7 +1653,7 @@ export const crmTokens: Tokens = {
     },
     fontWeightStrong: {
       $type: 'dimension',
-      $value: '700',
+      $value: '600',
       $description: '$number',
     },
     lineHeight: {
@@ -1695,7 +1695,7 @@ export const crmTokens: Tokens = {
   drawer: {
     colorBgElevated: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-1}',
     },
     colorBgMask: {
       $type: 'color',
@@ -1703,7 +1703,7 @@ export const crmTokens: Tokens = {
     },
     colorSplit: {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{gray.gray-3}',
     },
     colorText: {
       $type: 'color',
@@ -1716,7 +1716,7 @@ export const crmTokens: Tokens = {
     },
     fontWeightStrong: {
       $type: 'dimension',
-      $value: '600',
+      $value: '500',
       $description: '$number',
     },
     fontSizeLG: {
@@ -1769,17 +1769,17 @@ export const crmTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Nunito',
+      $value: 'Inter',
     },
   },
   modal: {
     contentBg: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-1}',
     },
     headerBg: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-1}',
     },
     titleFontSize: {
       $type: 'dimension',
@@ -1810,7 +1810,7 @@ export const crmTokens: Tokens = {
     },
     colorSplit: {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{gray.gray-3}',
     },
     colorText: {
       $type: 'color',
@@ -1828,17 +1828,17 @@ export const crmTokens: Tokens = {
     },
     fontSize: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '14px',
       $description: '$number',
     },
     fontSizeLG: {
       $type: 'dimension',
-      $value: '20px',
+      $value: '16px',
       $description: '$number',
     },
     fontWeightStrong: {
       $type: 'dimension',
-      $value: '600',
+      $value: '500',
       $description: '$number',
     },
     lineHeight: {
@@ -1882,103 +1882,103 @@ export const crmTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '500',
+      $value: '400',
       $description: '$number',
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Nunito',
+      $value: 'Inter',
     },
   },
   horizontal_navigation: {
     paddingInline: {
       $type: 'dimension',
-      $value: '30px',
+      $value: '0px',
       $description: '$number',
     },
     paddingBlock: {
       $type: 'dimension',
-      $value: '10px',
+      $value: '0px',
       $description: '$number',
     },
     margin: {
       $type: 'dimension',
-      $value: '15px',
+      $value: '0px',
       $description: '$number',
     },
     iconSize: {
       $type: 'dimension',
-      $value: '32px',
+      $value: '0px',
       $description: '$number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
-      $value: '24px',
+      $value: '0px',
       $description: '$number',
     },
     bgColor: {
       $type: 'color',
-      $value: '{navy.navy-9}',
+      $value: '#ffffff',
     },
     colorText: {
       $type: 'color',
-      $value: '{static.white}',
+      $value: '#ffffff',
     },
     marginSM: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '0px',
       $description: '$number',
     },
     itemMargin: {
       $type: 'dimension',
-      $value: '10px',
+      $value: '0px',
       $description: '$number',
     },
     itemPaddingBlock: {
       $type: 'dimension',
-      $value: '15px',
+      $value: '0px',
       $description: '$number',
     },
     itemPaddingInline: {
       $type: 'dimension',
-      $value: '20px',
+      $value: '0px',
       $description: '$number',
     },
     colorIcon: {
       $type: 'color',
-      $value: '{static.white}',
+      $value: '#ffffff',
     },
     itemBgHover: {
       $type: 'color',
-      $value: '{navy.navy-7}',
+      $value: '#ffffff',
     },
     itemBgActive: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '#ffffff',
     },
     fontSize: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '0px',
       $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
-      $value: '24px',
+      $value: '0px',
       $description: '$string',
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '500',
+      $value: '0',
       $description: '$number',
     },
     borderRadius: {
       $type: 'dimension',
-      $value: '4px',
+      $value: '0px',
       $description: '$number',
     },
     fontSizeSM: {
       $type: 'dimension',
-      $value: '14px',
+      $value: '0px',
       $description: '$number',
     },
     paddingBlockSM: {
@@ -2010,15 +2010,15 @@ export const crmTokens: Tokens = {
     },
     itemBgHover: {
       $type: 'color',
-      $value: '{navy.navy-7}',
+      $value: '{navy.navy-6}',
     },
     itemBgActive: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{navy.navy-7}',
     },
     bgColor: {
       $type: 'color',
-      $value: '{navy.navy-9}',
+      $value: '{navy.navy-8}',
     },
     fontWeight: {
       $type: 'dimension',
