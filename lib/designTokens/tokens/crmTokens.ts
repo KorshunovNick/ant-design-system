@@ -1,6 +1,6 @@
-import { Tokens } from '../types/Tokens.types';
+import { Tokens } from '../types/Tokens.types.ts';
 
-export const joyDeckTokens: Tokens = {
+export const crmTokens: Tokens = {
   surface: {
     layoutBodyBg: {
       $type: 'color',
@@ -8,11 +8,11 @@ export const joyDeckTokens: Tokens = {
     },
     colorSurfaceBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-3}',
     },
     colorBgElevated: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-3}',
     },
     colorBgContainer: {
       $type: 'color',
@@ -26,11 +26,11 @@ export const joyDeckTokens: Tokens = {
     },
     textSecondary: {
       $type: 'color',
-      $value: '{gray.gray-6}',
+      $value: '{gray.gray-7}',
     },
     textTertiary: {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     textInverse: {
       $type: 'color',
@@ -46,7 +46,7 @@ export const joyDeckTokens: Tokens = {
   brand: {
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-8}',
     },
   },
   status: {
@@ -129,77 +129,77 @@ export const joyDeckTokens: Tokens = {
     },
     borderRadiusLG: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '4px',
       $description: '$number',
     },
     borderRadiusSM: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '4px',
       $description: '$number',
     },
     defaultBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{navy.navy-2}',
     },
     defaultBorderColor: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-2}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     defaultHoverBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{navy.navy-3}',
     },
     defaultHoverBorderColor: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-3}',
     },
     defaultHoverColor: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-10}',
     },
     defaultActiveBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{navy.navy-4}',
     },
     defaultActiveBorderColor: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-4}',
     },
     defaultActiveColor: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{orange.orange-3}',
     },
     primaryColor: {
       $type: 'color',
-      $value: '{static.white}',
+      $value: '{navy.navy-10}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{cyan.cyan-5}',
+      $value: '{orange.orange-4}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{orange.orange-5}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{orange.orange-3}',
     },
     textHoverBG: {
       $type: 'color',
-      $value: '{cyan.cyan-1}',
+      $value: '{gray.gray-3}',
     },
     colorText: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     colorTextDisabled: {
       $type: 'color',
@@ -211,15 +211,15 @@ export const joyDeckTokens: Tokens = {
     },
     colorLink: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-8}',
     },
     colorLinkActive: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-7}',
     },
     colorLinkHover: {
       $type: 'color',
-      $value: '{cyan.cyan-5}',
+      $value: '{navy.navy-6}',
     },
     colorBgContainerDisabled: {
       $type: 'color',
@@ -256,12 +256,12 @@ export const joyDeckTokens: Tokens = {
     },
     lineWidthFocus: {
       $type: 'dimension',
-      $value: '2px',
+      $value: '0px',
       $description: '$number',
     },
     colorTextLightSolid: {
       $type: 'color',
-      $value: '{static.white}',
+      $value: '{navy.navy-10}',
     },
     defaultShadow: {
       $type: 'string',
@@ -288,7 +288,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-4}',
     },
     colorErrorBgHover: {
       $type: 'color',
@@ -343,11 +343,11 @@ export const joyDeckTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-3}',
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     colorText: {
       $type: 'color',
@@ -383,7 +383,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '400',
+      $value: '500',
       $description: '$number',
     },
   },
@@ -455,7 +455,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-4}',
     },
     colorErrorBg: {
       $type: 'color',
@@ -485,7 +485,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontSize: {
       $type: 'dimension',
-      $value: '14px',
+      $value: '16px',
       $description: '$number',
     },
     colorIcon: {
@@ -509,12 +509,12 @@ export const joyDeckTokens: Tokens = {
     },
     fontSizeIcon: {
       $type: 'dimension',
-      $value: '12px',
+      $value: '16px',
       $description: '$number',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-2}',
     },
     colorText: {
       $type: 'color',
@@ -538,12 +538,12 @@ export const joyDeckTokens: Tokens = {
     },
     optionFontSize: {
       $type: 'dimension',
-      $value: '14px',
+      $value: '16px',
       $description: '$number',
     },
     optionPadding: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '12px',
       $description: '$number',
     },
     optionSelectedFontWeight: {
@@ -557,24 +557,24 @@ export const joyDeckTokens: Tokens = {
     },
     optionSelectedBg: {
       $type: 'color',
-      $value: '{cyan.cyan-1}',
+      $value: '{navy.navy-8}',
     },
     optionHeight: {
       $type: 'dimension',
-      $value: '36px',
+      $value: '48px',
       $description: '$number',
     },
     optionSelectedColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{static.white}',
     },
     optionActiveBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-2}',
     },
     multipleltemBg: {
       $type: 'color',
-      $value: '{gray.gray-2}',
+      $value: '{gray.gray-3}',
     },
     multipleltemColorDisabled: {
       $type: 'color',
@@ -582,12 +582,12 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '400',
+      $value: '500',
       $description: '$number',
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     lineHeight: {
       $type: 'string',
@@ -621,19 +621,19 @@ export const joyDeckTokens: Tokens = {
     },
     cellActiveWithRangeBg: {
       $type: 'color',
-      $value: '{cyan.cyan-1}',
+      $value: '{navy.navy-1}',
     },
     cellHoverBg: {
       $type: 'color',
-      $value: '{cyan.cyan-1}',
+      $value: '{navy.navy-1}',
     },
     activeBorderColor: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-10}',
     },
     cellRangeBorderColor: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-8}',
     },
     activeBg: {
       $type: 'color',
@@ -641,7 +641,7 @@ export const joyDeckTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{gray.gray-4}',
+      $value: '{gray.gray-3}',
     },
     inputFontSize: {
       $type: 'dimension',
@@ -650,7 +650,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-4}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -659,7 +659,7 @@ export const joyDeckTokens: Tokens = {
     },
     lineWidth: {
       $type: 'dimension',
-      $value: '1px',
+      $value: '2px',
       $description: '$number',
     },
     colorBgContainer: {
@@ -701,7 +701,7 @@ export const joyDeckTokens: Tokens = {
     },
     cellHoverWithRangeBg: {
       $type: 'color',
-      $value: '{cyan.cyan-1}',
+      $value: '{navy.navy-1}',
     },
     cellBgDisabled: {
       $type: 'color',
@@ -709,7 +709,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-8}',
     },
     colorText: {
       $type: 'color',
@@ -762,7 +762,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Inter',
+      $value: 'Nunito',
     },
   },
   checkbox: {
@@ -772,7 +772,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{gray.gray-6}',
+      $value: '{gray.gray-7}',
     },
     colorWhite: {
       $type: 'color',
@@ -826,15 +826,15 @@ export const joyDeckTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{navy.navy-10}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-8}',
     },
     fontSize: {
       $type: 'dimension',
@@ -857,7 +857,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '400',
+      $value: '600',
       $description: '$number',
     },
   },
@@ -882,7 +882,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorBgContainerDisabled: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-5}',
     },
     wrapperMarginInlineEnd: {
       $type: 'dimension',
@@ -891,23 +891,23 @@ export const joyDeckTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     colorPrimaryBorder: {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{navy.navy-10}',
     },
     colorPrimaryActive: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-8}',
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{gray.gray-6}',
+      $value: '{gray.gray-7}',
     },
     fontSize: {
       $type: 'dimension',
@@ -948,7 +948,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '400',
+      $value: '600',
       $description: '$number',
     },
   },
@@ -979,11 +979,11 @@ export const joyDeckTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     colorPrimaryHover: {
       $type: 'color',
-      $value: '{cyan.cyan-6}',
+      $value: '{navy.navy-8}',
     },
     innerMaxMargin: {
       $type: 'dimension',
@@ -1049,7 +1049,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '500',
+      $value: '600',
       $description: '$number',
     },
     controlInteractiveSize: {
@@ -1137,7 +1137,7 @@ export const joyDeckTokens: Tokens = {
     },
     tailColor: {
       $type: 'color',
-      $value: '{gray.gray-5}',
+      $value: '{gray.gray-6}',
     },
     itemPaddingBottom: {
       $type: 'dimension',
@@ -1183,11 +1183,11 @@ export const joyDeckTokens: Tokens = {
     },
     itemActiveBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-4}',
     },
     itemBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-4}',
     },
     itemInputBg: {
       $type: 'color',
@@ -1235,12 +1235,12 @@ export const joyDeckTokens: Tokens = {
     },
     'theader-th-font-weight': {
       $type: 'dimension',
-      $value: '500',
+      $value: '600',
       $description: '$number',
     },
     'theader-th-line-height': {
       $type: 'dimension',
-      $value: '20px',
+      $value: '22px',
       $description: '$number',
     },
     'tbody-tr-color': {
@@ -1253,7 +1253,7 @@ export const joyDeckTokens: Tokens = {
     },
     'tbody-tr-hover-color-background-color': {
       $type: 'color',
-      $value: '{gray.gray-2}',
+      $value: '{navy.navy-1}',
     },
     'theader-tr-background-color': {
       $type: 'color',
@@ -1372,11 +1372,11 @@ export const joyDeckTokens: Tokens = {
     },
     colorPrimary: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
     colorPrimaryBorderHover: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
   },
   upload: {
@@ -1391,7 +1391,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-1}',
     },
     borderRadius: {
       $type: 'dimension',
@@ -1477,7 +1477,7 @@ export const joyDeckTokens: Tokens = {
     },
     hoverBorderColor: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-1}',
     },
     controlInteractiveSize: {
       $type: 'dimension',
@@ -1488,25 +1488,25 @@ export const joyDeckTokens: Tokens = {
   progress: {
     remainingColor: {
       $type: 'color',
-      $value: '{cyan.cyan-1}',
+      $value: '{gray.gray-3}',
     },
     defaultColor: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-10}',
     },
   },
   tabs: {
     inkBarColor: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-6}',
     },
     itemActiveColor: {
       $type: 'color',
-      $value: '{navy.navy-10}',
+      $value: '{navy.navy-6}',
     },
     itemColor: {
       $type: 'color',
-      $value: '{gray.gray-7}',
+      $value: '{navy.navy-10}',
     },
     horizontalItemGutter: {
       $type: 'dimension',
@@ -1515,7 +1515,7 @@ export const joyDeckTokens: Tokens = {
     },
     itemHoverColor: {
       $type: 'color',
-      $value: '{cyan.cyan-7}',
+      $value: '{navy.navy-7}',
     },
     itemSelectedColor: {
       $type: 'color',
@@ -1523,16 +1523,16 @@ export const joyDeckTokens: Tokens = {
     },
     colorTextDisabled: {
       $type: 'color',
-      $value: '{gray.gray-6}',
+      $value: '{gray.gray-7}',
     },
     lineHeight: {
       $type: 'dimension',
-      $value: '20px',
+      $value: '22px',
       $description: '$string',
     },
     controlItemBgHover: {
       $type: 'color',
-      $value: '{cyan.cyan-5}',
+      $value: '{navy.navy-2}',
     },
     lineWidthFocus: {
       $type: 'dimension',
@@ -1541,7 +1541,7 @@ export const joyDeckTokens: Tokens = {
     },
     cardBg: {
       $type: 'color',
-      $value: '{gray.gray-2}',
+      $value: '{gray.gray-4}',
     },
     cardGutter: {
       $type: 'dimension',
@@ -1579,16 +1579,16 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '500',
+      $value: '600',
       $description: '$number',
     },
     colorBorder: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-5}',
     },
     margin: {
       $type: 'dimension',
-      $value: '8px',
+      $value: '2px',
       $description: '$number',
     },
     colorBgContainer: {
@@ -1605,7 +1605,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Inter',
+      $value: 'Nunito',
     },
   },
   card: {
@@ -1653,7 +1653,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeightStrong: {
       $type: 'dimension',
-      $value: '600',
+      $value: '700',
       $description: '$number',
     },
     lineHeight: {
@@ -1695,7 +1695,7 @@ export const joyDeckTokens: Tokens = {
   drawer: {
     colorBgElevated: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-4}',
     },
     colorBgMask: {
       $type: 'color',
@@ -1703,7 +1703,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorSplit: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-5}',
     },
     colorText: {
       $type: 'color',
@@ -1716,7 +1716,7 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeightStrong: {
       $type: 'dimension',
-      $value: '500',
+      $value: '600',
       $description: '$number',
     },
     fontSizeLG: {
@@ -1769,17 +1769,17 @@ export const joyDeckTokens: Tokens = {
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Inter',
+      $value: 'Nunito',
     },
   },
   modal: {
     contentBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-4}',
     },
     headerBg: {
       $type: 'color',
-      $value: '{gray.gray-1}',
+      $value: '{gray.gray-4}',
     },
     titleFontSize: {
       $type: 'dimension',
@@ -1810,7 +1810,7 @@ export const joyDeckTokens: Tokens = {
     },
     colorSplit: {
       $type: 'color',
-      $value: '{gray.gray-3}',
+      $value: '{gray.gray-5}',
     },
     colorText: {
       $type: 'color',
@@ -1828,17 +1828,17 @@ export const joyDeckTokens: Tokens = {
     },
     fontSize: {
       $type: 'dimension',
-      $value: '14px',
+      $value: '16px',
       $description: '$number',
     },
     fontSizeLG: {
       $type: 'dimension',
-      $value: '16px',
+      $value: '20px',
       $description: '$number',
     },
     fontWeightStrong: {
       $type: 'dimension',
-      $value: '500',
+      $value: '600',
       $description: '$number',
     },
     lineHeight: {
@@ -1882,103 +1882,103 @@ export const joyDeckTokens: Tokens = {
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '400',
+      $value: '500',
       $description: '$number',
     },
     fontFamily: {
       $type: 'string',
-      $value: 'Inter',
+      $value: 'Nunito',
     },
   },
   horizontal_navigation: {
     paddingInline: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '30px',
       $description: '$number',
     },
     paddingBlock: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '10px',
       $description: '$number',
     },
     margin: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '15px',
       $description: '$number',
     },
     iconSize: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '32px',
       $description: '$number',
     },
     controlInteractiveSize: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '24px',
       $description: '$number',
     },
     bgColor: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{navy.navy-9}',
     },
     colorText: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{static.white}',
     },
     marginSM: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '8px',
       $description: '$number',
     },
     itemMargin: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '10px',
       $description: '$number',
     },
     itemPaddingBlock: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '15px',
       $description: '$number',
     },
     itemPaddingInline: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '20px',
       $description: '$number',
     },
     colorIcon: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{static.white}',
     },
     itemBgHover: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{navy.navy-7}',
     },
     itemBgActive: {
       $type: 'color',
-      $value: '#ffffff',
+      $value: '{navy.navy-8}',
     },
     fontSize: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '16px',
       $description: '$number',
     },
     lineHeight: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '24px',
       $description: '$string',
     },
     fontWeight: {
       $type: 'dimension',
-      $value: '0',
+      $value: '500',
       $description: '$number',
     },
     borderRadius: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '4px',
       $description: '$number',
     },
     fontSizeSM: {
       $type: 'dimension',
-      $value: '0px',
+      $value: '14px',
       $description: '$number',
     },
     paddingBlockSM: {
@@ -2010,15 +2010,15 @@ export const joyDeckTokens: Tokens = {
     },
     itemBgHover: {
       $type: 'color',
-      $value: '{navy.navy-6}',
+      $value: '{navy.navy-7}',
     },
     itemBgActive: {
       $type: 'color',
-      $value: '{navy.navy-7}',
+      $value: '{navy.navy-8}',
     },
     bgColor: {
       $type: 'color',
-      $value: '{navy.navy-8}',
+      $value: '{navy.navy-9}',
     },
     fontWeight: {
       $type: 'dimension',
