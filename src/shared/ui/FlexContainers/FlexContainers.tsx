@@ -6,7 +6,7 @@ export const FlexContainer = ({
   ...props
 }: PropsWithChildren & FlexProps) => {
   return (
-    <Flex gap={props.gap ?? 62} vertical>
+    <Flex gap={props.gap ?? 62} vertical {...props}>
       {children}
     </Flex>
   );
@@ -15,7 +15,7 @@ export const FlexContainer = ({
 export const FlexCol = forwardRef<HTMLDivElement, PropsWithChildren<FlexProps>>(
   ({ children, ...props }, ref) => {
     return (
-      <Flex ref={ref} gap={props.gap ?? 20} vertical>
+      <Flex ref={ref} gap={props.gap ?? 20} vertical {...props}>
         {children}
       </Flex>
     );
@@ -31,6 +31,7 @@ export const FlexRow = ({
       gap={props.gap ?? 37}
       justify="space-between"
       style={props.style ?? { width: 'fit-content' }}
+      {...props}
     >
       {children}
     </Flex>

@@ -36,11 +36,10 @@ const UISelect = ({
         {...selectProps}
         options={selectProps.options ?? options}
         variant={selectProps.variant ?? 'outlined'}
+        allowClear
         style={{
           minWidth: 200,
-          maxWidth: 200,
-          height: 48,
-          flexWrap: 'nowrap',
+          maxWidth: 240,
           textAlign: 'start',
         }}
       />

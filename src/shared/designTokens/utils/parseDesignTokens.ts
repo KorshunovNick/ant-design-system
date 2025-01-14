@@ -69,7 +69,7 @@ export function parseDesignTokens(tokens: Tokens) {
         }
       }
       // Вот тут можно поменять имя, а после смотреть в консоли
-      if (themeKey === 'Radio') {
+      if (themeKey === 'Upload') {
         const isNumber =
           tokenType === 'number' ||
           (tokenDescription && tokenDescription.includes('number'));
