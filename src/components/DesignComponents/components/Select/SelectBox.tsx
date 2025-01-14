@@ -1,15 +1,15 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { Select, SelectProps } from 'antd';
 import {
   FlexCol,
   FlexRow,
 } from '../../../../shared/ui/FlexContainers/FlexContainers';
-import { ExclamationCircleOutlined } from '@ant-design/icons';
 import {
   InputWrapper,
   InputWrapperProps,
 } from '../../../../shared/ui/InputWrapper/InputWrapper';
 import { LabelWithIcon } from '../../../../shared/ui/LabelWithIcon/LabelWithIcon';
+import './SelectBox.scss';
 
 const options = [
   { value: 'Mersedez', label: 'Mersedez' },
@@ -37,11 +37,7 @@ const UISelect = ({
         options={selectProps.options ?? options}
         variant={selectProps.variant ?? 'outlined'}
         allowClear
-        style={{
-          minWidth: 200,
-          maxWidth: 240,
-          textAlign: 'start',
-        }}
+        className="select"
       />
     </InputWrapper>
   );

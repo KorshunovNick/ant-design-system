@@ -1,5 +1,5 @@
 import { ConfigProvider } from 'antd';
-import { UploadBox } from '../DesignComponents/components/Upload/UploadBox';
+import SelectBox from '../DesignComponents/components/Select/SelectBox';
 
 const TestComponent = () => {
   return (
@@ -8,37 +8,51 @@ const TestComponent = () => {
         theme={{
           components: {
             // имя комопонента
-            Upload: {
+            Select: {
               // свойства компонента
-              colorFillAlter: '#ffffff',
+              multipleItemHeight: 24,
+              selectorBg: '#ffffff',
+              colorBorder: '#f0f0f0',
+              colorErrorBg: '#ffffff',
+              colorErrorBgHover: '#ffffff',
+              colorErrorHover: '#fa541c',
               lineWidth: 2,
-              colorBorder: '#ffffff',
+              colorTextPlaceholder: '#bfbfbf',
               borderRadius: 4,
-              paddingMD: 16,
-              marginMD: 16,
-              marginXXS: 4,
-              fontSizeLG: 16,
-              colorTextHeading: '#131535',
-              colorTextDescription: '#8c8c8c',
-              fontSize: 14,
-              colorPrimary_Hover: '#f0f0f0',
-              colorPrimary: '#131535',
+              fontSize: 16,
+              colorIcon: '#131535',
+              controlHeight: 48,
+              controlPaddingHorizontal: 12,
+              showArrowPaddingInlineEnd: 20,
+              fontSizeIcon: 16,
+              colorPrimaryHover: '#fafafa',
+              colorText: '#131535',
+              colorErrorOutline: '#ff7a45',
               colorError: '#ff7a45',
-              paddingXS: 4,
-              colorLink: '#131535',
-              marginXS: 8,
-              lineHeight: '22px',
-              controlltemBgHover: '#ffffff',
-              actionsColor: '#131535',
+              colorBgContainerDisabled: '#f5f5f5',
+              colorTextDisabled: '#bfbfbf',
+              optionFontSize: 16,
+              optionPadding: 12,
+              optionSelectedFontWeight: 400,
+              colorBgElevated: '#ffffff',
+              optionSelectedBg: '#2f355a',
+              // optionHeight: 60,
+              optionSelectedColor: '#ffffff',
+              optionActiveBg: '#fafafa',
+              multipleltemBg: '#f5f5f5',
+              multipleltemColorDisabled: '#f0f0f0',
               fontWeight: 500,
-              hoverBorderColor: '#ffffff',
-              controlInteractiveSize: 16,
+              colorPrimary: '#131535',
+              lineHeight: '24px',
+              // optionLineHeight: '24px',
+              controlOutlineWidth: 0,
+              paddingXXS: 12,
             },
           },
         }}
       >
         {/**твой компонент */}
-        <UploadBox />
+        <SelectBox />
       </ConfigProvider>
     </>
   );
