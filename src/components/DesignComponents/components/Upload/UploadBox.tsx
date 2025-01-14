@@ -4,18 +4,21 @@ import { Upload } from 'antd';
 import { DraggerProps } from 'antd/es/upload';
 import { InboxOutlined } from '@ant-design/icons';
 import stl from './UploadBox.module.scss';
+import { InputWrapper } from '../../../../shared/ui/InputWrapper/InputWrapper';
 
 const { Dragger } = Upload;
 
 const UIUpload = (props: DraggerProps) => {
   return (
-    <Dragger {...props} className={stl.upload}>
-      <p className="ant-upload-drag-icon">
-        <InboxOutlined />
-      </p>
-      <p className="ant-upload-text">Перетащите файл или нажмите</p>
-      <p className="ant-upload-hint">Формат файлов .jpg.pdf.doc</p>
-    </Dragger>
+    <InputWrapper label="Label">
+      <Dragger {...props} className={stl.upload}>
+        <p className="ant-upload-drag-icon">
+          <InboxOutlined />
+        </p>
+        <p className="ant-upload-text">Перетащите файл или нажмите</p>
+        <p className="ant-upload-hint">Формат файлов .jpg.pdf.doc</p>
+      </Dragger>
+    </InputWrapper>
   );
 };
 
