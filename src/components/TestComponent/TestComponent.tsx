@@ -1,4 +1,4 @@
-import { ConfigProvider, Select } from 'antd';
+import { ConfigProvider } from 'antd';
 import { UploadBox } from '../DesignComponents/components/Upload/UploadBox';
 
 const TestComponent = () => {
@@ -25,7 +25,7 @@ const TestComponent = () => {
             colorError: '#ff7a45',
             paddingXS: 4,
             colorLink: '#131535',
-            marginXS: 8,
+            marginXS: 14,
             lineHeight: '22px',
             controlltemBgHover: '#ffffff',
             actionsColor: '#131535',
