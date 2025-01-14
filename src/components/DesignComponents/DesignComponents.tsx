@@ -34,6 +34,7 @@ import { PopoverContainer } from './components/Popover/PopoverContainer.js';
 import { TabsContainer } from './components/Tabs/TabsContainer.js';
 import stl from './DesignComponents.module.scss';
 import { RadioContainer } from './components/Radio/RadioContainer.js';
+import { UploadBox } from './components/Upload/UploadBox.js';
 
 const themeObject: Record<string, Tokens> = {
   crmTokens,
@@ -82,6 +83,10 @@ const DesignComponents = () => {
           gap={150}
           style={{ padding: 100, border: '1px solid black' }}
         >
+          <WrapperComponent title={'Upload'}>
+            <UploadBox />
+          </WrapperComponent>
+          <hr />
           <WrapperComponent title={'Switch'}>
             <SwitchBox />
           </WrapperComponent>
