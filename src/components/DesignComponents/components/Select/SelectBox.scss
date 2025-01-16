@@ -1,3 +1,9 @@
+:root {
+    --select-text-align: start;
+    --select-width: 240px;
+    --select-padding-inline: 9px;
+}
+
 .label {
     text-align: start;
     font-size: 12px;
@@ -12,12 +18,12 @@
 }
 
 .select {
-    width: 240px;
-    text-align: start;
+    width: var(--select-width);
+    text-align: var(--select-text-align);
 
     .ant-select-selection-overflow {
         flex-wrap: nowrap !important;
         overflow: hidden;
-        padding-inline: 12px;
+        padding-inline: var(--select-padding-inline);
     }
 }
