@@ -1,4 +1,2 @@
-export * from './designTokens/tokens';
-
-export { parseDesignTokens } from './designTokens/utils/parseDesignTokens';
-
+export * from './designTokens';
+import './styles';
