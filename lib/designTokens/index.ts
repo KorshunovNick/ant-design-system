@@ -1,10 +1,12 @@
 import * as theme_tokens from './tokens';
+import { Tokens } from './types/Tokens.types';
 import { parseDesignTokens } from './utils/parseDesignTokens';
 
-const processedTokens: { [key: string]: any } = {};
+type TokensName = 'crmTokens' | 'legalTokens' | 'joyDeckTokens';
+type ThemeTokensType = Record<TokensName, Tokens>;
+
+export const ThemeTokens: ThemeTokensType = {} as ThemeTokensType;
 
 for (const [key, tokens] of Object.entries(theme_tokens)) {
-  processedTokens[key] = parseDesignTokens(tokens);
+  ThemeTokens[key as TokensName] = parseDesignTokens(tokens);
 }
-
-export default processedTokens;

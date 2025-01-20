@@ -1,2 +1,3 @@
 export * from './designTokens';
-import './styles';
+
+export * from './styles/index.scss';
