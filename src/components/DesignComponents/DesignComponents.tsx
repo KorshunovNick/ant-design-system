@@ -1,19 +1,5 @@
 import { useRef, useState } from 'react';
-import {
-  Button,
-  Card,
-  Radio,
-  Select,
-  Upload,
-  Tabs,
-  Tooltip,
-  Dropdown,
-  Drawer,
-  Menu,
-  Flex,
-  ConfigProvider,
-  Modal,
-} from 'antd';
+import { Button, ConfigProvider, Dropdown, Flex, Menu, Select, Tabs, Tooltip, Upload } from 'antd';
 import ButtonCard from './components/Button/ButtonCard.js';
 import NotificationBox from './components/Notification/NotificationBox.js';
 import SwitchBox from './components/Switch/SwitchBox.js';
@@ -23,11 +9,11 @@ import { TextAreaBox } from './components/TextArea/TextArea.js';
 import { CheckboxContainer } from './components/Checkbox/CheckboxContainer.js';
 import { TagContainer } from './components/Tag/TagContainer.js';
 import { DatePickerContainer } from './components/DatePicker/DatePickerContainer.js';
-import { Tokens } from '../../shared/designTokens/types/Tokens.types.js';
-import { crmTokens } from '../../shared/designTokens/tokens/crmTokens.js';
-import { legalKZTokens } from '../../shared/designTokens/tokens/legalKZTokens.js';
-import { joyDeckTokens } from '../../shared/designTokens/tokens/joyDeckTokens.js';
-import { parseDesignTokens } from '../../shared/designTokens/utils/parseDesignTokens.js';
+import { Tokens } from '../../../lib/designTokens/types/Tokens.types.js';
+import { crmTokens } from '../../../lib/designTokens/tokens/crmTokens.js';
+import { legalKZTokens } from '../../../lib/designTokens/tokens/legalKZTokens.js';
+import { joyDeckTokens } from '../../../lib/designTokens/tokens/joyDeckTokens.js';
+import { parseDesignTokens } from '../../../lib/designTokens/utils/parseDesignTokens.js';
 import { WrapperComponent } from '../../shared/ui/WrapperComponent/WrapperComponent.js';
 import { ModalContainer } from './components/Modal/ModalContainer.js';
 import { PopoverContainer } from './components/Popover/PopoverContainer.js';
